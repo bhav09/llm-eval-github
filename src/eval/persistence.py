@@ -195,11 +195,24 @@ class RunStore:
         disagreement_only: bool = False,
         model_a: str | None = None,
         model_b: str | None = None,
+        dataset_filter: str = "all",
+        scored_ids: list[str] | None = None,
     ) -> tuple[list[dict], int]:
         with self._connect() as conn:
+            filter_sql = ""
+            params = []
+            if dataset_filter == "scored" and scored_ids:
+                placeholders = ",".join(["?"] * len(scored_ids))
+                filter_sql = f"AND a.issue_id IN ({placeholders})"
+                params = list(scored_ids)
+            elif dataset_filter == "unscored" and scored_ids:
+                placeholders = ",".join(["?"] * len(scored_ids))
+                filter_sql = f"AND a.issue_id NOT IN ({placeholders})"
+                params = list(scored_ids)
+
             if disagreement_only and model_a and model_b:
                 rows = conn.execute(
-                    """
+                    f"""
                     SELECT a.issue_id,
                            a.predicted_label AS label_a,
                            b.predicted_label AS label_b,
@@ -214,13 +227,14 @@ class RunStore:
                       AND a.model = ?
                       AND b.model = ?
                       AND COALESCE(a.predicted_label, '') != COALESCE(b.predicted_label, '')
+                      {filter_sql}
                     ORDER BY a.issue_id
                     LIMIT ? OFFSET ?
                     """,
-                    (run_id, model_a, model_b, limit, offset),
+                    (run_id, model_a, model_b, *params, limit, offset),
                 ).fetchall()
                 total = conn.execute(
-                    """
+                    f"""
                     SELECT COUNT(*)
                     FROM run_issues a
                     JOIN run_issues b
@@ -229,12 +243,14 @@ class RunStore:
                       AND a.model = ?
                       AND b.model = ?
                       AND COALESCE(a.predicted_label, '') != COALESCE(b.predicted_label, '')
+                      {filter_sql}
                     """,
-                    (run_id, model_a, model_b),
+                    (run_id, model_a, model_b, *params),
                 ).fetchone()[0]
             else:
+                raw_filter = filter_sql.replace("a.issue_id", "issue_id")
                 rows = conn.execute(
-                    """
+                    f"""
                     SELECT issue_id,
                            MAX(CASE WHEN model = ? THEN predicted_label END) AS label_a,
                            MAX(CASE WHEN model = ? THEN predicted_label END) AS label_b,
@@ -246,6 +262,7 @@ class RunStore:
                            MAX(CASE WHEN model = ? THEN status END) AS status_b
                     FROM run_issues
                     WHERE run_id = ?
+                      {raw_filter}
                     GROUP BY issue_id
                     ORDER BY issue_id
                     LIMIT ? OFFSET ?
@@ -260,13 +277,18 @@ class RunStore:
                         model_a,
                         model_b,
                         run_id,
+                        *params,
                         limit,
                         offset,
                     ),
                 ).fetchall()
                 total = conn.execute(
-                    "SELECT COUNT(DISTINCT issue_id) FROM run_issues WHERE run_id = ?",
-                    (run_id,),
+                    f"""
+                    SELECT COUNT(DISTINCT issue_id) FROM run_issues
+                    WHERE run_id = ?
+                      {raw_filter}
+                    """,
+                    (run_id, *params),
                 ).fetchone()[0]
         return [dict(row) for row in rows], int(total)
 

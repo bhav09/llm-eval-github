@@ -39,6 +39,8 @@ export type MetricsPayload = {
 
 export type ModelMetrics = {
   model: string;
+  total_calls: number;
+  ok_count: number;
   scored: {
     accuracy: number;
     macro_f1: number;

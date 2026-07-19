@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T144458Z-2b3b0c87-pilot-always-fails-7b",
+  "timestamp": "2026-07-19T14:44:58.084904+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "always-fails-7b",
+  "model_b": "always-fails-7b",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 5,
+  "started_at": "2026-07-19T14:44:58.084913+00:00",
+  "finished_at": "2026-07-19T14:44:58.086390+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#12",
+    "digitalocean/doctl#1",
+    "digitalocean/doctl#13",
+    "digitalocean/doctl#6",
+    "digitalocean/doctl#7"
+  ]
+}

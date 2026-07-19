@@ -66,13 +66,45 @@ export default function EvalPage() {
   const [useMock, setUseMock] = useState(false);
   const [doApiConfigured, setDoApiConfigured] = useState(true);
   const [cancelling, setCancelling] = useState(false);
+  const [datasetFilter, setDatasetFilter] = useState("all");
+
+  const selectedRun = manifest?.run_id === selectedRunId ? manifest : null;
+
+  const durationSec = useMemo(() => {
+    if (!selectedRun?.started_at || !selectedRun?.finished_at) return null;
+    const start = new Date(selectedRun.started_at).getTime();
+    const finish = new Date(selectedRun.finished_at).getTime();
+    return Math.max(0.1, (finish - start) / 1000);
+  }, [selectedRun]);
+
+  const throughputA = useMemo(() => {
+    if (!durationSec || !metrics?.model_a) return null;
+    return metrics.model_a.total_calls / durationSec;
+  }, [durationSec, metrics]);
+
+  const throughputB = useMemo(() => {
+    if (!durationSec || !metrics?.model_b) return null;
+    return metrics.model_b.total_calls / durationSec;
+  }, [durationSec, metrics]);
+
+  const costPerCorrectA = useMemo(() => {
+    if (!metrics?.model_a) return null;
+    const totalCost = metrics.model_a.cost_usd.total;
+    const correctCount = metrics.model_a.scored.accuracy * metrics.model_a.scored.count;
+    return correctCount > 0 ? totalCost / correctCount : null;
+  }, [metrics]);
+
+  const costPerCorrectB = useMemo(() => {
+    if (!metrics?.model_b) return null;
+    const totalCost = metrics.model_b.cost_usd.total;
+    const correctCount = metrics.model_b.scored.accuracy * metrics.model_b.scored.count;
+    return correctCount > 0 ? totalCost / correctCount : null;
+  }, [metrics]);
 
   const modelOptions = useMemo(
     () => (models.length > 0 ? models : FALLBACK_MODELS),
     [models],
   );
-
-  const selectedRun = manifest?.run_id === selectedRunId ? manifest : null;
 
   const selectRun = useCallback(
     (runId: string) => {
@@ -168,12 +200,13 @@ export default function EvalPage() {
       offset: String(issuePage * 50),
       limit: "50",
       disagreement_only: String(disagreementOnly),
+      dataset_filter: datasetFilter,
     });
     api.issues(selectedRunId, params).then((payload) => {
       setIssues(payload.items);
       setIssueTotal(payload.total);
     });
-  }, [selectedRunId, issuePage, disagreementOnly]);
+  }, [selectedRunId, issuePage, disagreementOnly, datasetFilter]);
 
   useEffect(() => {
     if (!selectedRunId || status?.status !== "running") return;
@@ -405,6 +438,11 @@ export default function EvalPage() {
               <StatCard
                 title="Scored issues"
                 value={String(metrics.model_a.scored.count)}
+                hint={
+                  durationSec
+                    ? `Wall-clock: ${durationSec.toFixed(1)}s · Concurrency: ${selectedRun.concurrency}`
+                    : `Concurrency ${selectedRun.concurrency}`
+                }
                 icon={Layers}
                 accent="slate"
               />
@@ -495,6 +533,8 @@ export default function EvalPage() {
                 const payload = await api.issueDetail(selectedRunId, issueId);
                 setDetail(payload);
               }}
+              datasetFilter={datasetFilter}
+              onToggleDatasetFilter={setDatasetFilter}
             />
           </TabsContent>
 
@@ -534,8 +574,20 @@ export default function EvalPage() {
               />
             </div>
             <div className="mt-4 grid gap-4 lg:grid-cols-2">
-              <OpsPanel title={selectedRun.model_a} model={metrics.model_a} />
-              <OpsPanel title={selectedRun.model_b} model={metrics.model_b} />
+              <OpsPanel
+                title={selectedRun.model_a}
+                model={metrics.model_a}
+                durationSec={durationSec}
+                throughput={throughputA}
+                costPerCorrect={costPerCorrectA}
+              />
+              <OpsPanel
+                title={selectedRun.model_b}
+                model={metrics.model_b}
+                durationSec={durationSec}
+                throughput={throughputB}
+                costPerCorrect={costPerCorrectB}
+              />
             </div>
           </TabsContent>
         </TabsRoot>
@@ -588,17 +640,30 @@ export default function EvalPage() {
                   </Badge>
                 </p>
                 <div className="grid gap-2 md:grid-cols-2">
-                  {[detail.model_a, detail.model_b].map((model) => (
-                    <div
-                      key={model}
-                      className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-muted)] p-3"
-                    >
-                      <p className="font-medium text-[var(--color-foreground)]">{model}</p>
-                      <p className="text-[var(--color-muted)]">
-                        {(detail.predictions[model]?.predicted_label as string) ?? "—"}
-                      </p>
-                    </div>
-                  ))}
+                  {[detail.model_a, detail.model_b].map((model) => {
+                    const raw = detail.predictions[model]?.raw_output as string | undefined;
+                    return (
+                      <div
+                        key={model}
+                        className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-muted)] p-3"
+                      >
+                        <p className="font-medium text-[var(--color-foreground)]">{model}</p>
+                        <p className="text-[var(--color-muted)]">
+                          {(detail.predictions[model]?.predicted_label as string) ?? "—"}
+                        </p>
+                        {raw ? (
+                          <details className="mt-2 text-xs">
+                            <summary className="cursor-pointer text-[var(--color-brand)] font-medium select-none hover:underline">
+                              Raw output
+                            </summary>
+                            <pre className="mt-1.5 max-h-32 overflow-auto rounded border border-[var(--color-border)] bg-[var(--color-card)] p-2 font-mono text-[10px] text-[var(--color-foreground)] leading-normal whitespace-pre-wrap break-all">
+                              {raw}
+                            </pre>
+                          </details>
+                        ) : null}
+                      </div>
+                    );
+                  })}
                 </div>
                 <a
                   className="text-[var(--color-brand)] hover:underline"
@@ -846,7 +911,19 @@ function DistributionCard({ title, data }: { title: string; data: Record<string,
   );
 }
 
-function OpsPanel({ title, model }: { title: string; model: MetricsPayload["model_a"] }) {
+function OpsPanel({
+  title,
+  model,
+  durationSec,
+  throughput,
+  costPerCorrect,
+}: {
+  title: string;
+  model: MetricsPayload["model_a"];
+  durationSec: number | null;
+  throughput: number | null;
+  costPerCorrect: number | null;
+}) {
   return (
     <Card className="border-[var(--color-border)] bg-[var(--color-surface)]">
       <CardHeader>
@@ -860,6 +937,15 @@ function OpsPanel({ title, model }: { title: string; model: MetricsPayload["mode
           label="p50 / p95 / p99"
           value={`${msToSec(model.latency_ms.p50)} / ${msToSec(model.latency_ms.p95)} / ${msToSec(model.latency_ms.p99)}`}
         />
+        {durationSec && (
+          <Row label="Wall-clock duration" value={`${durationSec.toFixed(1)}s`} />
+        )}
+        {throughput && (
+          <Row label="Sustained throughput" value={`${throughput.toFixed(2)} req/s`} />
+        )}
+        {costPerCorrect !== null && (
+          <Row label="Cost per correct eval" value={costPerCorrect > 0 ? formatUsd(costPerCorrect) : "—"} />
+        )}
         <div className="pt-2">
           <p className="mb-1 text-[var(--color-muted)]">Errors</p>
           {Object.entries(model.error_breakdown).length ? (
@@ -892,6 +978,8 @@ function IssueTable({
   onPageChange,
   onToggleDisagreement,
   onOpenIssue,
+  datasetFilter,
+  onToggleDatasetFilter,
 }: {
   issues: IssueRow[];
   total: number;
@@ -900,26 +988,51 @@ function IssueTable({
   onPageChange: (page: number) => void;
   onToggleDisagreement: (value: boolean) => void;
   onOpenIssue: (issueId: string) => void;
+  datasetFilter: string;
+  onToggleDatasetFilter: (value: string) => void;
 }) {
   const pages = Math.max(1, Math.ceil(total / 50));
   return (
     <Card className="mt-4 border-[var(--color-border)] bg-[var(--color-surface)]">
-      <CardHeader className="flex flex-row items-center justify-between gap-3">
+      <CardHeader className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <CardTitle className="text-[var(--color-foreground)]">Issue predictions</CardTitle>
           <CardDescription>Paginated corpus view</CardDescription>
         </div>
-        <label className="flex items-center gap-2 text-sm text-[var(--color-muted)]">
-          <input
-            type="checkbox"
-            checked={disagreementOnly}
-            onChange={(e) => {
-              onToggleDisagreement(e.target.checked);
-              onPageChange(0);
-            }}
-          />
-          Disagreements only
-        </label>
+        <div className="flex flex-wrap items-center gap-4">
+          <div className="flex h-9 items-center rounded-lg bg-[var(--color-surface-muted)] dark:bg-[var(--color-input-bg)] p-1 text-[var(--color-muted)] border border-[var(--color-border)] shadow-sm">
+            {(["all", "scored", "unscored"] as const).map((filter) => (
+              <button
+                key={filter}
+                type="button"
+                onClick={() => {
+                  onToggleDatasetFilter(filter);
+                  onPageChange(0);
+                }}
+                className={cn(
+                  "rounded-md px-3 py-1 text-xs font-bold uppercase tracking-wider transition-all duration-200 cursor-pointer",
+                  datasetFilter === filter
+                    ? "bg-gradient-to-r from-[var(--color-brand)] to-[#4f46e5] text-white shadow-sm"
+                    : "hover:text-[var(--color-foreground)]"
+                )}
+              >
+                {filter}
+              </button>
+            ))}
+          </div>
+          <label className="flex items-center gap-2 text-sm text-[var(--color-muted)] cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={disagreementOnly}
+              className="h-3.5 w-3.5 rounded border-[var(--color-border)] text-[var(--color-brand)] focus:ring-[var(--color-brand)] cursor-pointer"
+              onChange={(e) => {
+                onToggleDisagreement(e.target.checked);
+                onPageChange(0);
+              }}
+            />
+            Disagreements only
+          </label>
+        </div>
       </CardHeader>
       <CardContent>
         <table className="w-full text-sm">

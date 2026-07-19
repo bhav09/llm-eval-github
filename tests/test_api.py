@@ -73,3 +73,28 @@ def test_corpus_stats(client):
     response = client.get("/api/corpus/stats")
     assert response.status_code == 200
     assert response.json()["count"] >= 1
+
+
+def test_run_issues_filtering(client):
+    runs_res = client.get("/api/runs")
+    assert runs_res.status_code == 200
+    runs = runs_res.json()["runs"]
+    if not runs:
+        pytest.skip("No preloaded runs found to test issue filtering")
+    
+    run_id = runs[0]["run_id"]
+    
+    all_res = client.get(f"/api/runs/{run_id}/issues?dataset_filter=all")
+    assert all_res.status_code == 200
+    all_body = all_res.json()
+    assert "items" in all_body
+    
+    scored_res = client.get(f"/api/runs/{run_id}/issues?dataset_filter=scored")
+    assert scored_res.status_code == 200
+    scored_body = scored_res.json()
+    assert "items" in scored_body
+    
+    unscored_res = client.get(f"/api/runs/{run_id}/issues?dataset_filter=unscored")
+    assert unscored_res.status_code == 200
+    unscored_body = unscored_res.json()
+    assert "items" in unscored_body

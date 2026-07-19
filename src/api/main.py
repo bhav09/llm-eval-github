@@ -238,6 +238,7 @@ def api_run_issues(
     offset: int = Query(default=0, ge=0),
     limit: int = Query(default=50, ge=1, le=200),
     disagreement_only: bool = False,
+    dataset_filter: str = "all",
 ) -> dict:
     store = RunStore(DB_PATH)
     manifest = store.get_run(run_id)
@@ -246,6 +247,7 @@ def api_run_issues(
     predictions_path = RUNS_DIR / run_id / "predictions.jsonl"
     if predictions_path.exists():
         store.index_predictions(run_id, predictions_path)
+    scored_ids = manifest.get("sampled_issue_ids", [])
     rows, total = store.paginate_issues(
         run_id,
         offset=offset,
@@ -253,6 +255,8 @@ def api_run_issues(
         disagreement_only=disagreement_only,
         model_a=manifest["model_a"],
         model_b=manifest["model_b"],
+        dataset_filter=dataset_filter,
+        scored_ids=scored_ids,
     )
     return {"items": rows, "total": total, "offset": offset, "limit": limit}
 
