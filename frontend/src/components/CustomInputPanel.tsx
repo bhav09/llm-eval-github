@@ -8,9 +8,10 @@ import { cn } from "@/lib/utils";
 type Props = {
   modelA: string;
   modelB: string;
+  useMock: boolean;
 };
 
-export function CustomInputPanel({ modelA, modelB }: Props) {
+export function CustomInputPanel({ modelA, modelB, useMock }: Props) {
   const [open, setOpen] = useState(false);
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
@@ -31,7 +32,7 @@ export function CustomInputPanel({ modelA, modelB }: Props) {
         body,
         model_a: modelA,
         model_b: modelB,
-        use_mock: false,
+        use_mock: useMock,
       });
       setResult(payload);
     } catch (err) {

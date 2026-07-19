@@ -15,6 +15,7 @@ export function ModelSelectionPage() {
   const [starting, setStarting] = useState(false);
   const [cancelling, setCancelling] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [doApiConfigured, setDoApiConfigured] = useState(true);
   const navigate = useNavigate();
 
   const urlFunnelId = searchParams.get("funnel");
@@ -39,9 +40,20 @@ export function ModelSelectionPage() {
     }
   }
 
-  // On mount: fetch recent runs and load URL funnel if present
+  async function checkApiConfig() {
+    try {
+      const res = await fetch("/ready");
+      const data = await res.json();
+      setDoApiConfigured(data.checks?.do_api_configured ?? true);
+    } catch {
+      setDoApiConfigured(true);
+    }
+  }
+
+  // On mount: fetch recent runs, load URL funnel, and check API config
   useEffect(() => {
     fetchRecent();
+    checkApiConfig();
     if (urlFunnelId) {
       loadFunnel(urlFunnelId);
     } else {
@@ -53,7 +65,8 @@ export function ModelSelectionPage() {
     setStarting(true);
     setError(null);
     try {
-      const started = await api.startFunnel({ use_mock: false, confirm_spend: true });
+      const useMock = !doApiConfigured;
+      const started = await api.startFunnel({ use_mock: useMock, confirm_spend: !useMock });
       setFunnel(started);
       setSearchParams({ funnel: started.funnel_id }, { replace: true });
       fetchRecent();
@@ -133,6 +146,16 @@ export function ModelSelectionPage() {
                     <p className="text-[10px] text-[var(--color-muted)] mt-0.5">Executes the 4-stage selection pipeline (~45-60 API calls across 6 models)</p>
                   </div>
                 </div>
+                {!doApiConfigured && (
+                  <div className="rounded-lg bg-amber-500/10 border border-amber-500/20 p-3 text-xs text-amber-500 leading-relaxed">
+                    <strong>Notice:</strong> No DigitalOcean API key configured. The benchmark will run in <strong>Mock Mode</strong> (simulated local run).
+                  </div>
+                )}
+                {error && (
+                  <div className="rounded-lg bg-red-500/10 border border-red-500/20 p-3 text-xs text-red-500 leading-relaxed">
+                    {error}
+                  </div>
+                )}
                 <Button onClick={startFunnel} disabled={starting} className="w-full">
                   <Play size={14} className="mr-2" />
                   {starting ? "Starting Selection Pipeline…" : "Run Selection Benchmark"}

@@ -148,10 +148,8 @@ async def cancel_run(run_id: str) -> dict:
 
 @app.post("/api/funnel/start")
 async def start_funnel(body: StartFunnelRequest) -> dict:
-    if body.use_mock and not IS_TESTING:
-        raise HTTPException(status_code=400, detail="Mock runs are disabled.")
     settings = get_settings()
-    run_use_mock = body.use_mock if IS_TESTING else False
+    run_use_mock = body.use_mock
     if not run_use_mock and not body.confirm_spend:
         raise HTTPException(
             status_code=400,
@@ -280,10 +278,8 @@ def export_disagreements(run_id: str) -> StreamingResponse:
 
 @app.post("/api/runs")
 async def start_run(body: StartRunRequest) -> dict:
-    if body.use_mock and not IS_TESTING:
-        raise HTTPException(status_code=400, detail="Mock runs are disabled.")
     settings = get_settings()
-    run_use_mock = body.use_mock if IS_TESTING else False
+    run_use_mock = body.use_mock
     if not run_use_mock and not body.confirm_spend:
         raise HTTPException(
             status_code=400,
@@ -305,10 +301,8 @@ async def start_run(body: StartRunRequest) -> dict:
 
 @app.post("/api/classify/custom")
 async def classify_custom_issue(body: CustomClassifyRequest) -> dict:
-    if body.use_mock and not IS_TESTING:
-        raise HTTPException(status_code=400, detail="Mock runs are disabled.")
     settings = get_settings()
-    run_use_mock = body.use_mock if IS_TESTING else False
+    run_use_mock = body.use_mock
     if not run_use_mock and not settings.do_api:
         raise HTTPException(status_code=400, detail="DO_API is required for live inference.")
     if body.model_a == body.model_b:

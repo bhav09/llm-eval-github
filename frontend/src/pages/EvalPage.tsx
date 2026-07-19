@@ -63,7 +63,8 @@ export default function EvalPage() {
   const [issueTotal, setIssueTotal] = useState(0);
   const [detail, setDetail] = useState<IssueDetail | null>(null);
   const [sampleSize, setSampleSize] = useState<number | undefined>(5);
-  const useMock = false;
+  const [useMock, setUseMock] = useState(false);
+  const [doApiConfigured, setDoApiConfigured] = useState(true);
   const [cancelling, setCancelling] = useState(false);
 
   const modelOptions = useMemo(
@@ -86,15 +87,25 @@ export default function EvalPage() {
   );
 
   const refreshBootstrap = useCallback(async () => {
-    const [recs, stats] = await Promise.all([
-      api.recommendations(),
-      api.corpusStats(),
-    ]);
-    setCorpusCount(stats.count);
-    // Use recommended models if set, otherwise fall back to the first two
-    // available models so the dropdowns are never empty.
-    if (!modelA) setModelA(recs.model_a || FALLBACK_MODELS[0]);
-    if (!modelB) setModelB(recs.model_b || FALLBACK_MODELS[1]);
+    try {
+      const [recs, stats, readyRes] = await Promise.all([
+        api.recommendations(),
+        api.corpusStats(),
+        fetch("/ready").then((r) => r.json()).catch(() => ({ checks: { do_api_configured: true } })),
+      ]);
+      setCorpusCount(stats.count);
+      const isConfigured = readyRes.checks?.do_api_configured ?? true;
+      setDoApiConfigured(isConfigured);
+      if (!isConfigured) {
+        setUseMock(true);
+      }
+      // Use recommended models if set, otherwise fall back to the first two
+      // available models so the dropdowns are never empty.
+      if (!modelA) setModelA(recs.model_a || FALLBACK_MODELS[0]);
+      if (!modelB) setModelB(recs.model_b || FALLBACK_MODELS[1]);
+    } catch {
+      // Fallback
+    }
   }, [modelA, modelB]);
 
   const refreshModels = useCallback(async () => {
@@ -267,6 +278,11 @@ export default function EvalPage() {
       {metrics && selectedRun ? null : (
         <Card className="border-[var(--color-border)] bg-[var(--color-surface)] shadow-sm">
           <CardContent className="space-y-4 py-5 px-6">
+            {!doApiConfigured && (
+              <div className="rounded-lg bg-amber-500/10 border border-amber-500/20 p-3 text-xs text-amber-500 leading-relaxed">
+                <strong>Notice:</strong> No DigitalOcean API key configured. The evaluation will run in <strong>Mock Mode</strong> (simulated local run).
+              </div>
+            )}
             <div className="grid gap-4 md:grid-cols-3">
             <label className="text-xs font-semibold tracking-wide text-[var(--color-muted)]">
               <span className="mb-1.5 block">Model A</span>
@@ -309,19 +325,32 @@ export default function EvalPage() {
               </select>
             </label>
           </div>
-          <div className="flex flex-wrap items-center gap-3">
-            <Button onClick={startRun} disabled={loading || status?.status === "running"}>
-              <Play size={14} className="mr-2" />
-              {loading ? "Starting…" : "Run"}
-            </Button>
-            {status?.status === "running" ? (
-              <Button variant="outline" onClick={cancelRun} disabled={cancelling}>
-                <Square size={14} className="mr-2" />
-                {cancelling ? "Stopping…" : "Stop"}
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+            <div className="flex items-center gap-3">
+              <Button onClick={startRun} disabled={loading || status?.status === "running"}>
+                <Play size={14} className="mr-2" />
+                {loading ? "Starting…" : "Run"}
               </Button>
-            ) : null}
-            {error ? <span className="text-xs text-red-600 dark:text-red-400">{error}</span> : null}
+              {status?.status === "running" ? (
+                <Button variant="outline" onClick={cancelRun} disabled={cancelling}>
+                  <Square size={14} className="mr-2" />
+                  {cancelling ? "Stopping…" : "Stop"}
+                </Button>
+              ) : null}
+            </div>
+            
+            <label className="flex items-center gap-2 text-xs font-medium cursor-pointer text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors select-none">
+              <input
+                type="checkbox"
+                checked={useMock}
+                disabled={!doApiConfigured}
+                onChange={(e) => setUseMock(e.target.checked)}
+                className="h-3.5 w-3.5 rounded border-[var(--color-border)] text-[var(--color-brand)] focus:ring-[var(--color-brand)] cursor-pointer"
+              />
+              <span>Mock Inference {!doApiConfigured ? "(Forced: DO_API missing)" : ""}</span>
+            </label>
           </div>
+          {error ? <div className="text-xs text-red-600 dark:text-red-400 mt-2">{error}</div> : null}
           {status?.status === "running" ? (
             <div className="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface-muted)] p-3">
               <div className="mb-2 flex items-center justify-between text-xs text-[var(--color-foreground)]">
@@ -341,7 +370,7 @@ export default function EvalPage() {
       )}
 
       {metrics && selectedRun ? null : (
-        <CustomInputPanel modelA={modelA} modelB={modelB} />
+        <CustomInputPanel modelA={modelA} modelB={modelB} useMock={useMock} />
       )}
 
       {metrics && selectedRun ? (

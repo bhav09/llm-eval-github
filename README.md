@@ -1,12 +1,11 @@
 # Colosseum
 
-**Live app:** [https://fde-issue-eval-d4dzv.ondigitalocean.app](https://fde-issue-eval-d4dzv.ondigitalocean.app)
+**Live app:** [https://fde-issue-eval-d4dzv.ondigitalocean.app/](https://fde-issue-eval-d4dzv.ondigitalocean.app/)
 
 Eval harness for classifying `digitalocean/doctl` GitHub issues into six customer labels, comparing DO Serverless Inference models, with defensible hybrid ground truth — plus a data-driven **4-stage model-selection funnel** that picks the best production models from the live DO catalog.
 
 > Named **Colosseum** because the model-selection funnel pits open-weight models against each other in a staged arena, narrowing the field to a ranked podium (1st / 2nd / 3rd).
 
----
 
 ## Two ways to use the app
 
@@ -39,7 +38,6 @@ The **Eval** tab runs two specific models head-to-head on a sample of issues (5 
 
 The Eval page defaults its Model A / Model B dropdowns to the funnel's recommended pair when a recommendation exists, but you can override either.
 
----
 
 ## Recommendation
 
@@ -50,7 +48,6 @@ Rather than a static hand-picked recommendation, Colosseum writes its recommenda
 
 The podium (1st/2nd/3rd) and field summary are stored in `results/funnels/<funnel_id>/stage4_recommendation.json` for full auditability.
 
----
 
 ## What we built
 
@@ -65,7 +62,6 @@ The podium (1st/2nd/3rd) and field summary are stored in `results/funnels/<funne
 
 **Architecture hooks for 10–100×:** partitioned corpus, checkpoint/resume, streaming metrics, prefix caching, paginated UI — same design handles ~5k–50k issues without rewrite.
 
----
 
 ## Quick start (local)
 
@@ -93,7 +89,6 @@ docker build -t colosseum .
 docker run -p 8080:8080 --env-file .env colosseum
 ```
 
----
 
 ## Deploy to DigitalOcean App Platform
 
@@ -110,7 +105,6 @@ doctl apps create --spec .do/app.yaml
 
 **Persistence:** SQLite + JSONL under `results/` inside the container. For production durability, mount a DO Volume at `/app/results` or ship a canonical preloaded run in the image (included).
 
----
 
 ## Ground truth methodology
 
@@ -129,7 +123,6 @@ python -m ground_truth.pipeline  # live adjudicator (dynamic comments & caching)
 
 Details: [`docs/ground-truth-methodology.md`](docs/ground-truth-methodology.md)
 
----
 
 ## Running evaluations
 
@@ -147,7 +140,6 @@ python -m eval.run --model-a alibaba-qwen3-32b --model-b gpt-oss-120b --confirm 
 
 Artifacts: `results/runs/<run_id>/` — `predictions.jsonl`, `metrics.json`, `manifest.json`. Funnel artifacts: `results/funnels/<funnel_id>/` — `stage1_candidates.json`, `stage2_pilot.json`, `stage3_full.json`, `stage4_recommendation.json`.
 
----
 
 ## Run history
 
@@ -158,7 +150,6 @@ The **History** tab shows both run types in one unified, time-sorted list:
 
 Each row has a View link that deep-links into the relevant page with the run ID in the URL.
 
----
 
 ## Key design choices
 
@@ -174,7 +165,6 @@ Each row has a View link that deep-links into the relevant page with the run ID 
 | Open-weight-only filter for the funnel | Closed-source frontier, embeddings, image/video, TTS, routers excluded by slug prefix |
 | Idempotent funnel ID in URL | Runs are shareable and survive reload |
 
----
 
 ## Prefix caching
 
@@ -182,7 +172,6 @@ Identical system prompt across all requests → ~533/534 cache hits per model af
 
 Details: [`docs/inference-engine.md`](docs/inference-engine.md)
 
----
 
 ## Production rollout (discussion)
 
@@ -193,7 +182,6 @@ Details: [`docs/inference-engine.md`](docs/inference-engine.md)
 
 We did **not** build the multi-repo router — methodology ports; harness proves the numbers.
 
----
 
 ## Tests
 
@@ -201,7 +189,6 @@ We did **not** build the multi-repo router — methodology ports; harness proves
 make test   # unit + funnel + stratified-selection + run-single tests
 ```
 
----
 
 ## Documentation
 
@@ -214,7 +201,6 @@ Full requirements and architecture: [`docs/README.md`](docs/README.md)
 | [docs/metrics-and-persistence.md](docs/metrics-and-persistence.md) | Metrics, run + funnel artifacts, SQLite schema |
 | [docs/ground-truth-methodology.md](docs/ground-truth-methodology.md) | Hybrid rules + LLM adjudication pipeline |
 
----
 
 ## Zip deliverables checklist
 
