@@ -1,7 +1,7 @@
 {
   "model_a": "deepseek-4-flash",
-  "model_b": "gemma-4-31B-it",
-  "rationale": "Evaluated 3 finalist models across 4 stages (stratified select, pilot 5 issues, full eval 10 issues). Finalist A (deepseek-4-flash): best value at 70% accuracy / $0.0000 per call. Finalist B (gemma-4-31B-it): highest accuracy at 70% (macro F1 0.433). The two represent a meaningful production trade-off: value vs quality ceiling.",
+  "model_b": "mistral-3-14B",
+  "rationale": "Evaluated 3 finalist models across 4 stages (stratified select, pilot 5 issues, full eval 10 issues). Finalist A (deepseek-4-flash): best value at 80% accuracy / $0.0001 per call. Finalist B (mistral-3-14B): highest accuracy at 80% (macro F1 0.625). The two represent a meaningful production trade-off: value vs quality ceiling.",
   "elimination_summary": {
     "evaluated_count": 6,
     "stages": [
@@ -13,14 +13,14 @@
     "pilot_rejected": [
       {
         "slug": "llama3.3-70b-instruct",
-        "reason": "Eliminated: lower accuracy (60% vs best 80%), higher latency (1972ms vs best 1011ms), higher cost ($0.0003 vs best $0.0001)",
-        "accuracy": 0.6,
-        "cost_per_call": 0.000334,
-        "p95_latency_ms": 1971.73,
-        "throughput_rps": 0.7378113563923976,
+        "reason": "Eliminated: higher latency (1980ms vs best 1032ms), higher cost ($0.0003 vs best $0.0001)",
+        "accuracy": 0.8,
+        "cost_per_call": 0.000321,
+        "p95_latency_ms": 1979.5,
+        "throughput_rps": 0.7193313096145822,
         "error_rate": 0.0,
         "invalid_rate": 0.0,
-        "composite_score": 0.6240066991464281,
+        "composite_score": 0.6894948662812184,
         "weaknesses": [
           "latency"
         ]
@@ -42,11 +42,11 @@
       },
       {
         "slug": "deepseek-r1-distill-llama-70b",
-        "reason": "Eliminated: higher latency (18021ms vs best 1011ms), higher cost ($0.0008 vs best $0.0001)",
+        "reason": "Eliminated: higher latency (47040ms vs best 1032ms), higher cost ($0.0007 vs best $0.0001)",
         "accuracy": 0.8,
-        "cost_per_call": 0.000794,
-        "p95_latency_ms": 18021.23,
-        "throughput_rps": 0.07169872197028088,
+        "cost_per_call": 0.000697,
+        "p95_latency_ms": 47040.13,
+        "throughput_rps": 0.048562619312285324,
         "error_rate": 0.0,
         "invalid_rate": 0.0,
         "composite_score": 0.39,
@@ -57,7 +57,7 @@
     ],
     "full_rejected": [
       {
-        "slug": "mistral-3-14B",
+        "slug": "gemma-4-31B-it",
         "reason": "not selected as a finalist (see rationale)"
       }
     ]

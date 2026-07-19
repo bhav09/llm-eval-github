@@ -1,0 +1,260 @@
+{
+  "model_a": {
+    "model": "deepseek-4-flash",
+    "total_calls": 20,
+    "ok_count": 20,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 2799.88,
+      "p95": 4395.13,
+      "p99": 4396.06
+    },
+    "cost_usd": {
+      "total": 0.001252,
+      "per_call": 6.3e-05,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 10882,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 9,
+      "documentation": 3,
+      "enhancement": 2,
+      "question": 3,
+      "security": 3
+    },
+    "scored": {
+      "count": 20,
+      "accuracy": 0.6,
+      "macro_f1": 0.5582,
+      "per_class": {
+        "bug": {
+          "precision": 0.4444,
+          "recall": 0.8,
+          "f1": 0.5714,
+          "support": 5.0
+        },
+        "documentation": {
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "f1": 0.3333,
+          "support": 3.0
+        },
+        "enhancement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "question": {
+          "precision": 0.6667,
+          "recall": 0.3333,
+          "f1": 0.4444,
+          "support": 6.0
+        },
+        "security": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 4,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 2,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 2,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "question": {
+          "bug": 3,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 2,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 3
+        }
+      }
+    }
+  },
+  "model_b": {
+    "model": "mistral-3-14B",
+    "total_calls": 20,
+    "ok_count": 20,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 868.06,
+      "p95": 1647.54,
+      "p99": 1760.18
+    },
+    "cost_usd": {
+      "total": 0.00236,
+      "per_call": 0.000118,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 11574,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 8,
+      "documentation": 4,
+      "enhancement": 2,
+      "question": 3,
+      "security": 3
+    },
+    "scored": {
+      "count": 20,
+      "accuracy": 0.65,
+      "macro_f1": 0.6052,
+      "per_class": {
+        "bug": {
+          "precision": 0.5,
+          "recall": 0.8,
+          "f1": 0.6154,
+          "support": 5.0
+        },
+        "documentation": {
+          "precision": 0.5,
+          "recall": 0.6667,
+          "f1": 0.5714,
+          "support": 3.0
+        },
+        "enhancement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "question": {
+          "precision": 0.6667,
+          "recall": 0.3333,
+          "f1": 0.4444,
+          "support": 6.0
+        },
+        "security": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 4,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 1,
+          "documentation": 2,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 2,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "question": {
+          "bug": 3,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 2,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 3
+        }
+      }
+    }
+  },
+  "comparison": {
+    "agreement_rate": 0.95,
+    "agreement_total": 20,
+    "disagreement_count": 1,
+    "disagreements": [
+      {
+        "issue_id": "digitalocean/doctl#889",
+        "model_a": "deepseek-4-flash",
+        "model_a_label": "bug",
+        "model_b": "mistral-3-14B",
+        "model_b_label": "documentation"
+      }
+    ]
+  }
+}
