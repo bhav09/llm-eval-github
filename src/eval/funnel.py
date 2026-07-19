@@ -120,8 +120,8 @@ class FunnelOrchestrator:
             scored_issues = [i for i in all_issues if i.issue_id in scored_ids]
             import random
             random.shuffle(scored_issues)
-            pilot_issues = scored_issues[:PILOT_ISSUE_COUNT]
-            full_issues = scored_issues[:FULL_ISSUE_COUNT]  # superset of pilot_issues
+            pilot_issues = scored_issues[:self.settings.pilot_issue_count]
+            full_issues = scored_issues[:self.settings.full_issue_count]  # superset of pilot_issues
 
             # --- Stage 2: pilot (6 models x 10 issues) ---
             pilot_results = await self._run_stage(
@@ -193,8 +193,9 @@ class FunnelOrchestrator:
                     "weaknesses": weaknesses,
                 })
             
-            # Filter for models that do not fail basic operational reliability (error_rate + invalid_rate <= 40%)
-            eligible = [r for r in scored_results if (r["error_rate"] + r["invalid_rate"]) <= 0.40]
+            # Filter for models that do not fail basic operational reliability
+            max_combined_threshold = self.settings.error_rate_elim + self.settings.invalid_rate_elim
+            eligible = [r for r in scored_results if (r["error_rate"] + r["invalid_rate"]) <= max_combined_threshold]
             if len(eligible) >= 2:
                 eligible.sort(key=lambda x: x["composite_score"], reverse=True)
                 survivors_count = max(2, math.ceil(len(pilot_results) * 0.5))

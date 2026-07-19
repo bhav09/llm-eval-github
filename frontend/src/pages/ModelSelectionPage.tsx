@@ -6,6 +6,7 @@ import { api, FunnelRun, FunnelStatus, FunnelStage1Artifact, FunnelRecommendatio
 import { formatPct, formatUsd, msToSec } from "@/lib/utils";
 import { cn } from "@/lib/utils";
 import { useCountUp } from "@/hooks/useCountUp";
+import { getSessionSettings } from "@/components/SettingsDrawer";
 
 export function ModelSelectionPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -66,7 +67,19 @@ export function ModelSelectionPage() {
     setError(null);
     try {
       const useMock = !doApiConfigured;
-      const started = await api.startFunnel({ use_mock: useMock, confirm_spend: !useMock });
+      const sessionSettings = getSessionSettings();
+      const started = await api.startFunnel({
+        use_mock: useMock,
+        confirm_spend: !useMock,
+        concurrency: sessionSettings.concurrency,
+        adjudicator_model: sessionSettings.adjudicator_model,
+        pilot_issue_count: sessionSettings.pilot_issue_count,
+        full_issue_count: sessionSettings.full_issue_count,
+        error_rate_elim: sessionSettings.error_rate_elim,
+        invalid_rate_elim: sessionSettings.invalid_rate_elim,
+        request_timeout_sec: sessionSettings.request_timeout_sec,
+        max_retries: sessionSettings.max_retries,
+      });
       setFunnel(started);
       setSearchParams({ funnel: started.funnel_id }, { replace: true });
       fetchRecent();

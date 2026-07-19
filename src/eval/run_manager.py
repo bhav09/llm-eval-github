@@ -80,6 +80,7 @@ class RunManager:
         *,
         limit: int | None = None,
         use_mock: bool = False,
+        custom_settings: dict | None = None,
     ) -> RunManifest:
         async with self._lock:
             if self._task and not self._task.done():
@@ -87,6 +88,15 @@ class RunManager:
 
             run_id = make_run_id()
             settings = get_settings()
+            if custom_settings:
+                settings = settings.model_copy()
+                for k, v in custom_settings.items():
+                    if v is not None and hasattr(settings, k):
+                        setattr(settings, k, v)
+
+            from eval.orchestrator import EvalOrchestrator
+            orchestrator = EvalOrchestrator(settings)
+
             corpus_root = settings.resolve_path(settings.corpus_path)
             version = latest_version(corpus_root, settings.github_repo)
             issues = load_issues_from_snapshot(corpus_root, settings.github_repo, version)
@@ -110,7 +120,7 @@ class RunManager:
             async def _run() -> None:
                 configure_logging()
                 try:
-                    manifest = await self._orchestrator.run_comparison(
+                    manifest = await orchestrator.run_comparison(
                         model_a,
                         model_b,
                         issues,
@@ -247,12 +257,25 @@ class RunManager:
 
     # ---- Funnel (4-stage model selection) ----
 
-    async def start_funnel(self, *, use_mock: bool = False) -> FunnelRun:
+    async def start_funnel(
+        self,
+        *,
+        use_mock: bool = False,
+        custom_settings: dict | None = None,
+    ) -> FunnelRun:
         async with self._lock:
             if self._funnel_task and not self._funnel_task.done():
                 raise RuntimeError("A funnel is already in progress")
-            from eval.funnel import make_funnel_id
+            from eval.funnel import make_funnel_id, FunnelOrchestrator
 
+            settings = get_settings()
+            if custom_settings:
+                settings = settings.model_copy()
+                for k, v in custom_settings.items():
+                    if v is not None and hasattr(settings, k):
+                        setattr(settings, k, v)
+
+            funnel_orchestrator = FunnelOrchestrator(settings)
             funnel_id = make_funnel_id()
             cancel_event = asyncio.Event()
             self._funnel_cancel_events[funnel_id] = cancel_event
@@ -278,7 +301,7 @@ class RunManager:
             async def _run() -> None:
                 configure_logging()
                 try:
-                    funnel = await self._funnel_orchestrator.run_funnel(
+                    funnel = await funnel_orchestrator.run_funnel(
                         use_mock=use_mock,
                         cancel_event=cancel_event,
                         progress_callback=progress_cb,

@@ -31,6 +31,10 @@ class Settings(BaseSettings):
         default="deepseek-v4-pro",
         alias="ADJUDICATOR_MODEL",
     )
+    pilot_issue_count: int = Field(default=5, alias="PILOT_ISSUE_COUNT")
+    full_issue_count: int = Field(default=10, alias="FULL_ISSUE_COUNT")
+    error_rate_elim: float = Field(default=0.20, alias="ERROR_RATE_ELIM")
+    invalid_rate_elim: float = Field(default=0.20, alias="INVALID_RATE_ELIM")
     github_repo: str = Field(default="digitalocean/doctl", alias="GITHUB_REPO")
     github_api_base: str = Field(
         default="https://api.github.com",

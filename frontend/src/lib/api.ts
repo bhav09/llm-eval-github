@@ -80,7 +80,16 @@ export const api = {
   issues: (id: string, params: URLSearchParams) =>
     fetchJson<{ items: IssueRow[]; total: number }>(`/api/runs/${id}/issues?${params}`),
   issueDetail: (runId: string, issueId: string) => fetchJson<IssueDetail>(`/api/runs/${runId}/issues/${issueId}`),
-  startRun: (body: { model_a: string; model_b: string; limit?: number; use_mock?: boolean; confirm_spend?: boolean }) =>
+  startRun: (body: {
+    model_a: string;
+    model_b: string;
+    limit?: number;
+    use_mock?: boolean;
+    confirm_spend?: boolean;
+    concurrency?: number;
+    request_timeout_sec?: number;
+    max_retries?: number;
+  }) =>
     fetchJson<RunManifest>("/api/runs", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -90,7 +99,18 @@ export const api = {
     fetchJson<{ run_id: string; status: string }>(`/api/runs/${id}/cancel`, {
       method: "POST",
     }),
-  startFunnel: (body: { use_mock?: boolean; confirm_spend?: boolean }) =>
+  startFunnel: (body: {
+    use_mock?: boolean;
+    confirm_spend?: boolean;
+    concurrency?: number;
+    adjudicator_model?: string;
+    pilot_issue_count?: number;
+    full_issue_count?: number;
+    error_rate_elim?: number;
+    invalid_rate_elim?: number;
+    request_timeout_sec?: number;
+    max_retries?: number;
+  }) =>
     fetchJson<FunnelRun>("/api/funnel/start", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -98,3 +98,66 @@ def test_run_issues_filtering(client):
     assert unscored_res.status_code == 200
     unscored_body = unscored_res.json()
     assert "items" in unscored_body
+
+
+def test_start_run_custom_settings(client):
+    response = client.post(
+        "/api/runs",
+        json={
+            "model_a": "mock-a",
+            "model_b": "mock-b",
+            "limit": 5,
+            "use_mock": True,
+            "confirm_spend": True,
+            "concurrency": 12,
+            "request_timeout_sec": 30,
+            "max_retries": 2,
+        },
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["concurrency"] == 12
+
+
+def test_start_funnel_custom_settings(client):
+    response = client.post(
+        "/api/funnel/start",
+        json={
+            "use_mock": True,
+            "confirm_spend": True,
+            "concurrency": 15,
+            "adjudicator_model": "mock-evaluator",
+            "pilot_issue_count": 3,
+            "full_issue_count": 8,
+            "error_rate_elim": 0.15,
+            "invalid_rate_elim": 0.15,
+        },
+    )
+    assert response.status_code in (200, 409)
+
+
+def test_invalid_settings_validation(client):
+    # Test invalid negative concurrency
+    response = client.post(
+        "/api/runs",
+        json={
+            "model_a": "mock-a",
+            "model_b": "mock-b",
+            "limit": 5,
+            "use_mock": True,
+            "confirm_spend": True,
+            "concurrency": -5,
+        },
+    )
+    assert response.status_code == 422
+
+    # Test invalid error rate > 1.0
+    response = client.post(
+        "/api/funnel/start",
+        json={
+            "use_mock": True,
+            "confirm_spend": True,
+            "error_rate_elim": 1.5,
+        },
+    )
+    assert response.status_code == 422

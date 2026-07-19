@@ -40,6 +40,7 @@ import {
   RunStatus,
 } from "@/lib/api";
 import { formatPct, formatUsd, msToSec, cn } from "@/lib/utils";
+import { getSessionSettings } from "@/components/SettingsDrawer";
 
 const LABELS = ["bug", "enhancement", "question", "documentation", "security", "other"];
 
@@ -227,12 +228,16 @@ export default function EvalPage() {
     setLoading(true);
     setError(null);
     try {
+      const sessionSettings = getSessionSettings();
       const runManifest = await api.startRun({
         model_a: modelA,
         model_b: modelB,
         limit: sampleSize,
         use_mock: useMock,
         confirm_spend: !useMock,
+        concurrency: sessionSettings.concurrency,
+        request_timeout_sec: sessionSettings.request_timeout_sec,
+        max_retries: sessionSettings.max_retries,
       });
       selectRun(runManifest.run_id);
       setStatus({

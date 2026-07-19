@@ -53,6 +53,9 @@ class StartRunRequest(BaseModel):
     limit: int | None = Field(default=None, ge=1, le=534)
     use_mock: bool = False
     confirm_spend: bool = False
+    concurrency: int | None = Field(default=None, ge=1, le=32)
+    request_timeout_sec: int | None = Field(default=None, ge=5, le=300)
+    max_retries: int | None = Field(default=None, ge=0, le=5)
 
 
 class CustomClassifyRequest(BaseModel):
@@ -66,6 +69,14 @@ class CustomClassifyRequest(BaseModel):
 class StartFunnelRequest(BaseModel):
     use_mock: bool = False
     confirm_spend: bool = False
+    concurrency: int | None = Field(default=None, ge=1, le=32)
+    adjudicator_model: str | None = Field(default=None, min_length=1)
+    pilot_issue_count: int | None = Field(default=None, ge=1, le=20)
+    full_issue_count: int | None = Field(default=None, ge=1, le=50)
+    error_rate_elim: float | None = Field(default=None, ge=0.0, le=1.0)
+    invalid_rate_elim: float | None = Field(default=None, ge=0.0, le=1.0)
+    request_timeout_sec: int | None = Field(default=None, ge=5, le=300)
+    max_retries: int | None = Field(default=None, ge=0, le=5)
 
 
 @app.get("/health")
@@ -170,7 +181,8 @@ async def start_funnel(body: StartFunnelRequest) -> dict:
     if not run_use_mock and not settings.do_api:
         raise HTTPException(status_code=400, detail="DO_API is required for live inference.")
     try:
-        funnel = await run_manager.start_funnel(use_mock=run_use_mock)
+        custom_settings = body.model_dump(exclude={"use_mock", "confirm_spend"}, exclude_none=True)
+        funnel = await run_manager.start_funnel(use_mock=run_use_mock, custom_settings=custom_settings)
     except RuntimeError as exc:
         raise HTTPException(status_code=409, detail=str(exc)) from exc
     return funnel.model_dump()
@@ -304,11 +316,13 @@ async def start_run(body: StartRunRequest) -> dict:
     if not run_use_mock and not settings.do_api:
         raise HTTPException(status_code=400, detail="DO_API is required for live inference.")
     try:
+        custom_settings = body.model_dump(exclude={"model_a", "model_b", "limit", "use_mock", "confirm_spend"}, exclude_none=True)
         manifest = await run_manager.start_run(
             body.model_a,
             body.model_b,
             limit=body.limit,
             use_mock=run_use_mock,
+            custom_settings=custom_settings,
         )
     except RuntimeError as exc:
         raise HTTPException(status_code=409, detail=str(exc)) from exc

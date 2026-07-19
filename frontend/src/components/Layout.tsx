@@ -1,6 +1,7 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { History, Info, Sparkles, Trophy, Landmark } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { SettingsDrawer } from "@/components/SettingsDrawer";
 import { cn } from "@/lib/utils";
 
 export function Layout() {
@@ -46,7 +47,10 @@ export function Layout() {
               })}
             </nav>
           </div>
-          <ThemeToggle />
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <SettingsDrawer />
+          </div>
         </div>
       </header>
       <Outlet />
