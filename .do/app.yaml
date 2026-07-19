@@ -3,17 +3,10 @@ region: nyc
 
 services:
   - name: web
-    # --- OPTION A: Deploy from GitHub (Recommended) ---
-    # github:
-    #   repo: <your-github-username>/<your-repo-name>   # e.g., bhavishya/llm-eval-github
-    #   branch: main
-    #   deploy_on_push: true
-
-    # --- OPTION B: Deploy from DigitalOcean Container Registry (DOCR) ---
-    # image:
-    #   registry_type: DOCR
-    #   repository: fde-issue-eval
-    #   tag: latest
+    github:
+      repo: bhav09/llm-eval-github
+      branch: main
+      deploy_on_push: true
 
     dockerfile_path: Dockerfile
     http_port: 8080
