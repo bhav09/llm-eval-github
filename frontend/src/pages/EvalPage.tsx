@@ -409,9 +409,9 @@ export default function EvalPage() {
       {metrics && selectedRun ? (
         <TabsRoot defaultValue="scored">
           <TabsList>
-            <TabsTrigger value="scored">Scored</TabsTrigger>
-            <TabsTrigger value="unscored">Unscored</TabsTrigger>
-            <TabsTrigger value="ops">Ops</TabsTrigger>
+            <TabsTrigger value="scored">Performance</TabsTrigger>
+            <TabsTrigger value="unscored">Predictions</TabsTrigger>
+            <TabsTrigger value="ops">Operations</TabsTrigger>
           </TabsList>
 
           <TabsContent value="scored">
