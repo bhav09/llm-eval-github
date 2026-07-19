@@ -1,6 +1,6 @@
 # Colosseum
 
-**Live app:** [https://fde-issue-eval.ondigitalocean.app](https://fde-issue-eval.ondigitalocean.app)
+**Live app:** [https://fde-issue-eval-d4dzv.ondigitalocean.app](https://fde-issue-eval-d4dzv.ondigitalocean.app)
 
 Eval harness for classifying `digitalocean/doctl` GitHub issues into six customer labels, comparing DO Serverless Inference models, with defensible hybrid ground truth — plus a data-driven **4-stage model-selection funnel** that picks the best production models from the live DO catalog.
 
