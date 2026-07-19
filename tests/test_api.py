@@ -161,3 +161,24 @@ def test_invalid_settings_validation(client):
         },
     )
     assert response.status_code == 422
+
+
+def test_run_edge_case_settings(client):
+    # Test execution with minimal boundary settings (concurrency=1, timeout=5, retries=0, limit=1)
+    response = client.post(
+        "/api/runs",
+        json={
+            "model_a": "mock-a",
+            "model_b": "mock-b",
+            "limit": 1,
+            "use_mock": True,
+            "confirm_spend": True,
+            "concurrency": 1,
+            "request_timeout_sec": 5,
+            "max_retries": 0,
+        },
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["concurrency"] == 1
+    assert body["status"] == "running"
