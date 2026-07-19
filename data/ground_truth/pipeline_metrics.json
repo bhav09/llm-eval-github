@@ -1,0 +1,22 @@
+{
+  "rules_version": "v1",
+  "total_issues": 534,
+  "rules_high": 267,
+  "rules_med": 95,
+  "rules_low": 172,
+  "llm_queue_size": 267,
+  "llm_resolved": 267,
+  "llm_unresolved": 0,
+  "scored_set_size": 125,
+  "tier_a_in_scored": 57,
+  "tier_b_in_scored": 68,
+  "per_class_counts": {
+    "question": 25,
+    "documentation": 12,
+    "other": 13,
+    "security": 25,
+    "enhancement": 25,
+    "bug": 25
+  },
+  "adjudicator_model": "deepseek-v4-pro"
+}

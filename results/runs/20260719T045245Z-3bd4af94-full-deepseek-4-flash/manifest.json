@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T045245Z-3bd4af94-full-deepseek-4-flash",
+  "timestamp": "2026-07-19T04:53:16.810057+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "deepseek-4-flash",
+  "model_b": "deepseek-4-flash",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T04:53:16.810111+00:00",
+  "finished_at": "2026-07-19T04:53:19.028752+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#1763",
+    "digitalocean/doctl#916",
+    "digitalocean/doctl#964",
+    "digitalocean/doctl#1028",
+    "digitalocean/doctl#90"
+  ]
+}

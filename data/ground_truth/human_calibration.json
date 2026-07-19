@@ -1,0 +1,326 @@
+[
+  {
+    "issue_id": "digitalocean/doctl#1537",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1023",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1797",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#795",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#147",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#247",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#719",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#28",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#1610",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#1147",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#716",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#25",
+    "expected_auto_label": "documentation",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#116",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#972",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "suggestion"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#790",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "suggestion",
+      "do-api"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#965",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "suggestion",
+      "good first issue"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#335",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "suggestion"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#2",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#281",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#337",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#866",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "help wanted",
+      "good first issue",
+      "hacktoberfest"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1363",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#37",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#445",
+    "expected_auto_label": "other",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#242",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#293",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#145",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#332",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "windows"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#417",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "question"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#308",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "question"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#735",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "security vulnerability"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1196",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "security vulnerability"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1131",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "security vulnerability"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1096",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "security vulnerability"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1091",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "security vulnerability"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#1407",
+    "expected_auto_label": "security",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  },
+  {
+    "issue_id": "digitalocean/doctl#216",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#211",
+    "expected_auto_label": "question",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#441",
+    "expected_auto_label": "enhancement",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": []
+  },
+  {
+    "issue_id": "digitalocean/doctl#1750",
+    "expected_auto_label": "bug",
+    "human_label": null,
+    "reviewer_notes": "",
+    "native_labels": [
+      "bug"
+    ]
+  }
+]

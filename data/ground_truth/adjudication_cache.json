@@ -1,0 +1,2154 @@
+{
+  "fdf0cb333f2317df26e451aaacf39aeab94a622dfc9c65b122eea638253a5b3e": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "mock adjudication",
+    "tier": "B",
+    "adjudicator_model": "mock-adjudicator",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"mock\"}"
+  },
+  "4be904c52e7cc44c2fcb178ab27fd68116c975793d60a95e411f50128a3cce5f": {
+    "label": "security",
+    "confidence": "high",
+    "rationale": "mock adjudication",
+    "tier": "B",
+    "adjudicator_model": "mock-adjudicator",
+    "raw_output": "{\"label\": \"security\", \"confidence\": \"high\", \"rationale\": \"mock\"}"
+  },
+  "430ce3857a7cd376e42a9630bb50eaad6ea3026e254bee28580b4f9576645da2": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The CLI command returns empty results despite the API returning valid data, indicating a bug in how doctl processes or displays the API response.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The CLI command returns empty results despite the API returning valid data, indicating a bug in how doctl processes or displays the API response.\"}"
+  },
+  "f90ccd47e9f1790d5be0efc2df99b8cc8bb6732ff4ad0ab503f3252e32c6246f": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes adding a new tool (golangci-lint) and CI integration to improve code quality, which is a feature/process improvement request, not a bug, documentation fix, or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue proposes adding a new tool (golangci-lint) and CI integration to improve code quality, which is a feature/process improvement request, not a bug, documentation fix, or question.\"}"
+  },
+  "b48ab5532f8bb52cbd4b4476f77204b1b0ebe1dbab2e3f0852c03c2f8c16624e": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a startup crash/parse failure where the application cannot read its own config file after a version update, indicating a logic error in the config serialization/parsing code.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a startup crash/parse failure where the application cannot read its own config file after a version update, indicating a logic error in the config serialization/parsing code.\"}"
+  },
+  "7a9820339879e004b895c1f656a31bd906905fd13ffee8a6d614fa2116b9b76c": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a silent write failure due to incorrect config path resolution caused by persisting internal config keys, which is a clear logic bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a silent write failure due to incorrect config path resolution caused by persisting internal config keys, which is a clear logic bug.\"}"
+  },
+  "619db6aa214daf20509ce620ba811817941020368b0a9bd97be33c77c108e3c5": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding new functionality to allow doctl to interact with Spaces, which fits the definition of a feature request or enhancement.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding new functionality to allow doctl to interact with Spaces, which fits the definition of a feature request or enhancement.\"}"
+  },
+  "9b00522cb53b0fa2447ec738f6a780004cc297ab4fcfb4cb772baaa8bf769d20": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to suppress a recurring informational message and has attempted a cache deletion without success, which is a usage troubleshooting inquiry rather than a code defect.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to suppress a recurring informational message and has attempted a cache deletion without success, which is a usage troubleshooting inquiry rather than a code defect.\"}"
+  },
+  "4230bf57df45061b113f4293d521e0e283752cc4c771b8c12633c01a88cdc173": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes incorrect logic in `RunAuthSwitch` that writes a temporary validation entry to the config file, causing broken context resolution and potential API failures.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes incorrect logic in `RunAuthSwitch` that writes a temporary validation entry to the config file, causing broken context resolution and potential API failures.\"}"
+  },
+  "d237be15739127e2b5d1b93755cbaa07ea694460c6ec3248b920b356ace1b021": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue explicitly requests improvements to markdown documentation files (README.md, CONTRIBUTING.md) by adding setup instructions, guidelines, and overviews, which fits the 'documentation' category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue explicitly requests improvements to markdown documentation files (README.md, CONTRIBUTING.md) by adding setup instructions, guidelines, and overviews, which fits the 'documentation' category.\"}"
+  },
+  "7da0c9c13d054b856465bdb436d3999146300e835b924cf5d36108c56fda59d9": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding a new --wait flag to an existing command to improve scripting usability, which is a clear feature addition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding a new --wait flag to an existing command to improve scripting usability, which is a clear feature addition.\"}"
+  },
+  "5b715cc770d70126eb8d547040a979981df20a31777b5898c902db98afbdaa5a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue explicitly requests adding a new --wait flag to the databases migrate command for scripting convenience, which is a feature enhancement rather than a bug fix or documentation change.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue explicitly requests adding a new --wait flag to the databases migrate command for scripting convenience, which is a feature enhancement rather than a bug fix or documentation change.\"}"
+  },
+  "333587fbe577c814cbcfe72c795735178637abe6df624a73c7968136f2321c77": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting that the hardcoded Docker socket path be made configurable, which is a feature request to support non-standard Docker daemon socket locations.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting that the hardcoded Docker socket path be made configurable, which is a feature request to support non-standard Docker daemon socket locations.\"}"
+  },
+  "ffcce6bdd5c16500224462bd19cbf24baf96114a5f347c32336b91209ccd7682": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking where to find proprietary source code and how to integrate a terminal interface, which is a troubleshooting/usage inquiry rather than a bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking where to find proprietary source code and how to integrate a terminal interface, which is a troubleshooting/usage inquiry rather than a bug or feature request.\"}"
+  },
+  "301eb9de9a426f5e0714ce6e046f375fe0d89e9147230be0ebaac3674b0ac4e9": {
+    "label": "security",
+    "confidence": "high",
+    "rationale": "The issue reports that a sensitive authentication token is exposed in stdout, which can lead to credential leaks in CI/CD logs. This is a security concern regarding information disclosure.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"security\", \"confidence\": \"high\", \"rationale\": \"The issue reports that a sensitive authentication token is exposed in stdout, which can lead to credential leaks in CI/CD logs. This is a security concern regarding information disclosure.\"}"
+  },
+  "37f9d54cfa624e18633a10cc45bfb4ea8c916ed93823ec23355154b8d8e2d92b": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user explicitly requests new functionality (--size flag) to modify an existing resource, as the current CLI command resets other settings, creating UX friction.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user explicitly requests new functionality (--size flag) to modify an existing resource, as the current CLI command resets other settings, creating UX friction.\"}"
+  },
+  "efd52d9b7fd997b021e27b6561f104492c401dfc4f496ee99876a68aca850954": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The issue asks to replace a deprecated CI command in a workflow file, which is a minor build/config maintenance task rather than a feature, bug, or documentation change.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The issue asks to replace a deprecated CI command in a workflow file, which is a minor build/config maintenance task rather than a feature, bug, or documentation change.\"}"
+  },
+  "c2dcbfe24eb67614c3f9467152c757fd30ca3a10459a126869f775f30d18e38d": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking why manual agent installation is required and requesting a default installation, but the support thread indicates it is a usage confusion/version issue rather than a code defect.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking why manual agent installation is required and requesting a default installation, but the support thread indicates it is a usage confusion/version issue rather than a code defect.\"}"
+  },
+  "81df6d40088f875c39f8e9f1a1b016b710d5d1de98ebdac6787b86a21f0f69ec": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new doctl subcommand to retrieve and update database cluster configuration, which is a clear feature request for new CLI functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new doctl subcommand to retrieve and update database cluster configuration, which is a clear feature request for new CLI functionality.\"}"
+  },
+  "f0dc19c0431ada195e0ab70ecbb850bcd30537ffd7664776f3d812dae98c1538": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The issue is spam with no actionable content related to bugs, features, questions, documentation, or security.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The issue is spam with no actionable content related to bugs, features, questions, documentation, or security.\"}"
+  },
+  "ad98cf5e0e3de42f1892877bd0df652742e6d07943c104b92973b7795afcc416": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting proper ARM64 Snap packaging for macOS/Apple Silicon, which is a feature/packaging enhancement request rather than a code bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting proper ARM64 Snap packaging for macOS/Apple Silicon, which is a feature/packaging enhancement request rather than a code bug or question.\"}"
+  },
+  "e2b4c6154f2c10539bfcceea0787e8f509ab30c14cd973c59e2cc2bc784fd068": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests better error details/metadata (a feature improvement) rather than reporting a specific code defect or fix for the error itself.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests better error details/metadata (a feature improvement) rather than reporting a specific code defect or fix for the error itself.\"}"
+  },
+  "2fff44b5344261e9d5d6b5492c568c8801f33e98eecfa36219380f611051a8e8": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new capability (viewing droplet health status via CLI) that doesn't currently exist, and the maintainer confirmed it's being added to the backlog as a feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new capability (viewing droplet health status via CLI) that doesn't currently exist, and the maintainer confirmed it's being added to the backlog as a feature request.\"}"
+  },
+  "fce15f0d1a333bc4151e7c2a43c6a8a221c77ee15971af99a532f93653c440f6": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user expects the --wait flag to block until cloud-init scripts complete, but it currently only waits for the Droplet to become active. This is a feature request to extend the flag's behavior, not a bug in existing functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user expects the --wait flag to block until cloud-init scripts complete, but it currently only waits for the Droplet to become active. This is a feature request to extend the flag's behavior, not a bug in existing functionality.\"}"
+  },
+  "e37e76f46ef171c636523f6a0b95eddc8ea79cbf99a93936c5d1334e4a8eb89a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting both documentation examples and a new feature (output listing flushed files), which makes this a feature request rather than a pure documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting both documentation examples and a new feature (output listing flushed files), which makes this a feature request rather than a pure documentation fix.\"}"
+  },
+  "007f66c2558b41cb8ad68fefc189211ce3c1fcd116802f9dbc63c87fd88c44b7": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a specific code path where `apps update --wait` hangs indefinitely due to an empty deployment ID when no deployment is in progress, which is a logic error.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a specific code path where `apps update --wait` hangs indefinitely due to an empty deployment ID when no deployment is in progress, which is a logic error.\"}"
+  },
+  "d83c7a01a87707aa3894b5b66cb2c319b755d4afe010e4646fc4e7a2a8f9c1ea": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to debug and fix autocompletion not working via an oh-my-zsh plugin, which is a usage troubleshooting inquiry rather than a code bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to debug and fix autocompletion not working via an oh-my-zsh plugin, which is a usage troubleshooting inquiry rather than a code bug report.\"}"
+  },
+  "d4cb1d7e52d6670d8246651a3c884686d7a492af439a50379fdb9da6501767f6": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "Adding a Dependabot configuration to .github is a developer CI/CD workflow setup chore with no user-facing feature change, fitting the 'other' administrative category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"Adding a Dependabot configuration to .github is a developer CI/CD workflow setup chore with no user-facing feature change, fitting the 'other' administrative category.\"}"
+  },
+  "6f05069044e68e0574d4a3150db17f708b5077267073ac34c5fdeabde5cbf16e": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding official prebuilt Android ARM64 binaries to the release assets, which is a new feature/platform support request rather than a bug in existing binaries.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding official prebuilt Android ARM64 binaries to the release assets, which is a new feature/platform support request rather than a bug in existing binaries.\"}"
+  },
+  "b5e0773e8d7cc134b250c05d8de3ba2966395f55519f2b23187551c5da93e826": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests that the validation error include the specific line number in the spec file, which is a feature improvement to the existing tools, not a bug in logic.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests that the validation error include the specific line number in the spec file, which is a feature improvement to the existing tools, not a bug in logic.\"}"
+  },
+  "46e19886c362296639d3b7085b6349bd50145f0449c26d67b792c18706cda2ff": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new feature to integrate with Vault for token retrieval, which aligns with an enhancement rather than a bug, question, or other category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new feature to integrate with Vault for token retrieval, which aligns with an enhancement rather than a bug, question, or other category.\"}"
+  },
+  "181bb0e3d29e1f8930da9fa6b3d59e07aa514541b0220377f3030a1a7d751368": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a logic error where an update command inadvertently resets a record's TTL to a hardcoded default instead of preserving its existing value, which is confirmed by the developer's subsequent PR fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a logic error where an update command inadvertently resets a record's TTL to a hardcoded default instead of preserving its existing value, which is confirmed by the developer's subsequent PR fix.\"}"
+  },
+  "408fa5694ea29b4eaa3978a5a2ef3d2f443991f2442e75b3dd29602351f1e4aa": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to support droplet name lookup in the `get` command, which is a clear feature request for improving the CLI tool's functionality and UX.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to support droplet name lookup in the `get` command, which is a clear feature request for improving the CLI tool's functionality and UX.\"}"
+  },
+  "f4ccec34f92ee0029b15b92da11ef5d49f587c85ac73f93693737463865f8f47": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue reports a CSS rendering problem on a documentation website, which is a documentation display fix, not a CLI code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue reports a CSS rendering problem on a documentation website, which is a documentation display fix, not a CLI code bug.\"}"
+  },
+  "e35dbf71cd8c52b7f91368270de3d3325d987c2809a40ce48c0e1bb6846b6b9d": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The issue requests fixing golint code style violations, which is a developer chore/refactoring task with no functional change or feature addition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The issue requests fixing golint code style violations, which is a developer chore/refactoring task with no functional change or feature addition.\"}"
+  },
+  "0992ad3b8a4739d270e3332331e0f01de2b8c271597db8911563ff38b0263ebd": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue requests fixing misspelled words in command output strings and test code comments, which are documentation/string corrections rather than functional bugs or new features.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue requests fixing misspelled words in command output strings and test code comments, which are documentation/string corrections rather than functional bugs or new features.\"}"
+  },
+  "09e7d245a2913dc0f716e89306797ca47422636a299f71cd672f8108de6f5dd3": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting that the DigitalOcean team publish an official JSON Schema for AppSpec in their documentation. This is a feature request for a new resource to be made available, not a bug, question, or documentation fix per se.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting that the DigitalOcean team publish an official JSON Schema for AppSpec in their documentation. This is a feature request for a new resource to be made available, not a bug, question, or documentation fix per se.\"}"
+  },
+  "8fc996815453bcaebc4e11376d5ffb923780b09c575259a911597530f87b7ab7": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to use the `image create` sub-command and what `--image-url` does, which is a usage/troubleshooting inquiry rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to use the `image create` sub-command and what `--image-url` does, which is a usage/troubleshooting inquiry rather than a bug report.\"}"
+  },
+  "53c3da56dd9804d76febea3edfa9f85924d2f49691325e5dbd8183cb8da800f5": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The kubeconfig generated by doctl produces non-unique context/cluster/auth names across different accounts, causing merged authentication configurations. This is a logic bug causing incorrect runtime behavior.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The kubeconfig generated by doctl produces non-unique context/cluster/auth names across different accounts, causing merged authentication configurations. This is a logic bug causing incorrect runtime behavior.\"}"
+  },
+  "91509f71600ef999c5c7a3515a84709bcd62b7b9b0fad998d8e5abc4ffc615c5": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue identifies missing information about size units in both the CLI help text and external docs, which is a documentation gap, not a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue identifies missing information about size units in both the CLI help text and external docs, which is a documentation gap, not a code bug.\"}"
+  },
+  "61facb24e09b6c8dbe174df62d25c294a94dcea1d2bfcc3ac7f7c21968fd97dd": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to perform a specific operation (creating a droplet from an image), which is a usage/troubleshooting inquiry rather than a bug report or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to perform a specific operation (creating a droplet from an image), which is a usage/troubleshooting inquiry rather than a bug report or feature request.\"}"
+  },
+  "e990a93eb2f85cddadad713940bc0e5d2bd8bfb51b92978ec5edee5b90b27ae3": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user explicitly requests a new flag/feature to specify a VPC during Droplet creation, aligning with the enhancement definition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user explicitly requests a new flag/feature to specify a VPC during Droplet creation, aligning with the enhancement definition.\"}"
+  },
+  "897de16df5f4ddf07d08e132eeecd8f9bbe90051efa9cebd422792e6fc2a7067": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue identifies a code logic error where an error returned from json.Marshal is not being checked in an integration test, which constitutes a bug in test validation.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue identifies a code logic error where an error returned from json.Marshal is not being checked in an integration test, which constitutes a bug in test validation.\"}"
+  },
+  "e634eb6d3ecef168231af7520f383bbceb97fb8c000d7d0a6b096f84e8e768c5": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature (configurable token expiry) in the doctl CLI, which is supported by the backend API and SDK but not yet exposed in the CLI command.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature (configurable token expiry) in the doctl CLI, which is supported by the backend API and SDK but not yet exposed in the CLI command.\"}"
+  },
+  "c0a119252a017e3e2b422434e50bd25ede860b4b47a2e35774034bf39392302c": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting new 'Get' and 'List' commands for volume-actions to achieve API parity, which is a clear feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting new 'Get' and 'List' commands for volume-actions to achieve API parity, which is a clear feature request.\"}"
+  },
+  "f87cb7f963d6d3e43adb6ef7035537828a6323d90b730b9fec8beb6c01023586": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests a new feature or improvement to list droplet sizes and image names in documentation/help output, which aligns with an enhancement request rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests a new feature or improvement to list droplet sizes and image names in documentation/help output, which aligns with an enhancement request rather than a bug or question.\"}"
+  },
+  "b4209d72225be788e7c5d1a2243fb1f727e8e25d3beb09b09cdc1a7f5c5123d1": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to wait for cloud-init completion, which aligns with an enhancement request rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to wait for cloud-init completion, which aligns with an enhancement request rather than a bug or question.\"}"
+  },
+  "28d7cba8cce8a941a404d38da718912bc87d8af7cb173af3ec2be013fbea0a4b": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is explicitly requesting a new feature\u2014the ability to upload files/tar to Spaces via doctl\u2014which falls under feature requests and improvements.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is explicitly requesting a new feature\u2014the ability to upload files/tar to Spaces via doctl\u2014which falls under feature requests and improvements.\"}"
+  },
+  "fc2d13213cdc350970417251947673153d1c1d7e7a39313d90f597d30baf8470": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user encountered an environment-related error when running the tool and is asking for setup guidance, not reporting a code bug or requesting a feature.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user encountered an environment-related error when running the tool and is asking for setup guidance, not reporting a code bug or requesting a feature.\"}"
+  },
+  "e505d071bd96d5b85409ccc08d27bb0de8793ddd2d06cd26384451d9cabb6c33": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting new packaging/distribution support via a .deb package and PPA, which is a feature addition to the existing release artifacts.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting new packaging/distribution support via a .deb package and PPA, which is a feature addition to the existing release artifacts.\"}"
+  },
+  "c51ae2c5b85aeaef35bcdd10bb7d5e02b1fbac890963cffeaea9a206ed295cd7": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports a functional failure ('Failed to add the host to the list of known hosts') when using 'doctl compute ssh' via Snap, which a maintainer has reproduced and suspects is a bug in the command's execution logic.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports a functional failure ('Failed to add the host to the list of known hosts') when using 'doctl compute ssh' via Snap, which a maintainer has reproduced and suspects is a bug in the command's execution logic.\"}"
+  },
+  "b666b63c3d00138d2678838a3d1e8f3ca4fa8954045a58fa1e81b185dd51e9f8": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue requests clarifying a specific command example in the README, which is a documentation improvement, not a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"documentation\",\n  \"confidence\": \"high\",\n  \"rationale\": \"The issue requests clarifying a specific command example in the README, which is a documentation improvement, not a code bug.\"\n}"
+  },
+  "d9e47af6a4ac6485548d2d7f02b1a99df18f7a9725a62fe97c0067f28a2a47de": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The user is explicitly noting missing documentation for uninstalling the tool, which falls squarely under the documentation category rather than a bug, question, or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The user is explicitly noting missing documentation for uninstalling the tool, which falls squarely under the documentation category rather than a bug, question, or feature request.\"}"
+  },
+  "29ae4780c5a4ccebdeb3cbc09b7ac9a3410738bfdc02f30af9f48381397c8dc6": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue asks for a timeline/plan to include a new API feature in doctl, which is a clear request for new functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue asks for a timeline/plan to include a new API feature in doctl, which is a clear request for new functionality.\"}"
+  },
+  "44b258a41d83573caecd3d093660d95efc51b65e7c32aaee6335cc3a5b93065c": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The title and body describe a permissions error preventing 'doctl' from accessing Docker when installed via snap, which is a runtime integration failure rather than a feature request or user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The title and body describe a permissions error preventing 'doctl' from accessing Docker when installed via snap, which is a runtime integration failure rather than a feature request or user misconfiguration.\"}"
+  },
+  "7e4d427fe63f0efce699f54af1b4a3986fc671ac48a489de1aca9ee9f6e81098": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "This issue requests a code style formatting run (gofmt) with no functional change, making it a refactoring chore classified as other.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"This issue requests a code style formatting run (gofmt) with no functional change, making it a refactoring chore classified as other.\"}"
+  },
+  "a102c6744ac9a15a71fecb2c419e5a627035b5dc3b0e90edcb989de9d00e06d0": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests adding a new feature (--vpc-uuid flag) to databases create/replica commands, which aligns with the enhancement definition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests adding a new feature (--vpc-uuid flag) to databases create/replica commands, which aligns with the enhancement definition.\"}"
+  },
+  "e5ea26f14944caa1de16e31d8c859dfaaa6ce23169d5eec58e1f72a78482af95": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting an improvement to the help menu to show required positional arguments, which is a feature enhancement for better UX rather than a bug in functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting an improvement to the help menu to show required positional arguments, which is a feature enhancement for better UX rather than a bug in functionality.\"}"
+  },
+  "571d361012b67b6ecf7701d8d26284fce764824abe3a35641951d6c27e13bb17": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is providing feedback on unexpected and unintuitive CLI behavior when parsing arguments, which constitutes a request for improved UX and input validation, fitting the 'enhancement' label.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is providing feedback on unexpected and unintuitive CLI behavior when parsing arguments, which constitutes a request for improved UX and input validation, fitting the 'enhancement' label.\"}"
+  },
+  "8fafde561dbfcbdb17d21cff4809963d51427dc209c8dfe6f7aecc1f2ac7307c": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to switch between team and personal account contexts to manage Kubernetes clusters, which is a usage/troubleshooting inquiry about CLI functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to switch between team and personal account contexts to manage Kubernetes clusters, which is a usage/troubleshooting inquiry about CLI functionality.\"}"
+  },
+  "69fce6b478fd69aeeae5df7d17144a0989dc5e2f0aca3cf202d6b4fceb546d69": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue clearly describes an unexpected behavior where a documented combination of flags (--context and -t) fails to work as expected, which constitutes a logic bug in the CLI tool rather than a new feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue clearly describes an unexpected behavior where a documented combination of flags (--context and -t) fails to work as expected, which constitutes a logic bug in the CLI tool rather than a new feature request.\"}"
+  },
+  "00ef7968009d531386dd179b2b32f5146e8cca530b907d9307432a6d73f01267": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user encountered a build failure due to a missing build argument, which is a configuration/usage issue rather than a code defect. The resolution confirms it is a user setup question, not a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user encountered a build failure due to a missing build argument, which is a configuration/usage issue rather than a code defect. The resolution confirms it is a user setup question, not a bug.\"}"
+  },
+  "410d6ff5a05bbc357cdd27009b9cb0f450ad0a586b2b199778cabe439d3641a9": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue describes a poor user experience where import failures aren't surfaced immediately, and the maintainer acknowledges it can be improved, making it a feature/enhancement request rather than a documentation fix or bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue describes a poor user experience where import failures aren't surfaced immediately, and the maintainer acknowledges it can be improved, making it a feature/enhancement request rather than a documentation fix or bug.\"}"
+  },
+  "1b44a26262840188bed0af34156f39e2e3272d7eb227577f4664e9d5a1c5f8ca": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting the ability to specify a project when creating a droplet, which constitutes a new feature request for the CLI tool's functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting the ability to specify a project when creating a droplet, which constitutes a new feature request for the CLI tool's functionality.\"}"
+  },
+  "2149dfada299888c5b652a3dbab79c4dea4f5ee139d4256b78ef605934b1cbcb": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user reports a broken flag behavior which hints at a bug, but the core request is to improve command syntax and UX (allow positional args, fail on missing context, etc.), confirmed by maintainer acknowledging confusion and considering UX improvements.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user reports a broken flag behavior which hints at a bug, but the core request is to improve command syntax and UX (allow positional args, fail on missing context, etc.), confirmed by maintainer acknowledging confusion and considering UX improvements.\"}"
+  },
+  "fce935ac73f4937470ef4ea14d8a12f15ab0f5b2959331fe800b0946821ee096": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The stack trace shows a nil pointer dereference crash (panic) in execCredentialFromConfig when kubectl tries to use doctl as an exec credential plugin, which is a clear logic error and not a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The stack trace shows a nil pointer dereference crash (panic) in execCredentialFromConfig when kubectl tries to use doctl as an exec credential plugin, which is a clear logic error and not a user misconfiguration.\"}"
+  },
+  "a47c7433b3f336fa88574f8bd5d1a512fb67fad6755ca9d95aa3862868d46825": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports a 'no such file or directory' error when running 'doctl auth init', indicating the CLI attempts to write to a missing directory or path instead of creating it, which is a code bug rather than a user configuration mistake.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports a 'no such file or directory' error when running 'doctl auth init', indicating the CLI attempts to write to a missing directory or path instead of creating it, which is a code bug rather than a user configuration mistake.\"}"
+  },
+  "6df18c2dd7fcc64e5f4d6da5a53b651bfcf4d2b279c79d34d0423145c81ef627": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The CLI fails with a permission error because it attempts to create a '.config' directory in the user's home without checking permissions first, which is a logic bug causing a broken user experience on first run.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The CLI fails with a permission error because it attempts to create a '.config' directory in the user's home without checking permissions first, which is a logic bug causing a broken user experience on first run.\"}"
+  },
+  "c83c2f09f67ce077659db65c609bb03b78d010c066e6ffa170e5f0183ba0c902": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The error 'unable to read DigitalOcean access token: The handle is invalid' is a system error traced to a code defect that was subsequently fixed, not a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The error 'unable to read DigitalOcean access token: The handle is invalid' is a system error traced to a code defect that was subsequently fixed, not a user misconfiguration.\"}"
+  },
+  "4d18c47d817a9c96e6359a184c70a7093ee7f4b6add8dd2c6950c1890d70ea37": {
+    "label": "other",
+    "confidence": "medium",
+    "rationale": "The issue describes a transient/duplicate release artifact formatting problem that resolved itself, aligning with a minor administrative glitch rather than a code bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"medium\", \"rationale\": \"The issue describes a transient/duplicate release artifact formatting problem that resolved itself, aligning with a minor administrative glitch rather than a code bug or feature request.\"}"
+  },
+  "613149d336d3e86e77cf9260207bf3ac0f0a8948af2ab3a05542b54156c22739": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue describes a behavior where --format is ignored with JSON output, and the discussion treats this as a design improvement request rather than a code bug, noting it could be clarified or future support added.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue describes a behavior where --format is ignored with JSON output, and the discussion treats this as a design improvement request rather than a code bug, noting it could be clarified or future support added.\"}"
+  },
+  "c669735218d2d852eab74b71c004403fafdea555e7d0f5a54764295755ddf47d": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes migrating to a more maintained repository to receive new features and bug fixes, which fits the definition of an enhancement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue proposes migrating to a more maintained repository to receive new features and bug fixes, which fits the definition of an enhancement request.\"}"
+  },
+  "7adbf841ce9ba0b490989ec84c18869099748e5c487be0459be2fbc821666dc0": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to use resource names instead of IDs for certain commands to simplify automation, which matches the definition of 'enhancement'.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to use resource names instead of IDs for certain commands to simplify automation, which matches the definition of 'enhancement'.\"}"
+  },
+  "85f8257eb2237efe8b62ee25aa87207f6b9a9369ab703c0d88f5687c4ca40ec0": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "Although the issue was closed due to an existing workaround, the original request explicitly asks for support for multiple API tokens, which is a feature/enhancement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"Although the issue was closed due to an existing workaround, the original request explicitly asks for support for multiple API tokens, which is a feature/enhancement request.\"}"
+  },
+  "3e820d32e4c8f0e8ed73b0b9dc1cb536adc7f0ba8f517e6560d83b8e6474b848": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The error refers to 'geth' binary execution on Mac OSX, and the discussion clarifies it is not related to doctl, making it an unrelated administrative/off-topic issue.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The error refers to 'geth' binary execution on Mac OSX, and the discussion clarifies it is not related to doctl, making it an unrelated administrative/off-topic issue.\"}"
+  },
+  "0a93cc9aed42ca89108dc42574be0b89bff46d37b88a7b6c0a519b7c2dec26eb": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that after upgrading doctl, the 'auth switch' command fails to persist the context, causing subsequent commands to fail. This is a functional regression, not a user error, and was confirmed later as a bug by the maintainer.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that after upgrading doctl, the 'auth switch' command fails to persist the context, causing subsequent commands to fail. This is a functional regression, not a user error, and was confirmed later as a bug by the maintainer.\"}"
+  },
+  "6373fe8cf091e12c1e27c4645c39b2fdd5e759e5ebf6dd90f6de3dc2bcd9019c": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to list authentication contexts and manage multiple configurations, which is a troubleshooting/usage inquiry rather than a code bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to list authentication contexts and manage multiple configurations, which is a troubleshooting/usage inquiry rather than a code bug or feature request.\"}"
+  },
+  "d9b569b026715446e36a61aa6dcc812e3d5eb6c13fb1fbd1cb3b5a3b49ed8371": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is explicitly asking 'Is there a way to order the results' and confirms the issue is a question, making it a clear usage inquiry rather than a bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is explicitly asking 'Is there a way to order the results' and confirms the issue is a question, making it a clear usage inquiry rather than a bug or feature request.\"}"
+  },
+  "e2c000154f128bfc9a980fdecf402e6ef6a075c27a9674e7561aca12b00275b2": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "Incorrect binary naming in release artifacts indicates a build/release process error, which the maintainer explicitly calls a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"Incorrect binary naming in release artifacts indicates a build/release process error, which the maintainer explicitly calls a bug.\"}"
+  },
+  "759e027532df4189eb4f98ed41bb7f54eb1cb90c312dcb74820da0c832f88d28": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests implementing --wait on all delete commands to improve consistency and avoid race conditions, which is a feature/improvement request rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests implementing --wait on all delete commands to improve consistency and avoid race conditions, which is a feature/improvement request rather than a bug report.\"}"
+  },
+  "4b077644255217da68f264d8e1de24f75ced94590ce6b9f3d1b3b00d4270b461": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting that backups use a separate ID system or be filtered differently from snapshots to improve scripting and deletion workflows, which is a feature improvement rather than a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting that backups use a separate ID system or be filtered differently from snapshots to improve scripting and deletion workflows, which is a feature improvement rather than a code bug.\"}"
+  },
+  "6072d5d9fa94c370bc8796b1d509119fda848f8f9135e28159f366716560c810": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "Changelog script incorrectly omits merged PRs due to sorting logic rather than a feature request or user misconfiguration. This is a logic error that impacts the tool's accurate output.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"bug\",\n  \"confidence\": \"high\",\n  \"rationale\": \"Changelog script incorrectly omits merged PRs due to sorting logic rather than a feature request or user misconfiguration. This is a logic error that impacts the tool's accurate output.\"\n}"
+  },
+  "2e97d89a96248815c37c6cf673191f6df2275d5dcc14eff7fc027bc2e4a1fc7a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding a new `--wait` flag to the `volume-action detach` command to improve workflow, which is clearly a feature addition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding a new `--wait` flag to the `volume-action detach` command to improve workflow, which is clearly a feature addition.\"}"
+  },
+  "f2f9cfd601cb55293b923f925bc01ec50f41355b291a18ddb38caf1cd6e37c8f": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "Missing .exe extension on Windows binaries prevents execution, which constitutes a packaging/release logic bug, not a user configuration issue.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"Missing .exe extension on Windows binaries prevents execution, which constitutes a packaging/release logic bug, not a user configuration issue.\"}"
+  },
+  "d7c0cf7904520b331383f5456801dd92fb81a441777540337c5b77301ea52462": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user initially reported a deletion issue that turned out to be a usage/command syntax confusion, and the thread resolved with a clarification on how to properly create snapshots rather than an actual code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user initially reported a deletion issue that turned out to be a usage/command syntax confusion, and the thread resolved with a clarification on how to properly create snapshots rather than an actual code bug.\"}"
+  },
+  "8deaa6ee16e1da68566a7135af23aa5374ee39594651ad4ea1658c4e30d94416": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to handle a pending API event safely, seeking usage guidance rather than reporting a bug or requesting a feature.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to handle a pending API event safely, seeking usage guidance rather than reporting a bug or requesting a feature.\"}"
+  },
+  "7ad8bb7e01b7d95befba0030f075ac9c4d6da20e287783d38cb4621a2d14c527": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The Windows binary for v1.21.0 is corrupt/invalid, which is a build artifact error from the release process, not a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The Windows binary for v1.21.0 is corrupt/invalid, which is a build artifact error from the release process, not a user misconfiguration.\"}"
+  },
+  "261e1e3566022effa5741661c57f358c52f7d824140b6281bc37c1425738be3a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a targeted improvement to the error message for snap users, which is a feature/enhancement request rather than a bug fix or documentation update.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a targeted improvement to the error message for snap users, which is a feature/enhancement request rather than a bug fix or documentation update.\"}"
+  },
+  "44574f60b94f6ce209bfe837d9ee5bf872d744b1d030990fd54b9495b93effcc": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "Returning 'null' instead of an empty JSON array '[]' for a list command is incorrect behavior and an inconsistency in the CLI output, which is a logic bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"bug\",\n  \"confidence\": \"high\",\n  \"rationale\": \"Returning 'null' instead of an empty JSON array '[]' for a list command is incorrect behavior and an inconsistency in the CLI output, which is a logic bug.\"\n}"
+  },
+  "c5f3195e90269e0192738512510577d9a586b1353cc5f526ea8f12fd62efb662": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking about how to pipe command output correctly, and the maintainer clarifies the shell syntax behavior, indicating a usage question rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking about how to pipe command output correctly, and the maintainer clarifies the shell syntax behavior, indicating a usage question rather than a bug report.\"}"
+  },
+  "e4193cd60eceafb67f98935d3f933cc77cd693d69ff492b1b710f1fb238b237d": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The snap installation fails with an error indicating missing plugs, which points to a packaging defect rather than a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The snap installation fails with an error indicating missing plugs, which points to a packaging defect rather than a user misconfiguration.\"}"
+  },
+  "54b9366f127f5c87f0d43428472fbbc9a332e38f3b598fae697805c3d155b0fe": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user provides clear evidence that doctl compute ssh fails to use available SSH keys on Windows despite ssh connectivity working natively, indicating a code logic issue in how the tool handles authentication on that platform.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user provides clear evidence that doctl compute ssh fails to use available SSH keys on Windows despite ssh connectivity working natively, indicating a code logic issue in how the tool handles authentication on that platform.\"}"
+  },
+  "694940e5353de674c52e25c6bb6e2383a17a16c617c2fe48fcd0fd0c487d0b2e": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests an improved, actionable error message for a known snap permission scenario to guide users, which is a UX/feature enhancement rather than a bug fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests an improved, actionable error message for a known snap permission scenario to guide users, which is a UX/feature enhancement rather than a bug fix.\"}"
+  },
+  "82d661f8e45abee4d2f667c75fe6700749c454471597b305d6c2dc85673fd389": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding valid options to help text for commands like 'droplet create', which is a feature improvement to the CLI's usability and formatting.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding valid options to help text for commands like 'droplet create', which is a feature improvement to the CLI's usability and formatting.\"}"
+  },
+  "d15fb77f53928ab1a52e0d44f79b6a8d39158df299b20572e88696dceec8cd66": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a feature improvement to dynamically determine the config file's default path at runtime based on environment variables, rather than using a hardcoded string.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a feature improvement to dynamically determine the config file's default path at runtime based on environment variables, rather than using a hardcoded string.\"}"
+  },
+  "08ce43c7bd25709d1ea5c067d110c5efacbdd1a026404d802b5874d38fce3d62": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a persistent authentication failure with kubectl after doctl auth init, which a maintainer links to a known snap packaging bug (#457) requiring a code fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a persistent authentication failure with kubectl after doctl auth init, which a maintainer links to a known snap packaging bug (#457) requiring a code fix.\"}"
+  },
+  "ad4225e7bd9ffaa2bcd6a4e673a0167ac598761c35dc8f4bce718df8bef3ca5b": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is troubleshooting an authentication error caused by a local kubectl version mismatch, not reporting a bug in doctl's code logic. The comment confirms it's an environment issue, making this a support question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is troubleshooting an authentication error caused by a local kubectl version mismatch, not reporting a bug in doctl's code logic. The comment confirms it's an environment issue, making this a support question.\"}"
+  },
+  "97454e293210eaf65c3e280c3d14a0d01fef74c5912425fb87bc456af6fb672a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue suggests improving help text visibility for the completion command, which is a feature/UX improvement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue suggests improving help text visibility for the completion command, which is a feature/UX improvement request.\"}"
+  },
+  "f58c3517f7a26db2445f48186b9584ff851b0f4e831bf521234361ed1c92fc13": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The issue describes a code refactoring/cleanup task with no feature change or user-facing impact, which falls under 'other'.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The issue describes a code refactoring/cleanup task with no feature change or user-facing impact, which falls under 'other'.\"}"
+  },
+  "3994caaa3b634bafdeb7e8777d4b83080f0ca8beb1857645806623eb7b4c3f0b": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting the ability to upgrade a Kubernetes cluster version, which is a new feature addition rather than a bug, documentation fix, or usage question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting the ability to upgrade a Kubernetes cluster version, which is a new feature addition rather than a bug, documentation fix, or usage question.\"}"
+  },
+  "fbfdd0b93939bcd616b71852c874457b3b7fdcb364ff64e6d87632e249b4eebd": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting official support for an ARM version, which constitutes a new feature/platform request, even though workarounds are suggested in the comments.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting official support for an ARM version, which constitutes a new feature/platform request, even though workarounds are suggested in the comments.\"}"
+  },
+  "a44d4cc9193a63bc504e6379e003cc2c1172e2c7190cffb58e1d6e43cb002d91": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a change in default behavior (waiting for droplet creation) to have IP addresses available on return, which is a feature proposal rather than a bug or configuration question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a change in default behavior (waiting for droplet creation) to have IP addresses available on return, which is a feature proposal rather than a bug or configuration question.\"}"
+  },
+  "765a439c2c96049a63dcda99dcc1e645b02144de3731abc72ed5661f05aaf5bc": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting support for a new product offering (managed databases), which is a classic feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting support for a new product offering (managed databases), which is a classic feature request.\"}"
+  },
+  "4f1107ab8d2126f56753c04d1bbb25457b32468be016ffa17a727c92686de77d": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a fatal runtime error (MSpanList_Insert panic) when executing the doctl binary, indicating a low-level crash or memory corruption that is a software defect, not a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a fatal runtime error (MSpanList_Insert panic) when executing the doctl binary, indicating a low-level crash or memory corruption that is a software defect, not a user misconfiguration.\"}"
+  },
+  "716e21c47649e7a7044eed33df8301b39a3a8fd3d79e3c969933a004bfdb5c6c": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The auth context name is incorrectly lowercased when switching or adding new contexts, causing authorization failures. This is a logic bug in state handling.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The auth context name is incorrectly lowercased when switching or adding new contexts, causing authorization failures. This is a logic bug in state handling.\"}"
+  },
+  "89210a0f54334f21cc663d2a1fa90016f35c4c1efc94742bd65c41c3aff649ab": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports a shell completion error (bad math expression) triggered by tab-completion, which is a logic bug in the generated Zsh completion script.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports a shell completion error (bad math expression) triggered by tab-completion, which is a logic bug in the generated Zsh completion script.\"}"
+  },
+  "780d028e88a8d0908b2491c841fc0d94b1a474c3dbb5e325e62cba95bbf14272": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new command to add an SSH key to a droplet, which constitutes a feature request. The maintainer acknowledged it as such but expressed reservations.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new command to add an SSH key to a droplet, which constitutes a feature request. The maintainer acknowledged it as such but expressed reservations.\"}"
+  },
+  "47d93888d09c08b8e067f4eea4501260403aed3ca1d72d3da645b6cd84631340": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting the snap package be updated to the latest version, which is a request for a feature/update rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting the snap package be updated to the latest version, which is a request for a feature/update rather than a bug or question.\"}"
+  },
+  "0212dd663fa3a9c50ecbb8a6f8bc2885d2be2aaf7e32232e57c5af49f765f6c6": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The saved kubeconfig uses an exec credential plugin that causes external tools like kompose to fail, while the GUI-generated config works; this indicates incorrect logic in how doctl generates the config file.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The saved kubeconfig uses an exec credential plugin that causes external tools like kompose to fail, while the GUI-generated config works; this indicates incorrect logic in how doctl generates the config file.\"}"
+  },
+  "4a1e59f16c8cb4255a726965ce90ba5afc12f6172efdb7f08f029014466a1b32": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports an incorrect command string in the warning message (missing 'cluster' subcommand), which is a logic error in the CLI output, not a request for new functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports an incorrect command string in the warning message (missing 'cluster' subcommand), which is a logic error in the CLI output, not a request for new functionality.\"}"
+  },
+  "4d8a9a11fba10a7f068e4f61185ed9100b31d107f425dd93486e2f73badcbcda": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The doctl client fails to fetch credentials intermittently due to an upstream HTTP 500 error, which indicates a backend bug. Even after the status code change, the client needs a fix to handle this gracefully, confirming it's a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The doctl client fails to fetch credentials intermittently due to an upstream HTTP 500 error, which indicates a backend bug. Even after the status code change, the client needs a fix to handle this gracefully, confirming it's a bug.\"}"
+  },
+  "351cd3b21b68f71f4a0cfcd3d3d1f5e40efd6ded574210d5246dd97e6ff659f4": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is confused about a discrepancy between CLI output and the web UI, which is resolved as a misunderstanding of legacy plan slugs rather than a bug in the software.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is confused about a discrepancy between CLI output and the web UI, which is resolved as a misunderstanding of legacy plan slugs rather than a bug in the software.\"}"
+  },
+  "6e5165c827c61929540964c0c23d92d25ebdba0fe17f5f71c0e9995bea06954f": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a functional change to make a CLI flag optional based on API spec, which is a feature improvement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a functional change to make a CLI flag optional based on API spec, which is a feature improvement request.\"}"
+  },
+  "5dd85fee3944b2be38bc8ac2b07811a159dc64d24a3d9ed2f20b8632eaf61476": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests support for managing custom images via doctl, a new feature desired to integrate with CI/CD pipelines.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests support for managing custom images via doctl, a new feature desired to integrate with CI/CD pipelines.\"}"
+  },
+  "9e5c46c2faff09a8193150d6a71e7f2550ac1fa4d2b6b07d001c14eb025d6307": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The snap-packaged `doctl ssh` command fails due to an incompatible SSH version bundled in the snap, which is a runtime error in the packaged tool rather than a user misconfiguration or a feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The snap-packaged `doctl ssh` command fails due to an incompatible SSH version bundled in the snap, which is a runtime error in the packaged tool rather than a user misconfiguration or a feature request.\"}"
+  },
+  "4ff10e33cec10f1a050c60ef2f27caf10585f23f9dae7285d9f63bbd07e90db8": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to conditionally exclude the token from the config file when an environment variable exists, not reporting a bug or asking a question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to conditionally exclude the token from the config file when an environment variable exists, not reporting a bug or asking a question.\"}"
+  },
+  "16f2e7d3449c644353f96479c505733339b6698f0c5a434b7a6cfcb78b07931a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new feature\u2014packaging doctl for MacPorts as an alternative to Homebrew. The comment thread discusses collaboration but the root request is a new distribution support, which aligns with enhancement.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new feature\u2014packaging doctl for MacPorts as an alternative to Homebrew. The comment thread discusses collaboration but the root request is a new distribution support, which aligns with enhancement.\"}"
+  },
+  "15d05bc929cfe6b67825533f81b1587d31f101544a2d7c00ddfe71364fff8a66": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue asks if a managed Kubernetes offering will be supported in doctl, which is a request for new functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue asks if a managed Kubernetes offering will be supported in doctl, which is a request for new functionality.\"}"
+  },
+  "a1da09f6cc78e9bad2f0236d7920cf61bc0cfa4ea1336f2a99ccaf0215ac3c8d": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests new attach/detach functionality for volumes, which is a feature addition, even though the thread reveals it already exists under a different command.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests new attach/detach functionality for volumes, which is a feature addition, even though the thread reveals it already exists under a different command.\"}"
+  },
+  "433d53772670d9eb96c16c32b7ceb9e16d77b2580f110daf06ae1f5b9eba06f5": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is encountering a DELETE 409 error and seeking troubleshooting assistance, which qualifies as a usage/configuration question rather than a reproducible code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is encountering a DELETE 409 error and seeking troubleshooting assistance, which qualifies as a usage/configuration question rather than a reproducible code bug.\"}"
+  },
+  "cc76676973390e8b2121215391bfd3202216bf660d4b9d6812229bb8a2869eff": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user proposes a UI/UX improvement to suppress the usage help screen for non-usage errors, which is a feature request for better error formatting behavior.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user proposes a UI/UX improvement to suppress the usage help screen for non-usage errors, which is a feature request for better error formatting behavior.\"}"
+  },
+  "0f4b3777030a484e525a7a4744ba8ae80f32211f1b4580e2c90ffd9f27df5b2d": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The --user-data-file flag throws a 'permission denied' error when doctl is installed via snap, indicating a packaging/functionality issue that prevents a core feature from working as expected.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The --user-data-file flag throws a 'permission denied' error when doctl is installed via snap, indicating a packaging/functionality issue that prevents a core feature from working as expected.\"}"
+  },
+  "072548b12217aaa38aa946c230c2819ff55856d5d5b2b38fbbfd2de982c01030": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue reports missing release binaries, which is an administrative/release management oversight rather than a code bug or a new feature. This falls under correcting missing deliverables in the release process.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue reports missing release binaries, which is an administrative/release management oversight rather than a code bug or a new feature. This falls under correcting missing deliverables in the release process.\"}"
+  },
+  "cdc6df5c73c83caa6922c92d672014b3979db649d67d8c98e5b62bb9b5f9bb04": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The CLI incorrectly triggers a configuration warning when running from the correct config directory, which is a logic error.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The CLI incorrectly triggers a configuration warning when running from the correct config directory, which is a logic error.\"}"
+  },
+  "4bc5403b7d708be09eebcfb3fae0dabcdcc683d47e77ce5e64c6730337e97613": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "This is a packaging/distribution request to update a snap and correct publisher metadata, which is an administrative operational task rather than a bug, feature, or documentation change.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"This is a packaging/distribution request to update a snap and correct publisher metadata, which is an administrative operational task rather than a bug, feature, or documentation change.\"}"
+  },
+  "b1efae0fd8cf1bd948badd756e94126f67473b9a3b17aadce44a6fd18ec28259": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is reporting a usage error and asking for help diagnosing a potential compilation or library issue in a specific environment, which is a troubleshooting inquiry rather than a confirmed code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is reporting a usage error and asking for help diagnosing a potential compilation or library issue in a specific environment, which is a troubleshooting inquiry rather than a confirmed code bug.\"}"
+  },
+  "815ff3f4ff72d929aa18980802fc3eb81f39813e55063c7da66a7d511565a154": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests a new feature for automatic garbage collection of load balancers upon cluster deletion, which aligns with enhancement rather than a current bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests a new feature for automatic garbage collection of load balancers upon cluster deletion, which aligns with enhancement rather than a current bug.\"}"
+  },
+  "52ed0e97348201c9fa544bf16cb6ff7373943d1e0fd2ad4d1fe507ec63f2a334": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting the implementation of an existing API feature (creating a volume from a snapshot) into the doctl CLI, which is a clear feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting the implementation of an existing API feature (creating a volume from a snapshot) into the doctl CLI, which is a clear feature request.\"}"
+  },
+  "edda53a9f568342f7b5d144a28d5f60bbdb70f6daaff37636249836f7b1fff8c": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The issue describes a behavior that was later confirmed as expected by the maintainer (case-insensitive tags), making this a user configuration/usage inquiry rather than a true logic bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The issue describes a behavior that was later confirmed as expected by the maintainer (case-insensitive tags), making this a user configuration/usage inquiry rather than a true logic bug.\"}"
+  },
+  "5540eaf8962e2c8ce89075b66c1f10e66aacab108d0a3732ba1fc5683e439246": {
+    "label": "question",
+    "confidence": "medium",
+    "rationale": "The user is experiencing terminal emulation issues during SSH, likely due to shell or terminal settings rather than a code bug, and a follow-up error suggests a configuration or environment-specific problem.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"medium\", \"rationale\": \"The user is experiencing terminal emulation issues during SSH, likely due to shell or terminal settings rather than a code bug, and a follow-up error suggests a configuration or environment-specific problem.\"}"
+  },
+  "2ace8c4125f2904c6bf6ced7adb17b9796b4f716bd8b009da2704e9072b1e8e6": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "Hardcoded version reporting misrepresents the actual build, causing incorrect CLI output\u2014this is a logic/behavior bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"Hardcoded version reporting misrepresents the actual build, causing incorrect CLI output\u2014this is a logic/behavior bug.\"}"
+  },
+  "1b2b7eefe15525397363f3a1b421fc1e64fc43de971a2a4d8522975c760f538e": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking for help with command usage and formatting for volume attachments, and the comment thread resolves it as a documentation clarification rather than a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking for help with command usage and formatting for volume attachments, and the comment thread resolves it as a documentation clarification rather than a code bug.\"}"
+  },
+  "cfaa92ab166155b3870e4e78f10f4bef2552432bfb2987f93e71b3cbd94a29b8": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes an unexpected error/regression in volume creation due to a size parsing failure, indicating a code logic bug introduced in a recent update.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes an unexpected error/regression in volume creation due to a size parsing failure, indicating a code logic bug introduced in a recent update.\"}"
+  },
+  "c4270ba23a831fdc006123ff5fd46342c19bb1f5a3271843b3cd110455eae97b": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that the --snapshot-name flag is ignored and the snapshot is named incorrectly, which is confirmed as a reproducible logic bug in version 1.8.2 that was later fixed.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that the --snapshot-name flag is ignored and the snapshot is named incorrectly, which is confirmed as a reproducible logic bug in version 1.8.2 that was later fixed.\"}"
+  },
+  "990d9ccc1b3f4237b8c7393396d1d4fbed8f5883200bf88c86ccd5a252655d07": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature (--format support for load balancer commands) to improve output filtering, which aligns with the enhancement definition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature (--format support for load balancer commands) to improve output filtering, which aligns with the enhancement definition.\"}"
+  },
+  "8c92f112cd617f615fc0db689cd02d2d714cd757c5e85818b4952efcd6b40f2e": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports incorrect handling of column names with spaces (including nil output and errors), which is a logic bug in the formatting code, as confirmed by the maintainer's submitted fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports incorrect handling of column names with spaces (including nil output and errors), which is a logic bug in the formatting code, as confirmed by the maintainer's submitted fix.\"}"
+  },
+  "529d5c9f61af02f4fc44242a60950c46134c4e3e0b377f939745b12374476cc3": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue explicitly proposes adding a new '--tag' flag to droplet actions, which is a request for new functionality rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue explicitly proposes adding a new '--tag' flag to droplet actions, which is a request for new functionality rather than a bug or question.\"}"
+  },
+  "4bc06de19e90eca39efed8f7705d27df843c96930c1a02126b3032e982f3eb4e": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The user requests ability to obtain the snapshot resource ID upon creation, which is upstream API limitation; the thread identifies this as a missing feature rather than a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The user requests ability to obtain the snapshot resource ID upon creation, which is upstream API limitation; the thread identifies this as a missing feature rather than a bug.\"}"
+  },
+  "a7b2440007c33a02640fd620d6e396ebad126abcc51d97936ea71cb279a60a73": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is inquiring about the availability of a new Snap package version and asking for an update timeline, which is a usage/logistics question rather than a bug, feature request, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is inquiring about the availability of a new Snap package version and asking for an update timeline, which is a usage/logistics question rather than a bug, feature request, or documentation fix.\"}"
+  },
+  "9efae4483f0f73aca7cde04ca15e338c0c42c39ee22e04a2eedbf663d48f2caa": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests an improvement to the auto-completion behavior by removing 'completion' as a suggestion, which is a user experience enhancement rather than a bug, question, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests an improvement to the auto-completion behavior by removing 'completion' as a suggestion, which is a user experience enhancement rather than a bug, question, or documentation fix.\"}"
+  },
+  "363b7d5da52ca607f3d785093383f5479bc8deea22ad18fdb11901ef3b79ae8d": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user initially asks if the wildcard behavior is a bug, but the core request is a workaround or new feature to support bulk record ID operations, which is an enhancement.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user initially asks if the wildcard behavior is a bug, but the core request is a workaround or new feature to support bulk record ID operations, which is an enhancement.\"}"
+  },
+  "c2b7ed2ea7d65828845c1534aa1d6e4e15418f047fcaa6b53fc09f46847ebe89": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking about the meaning or expansion of the 'doctl' acronym, which is a general informational inquiry rather than a bug, feature request, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking about the meaning or expansion of the 'doctl' acronym, which is a general informational inquiry rather than a bug, feature request, or documentation fix.\"}"
+  },
+  "1be1754b26c7780f1019bd1cc12d756517a7a2e1d2e64c05e3c7bea3a10dc2ac": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding OpenSSH support to the Dockerfile to enable SSH functionality, which is a request for a new feature or capability in the Docker image, not a bug in the core application code.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding OpenSSH support to the Dockerfile to enable SSH functionality, which is a request for a new feature or capability in the Docker image, not a bug in the core application code.\"}"
+  },
+  "e9b56ce1707d8084ea54eee1b7f0cc29f2cd9747462bde5f0337090760ee7cac": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking for help connecting/authenticating their terminal, revealing a user-side tool confusion (using 'doclt' instead of 'doctl') rather than a code bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking for help connecting/authenticating their terminal, revealing a user-side tool confusion (using 'doclt' instead of 'doctl') rather than a code bug or feature request.\"}"
+  },
+  "14facf20141a154d54d1a9fa62770c178e0527b92b68a255988915c478e8d280": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that the --access-token / -t flag is being ignored and doctl auth init still prompts interactively, which is a runtime logic bug in the CLI.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that the --access-token / -t flag is being ignored and doctl auth init still prompts interactively, which is a runtime logic bug in the CLI.\"}"
+  },
+  "388c4950a26c11f02601f4c4d85268d97d3e6e06f37738a7ceba7420acba9c72": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking whether a specific feature exists (viewing load balancer logs via doctl) and the comment thread confirms this is a how-to/feature-inquiry rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking whether a specific feature exists (viewing load balancer logs via doctl) and the comment thread confirms this is a how-to/feature-inquiry rather than a bug report.\"}"
+  },
+  "f747a15abad771f6e7e7695a889edea44074963272338a7277f10022adbe27cc": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The --domain-name flag exists but fails to filter results, indicating either broken functionality or a non-functional flag that should be removed or fixed.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The --domain-name flag exists but fails to filter results, indicating either broken functionality or a non-functional flag that should be removed or fixed.\"}"
+  },
+  "7fe1eeff1b3a7cff3a952e6e33473277b70f84607c7f47817de19d1dc1a301d2": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to export Droplet list details to a file using doctl, which is a troubleshooting/how-to usage inquiry rather than a bug, feature request, or documentation issue.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to export Droplet list details to a file using doctl, which is a troubleshooting/how-to usage inquiry rather than a bug, feature request, or documentation issue.\"}"
+  },
+  "bbf48c393f4f5960cc2b045620cf289e1901bafef7ec8fc218fab80183d5ddfa": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to auto-prompt and update the CLI, which is a functional enhancement beyond just showing the version.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to auto-prompt and update the CLI, which is a functional enhancement beyond just showing the version.\"}"
+  },
+  "7648a5d349432872ce65008c6991c319d98d52e26d741f69b380334862089711": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to list public distribution images and whether a specific flag is required, making this a usage inquiry rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to list public distribution images and whether a specific flag is required, making this a usage inquiry rather than a bug report.\"}"
+  },
+  "8e1ba6ea8bff5f9ce0ad7fbb515aa84c0ab47a3e16a094e4e75f08c36af6d6e3": {
+    "label": "other",
+    "confidence": "medium",
+    "rationale": "The issue title asks a 'how to' question about non-interactive authentication, but the body and thread show confusion around a temporarily broken environment variable feature and disorganized documentation feature requests, making the core problem an administrative maintenance conversation rather than a clear-cut user question or strict documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"medium\", \"rationale\": \"The issue title asks a 'how to' question about non-interactive authentication, but the body and thread show confusion around a temporarily broken environment variable feature and disorganized documentation feature requests, making the core problem an administrative maintenance conversation rather than a clear-cut user question or strict documentation fix.\"}"
+  },
+  "c566e91c2fc787221495b2e163b36be3cd9fab615b948c144e5d780cc570d391": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting an automated Docker Hub publication feature, which constitutes a request for new functionality rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting an automated Docker Hub publication feature, which constitutes a request for new functionality rather than a bug or question.\"}"
+  },
+  "73a1da92bffe995cfca29a1d2a4176ec5267d3f8090880257c5b541f855c2b8f": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user initially reported a hash mismatch but later realized they were hashing the wrong file (tar.gz vs. extracted binary), resolving their own misunderstanding. This is a troubleshooting inquiry, not a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user initially reported a hash mismatch but later realized they were hashing the wrong file (tar.gz vs. extracted binary), resolving their own misunderstanding. This is a troubleshooting inquiry, not a bug.\"}"
+  },
+  "18754155eee08778dea784788e46fce9faa622d3a3807d0f223afa9778ce2c87": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding a Slug field to snapshots to align with Image functionality, which is a new feature enhancement rather than a bug, question, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding a Slug field to snapshots to align with Image functionality, which is a new feature enhancement rather than a bug, question, or documentation fix.\"}"
+  },
+  "50e84ecfb0dd535b70bf8a371c963be29fa5c6b8042d4eebb5f23691b7750813": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests adding a 'SizeSlug' display in the droplet list output, which is a new feature request rather than a bug fix or documentation clarification.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests adding a 'SizeSlug' display in the droplet list output, which is a new feature request rather than a bug fix or documentation clarification.\"}"
+  },
+  "9acbb15599a29f8c681669c2f8d3732bf8b29bb10dce865f559ff4df695df046": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting support for a new feature (multi-tag filtering) in the droplet list command, which aligns with the enhancement category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting support for a new feature (multi-tag filtering) in the droplet list command, which aligns with the enhancement category.\"}"
+  },
+  "217f36c5e354bb4043f3c700b08c16a44d2784d604208bd40ec30ae421879621": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to correctly use the --volumes flag to attach multiple volumes when creating a droplet, which is a usage inquiry, not a bug report or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to correctly use the --volumes flag to attach multiple volumes when creating a droplet, which is a usage inquiry, not a bug report or feature request.\"}"
+  },
+  "2cec7d3bc50a18525c9f88fde1e2fb2bdd41dfc75bab72995388cf75e704df0b": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The user is requesting documentation or an example for re-imaging a droplet, which fits the 'documentation' category for adding missing guides or references.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The user is requesting documentation or an example for re-imaging a droplet, which fits the 'documentation' category for adding missing guides or references.\"}"
+  },
+  "5d8c79893cc6a8ec896ccdf16e3a3d89dc7eef67ca72cc72f14fcebdecce2878": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The issue describes a user misunderstanding of size units (GB vs GiB), which is a configuration/usage question rather than a code bug, as confirmed by the maintainer's response explaining the intended behavior.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The issue describes a user misunderstanding of size units (GB vs GiB), which is a configuration/usage question rather than a code bug, as confirmed by the maintainer's response explaining the intended behavior.\"}"
+  },
+  "22d1d603be33653a1358bbeae4d0450edd32905bb4abb5f2cfc10536bca4f258": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is inquiring why the snap package is not found, which is a troubleshooting/usage question rather than a confirmed bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is inquiring why the snap package is not found, which is a troubleshooting/usage question rather than a confirmed bug.\"}"
+  },
+  "b06f0b23dde59e342fd24902a06d597cc164017c4aacaf4590307661acec1167": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes a new multiple-account switching feature, aligning with the enhancement definition for adding new functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue proposes a new multiple-account switching feature, aligning with the enhancement definition for adding new functionality.\"}"
+  },
+  "c9c4c21cbe9ff8150b190d67e50df19bc2b05384cde240171c3dc169d76e824d": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new shorthand command to act on droplets by hostname rather than ID, which constitutes a feature improvement to user workflow.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new shorthand command to act on droplets by hostname rather than ID, which constitutes a feature improvement to user workflow.\"}"
+  },
+  "c188048e097792e7e15924e11451f7f48da61c77e82d9433220e0eb8befd67e0": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding new information (available features like Volumes) to the region list command output, which is a feature addition/improvement.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding new information (available features like Volumes) to the region list command output, which is a feature addition/improvement.\"}"
+  },
+  "0ba49ebf4fbc9c8aef0bc31cd1aff7d958e43dd3ad33409178c4e656240ec0b0": {
+    "label": "other",
+    "confidence": "high",
+    "rationale": "The issue pertains to transferring snap package ownership and account management, which is an administrative task rather than a software bug, feature request, or documentation change.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"high\", \"rationale\": \"The issue pertains to transferring snap package ownership and account management, which is an administrative task rather than a software bug, feature request, or documentation change.\"}"
+  },
+  "1c1c50910f2866b6ad25aababb4902136d50e941e6f0884849c704aa2e71fa46": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to list base distribution images and is unaware of the --public flag; this is a usage inquiry, not a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to list base distribution images and is unaware of the --public flag; this is a usage inquiry, not a code bug.\"}"
+  },
+  "5b13fccfc1de09317ac822ae9063c6beeef8e6a2f2fd3d840ab08ccc1a3f684a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to interact with DigitalOcean Spaces directly from doctl, rather than reporting a bug, security issue, or asking a usage question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to interact with DigitalOcean Spaces directly from doctl, rather than reporting a bug, security issue, or asking a usage question.\"}"
+  },
+  "ca982af353fc40a4750660a3c790fa06ac86ec997c8933246c747aa181eff273": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The API returns a misleading 'invalid hostname' error when the actual issue is invalid SSH key fingerprints; the CLI/API error handling does not surface the correct failure reason.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The API returns a misleading 'invalid hostname' error when the actual issue is invalid SSH key fingerprints; the CLI/API error handling does not surface the correct failure reason.\"}"
+  },
+  "803646b4604cf71dabad99a325a6988d6e6958cd5af1e670aef0fe43877cd4c6": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is receiving a 401 authentication error, and the maintainer suggests contacting cloud support, indicating this is likely a user account/token troubleshooting issue rather than a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is receiving a 401 authentication error, and the maintainer suggests contacting cloud support, indicating this is likely a user account/token troubleshooting issue rather than a code bug.\"}"
+  },
+  "ae812bc666bc115c55a05d141d1d3369b838da3e8897e258b3e9964cdb1b4b4d": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is confused about why no images appear, and the issue is resolved by a usage hint (--public) rather than a code defect or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is confused about why no images appear, and the issue is resolved by a usage hint (--public) rather than a code defect or feature request.\"}"
+  },
+  "93e6acc80be7bf1ef7d8edaf69f53b6489c206a4ee5e30970d588b6f9637d88d": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user explicitly requests a new feature (Zsh completion script generation) in the title and body, and the comment thread confirms it overlaps with an existing implementation request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user explicitly requests a new feature (Zsh completion script generation) in the title and body, and the comment thread confirms it overlaps with an existing implementation request.\"}"
+  },
+  "ec921869cc1dc94ed5b9cc5f989a2a2d5be7f38250a75b19512ba836c6827ef4": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a random failure with a JSON parsing error ('invalid character L'), suggesting either an API response issue or a client-side deserialization bug that needs investigation, which falls under the 'bug' category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a random failure with a JSON parsing error ('invalid character L'), suggesting either an API response issue or a client-side deserialization bug that needs investigation, which falls under the 'bug' category.\"}"
+  },
+  "4131828b398d0f38cb2570951eb92c3d4fd139b068d99603f17278c4e1ce53d8": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to enable monitoring on an existing droplet using doctl, which is a usage/configuration inquiry rather than a bug report or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to enable monitoring on an existing droplet using doctl, which is a usage/configuration inquiry rather than a bug report or feature request.\"}"
+  },
+  "20ef01b08f4baa752fe8d3a07b24684e6c8e2ddf7d9d401ddbf7dc0e25fe762a": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes an incorrect logic behavior where the configuration path handling breaks when XDG_CONFIG_HOME is explicitly set, resulting in the config file being written to an unexpected location without the doctl subdirectory.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes an incorrect logic behavior where the configuration path handling breaks when XDG_CONFIG_HOME is explicitly set, resulting in the config file being written to an unexpected location without the doctl subdirectory.\"}"
+  },
+  "a4f0db5e7efa7066cd42f64f33d6f2644971d2a5fd81b4e29a3a9ae8577dea18": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports incorrect behavior where the CLI uses a hardcoded path for the config file instead of the environment-appropriate APPDATA directory, which is a logic error that should be fixed.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports incorrect behavior where the CLI uses a hardcoded path for the config file instead of the environment-appropriate APPDATA directory, which is a logic error that should be fixed.\"}"
+  },
+  "0e41958fdf533f5db259a0b5f2ccfce5ddb063b176c6729d16ae3cb40733280f": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature for the web console UI to suggest equivalent doctl commands, which is a clear product improvement request rather than a bug or question about existing doctl functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature for the web console UI to suggest equivalent doctl commands, which is a clear product improvement request rather than a bug or question about existing doctl functionality.\"}"
+  },
+  "1e76c4d8ada0a6137a05d50fe059e4ddd168f4a77ac6df8b524ec5f393d0388c": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user attempts to use 'ports:0' based on the output of 'firewall list', but the API rejects 0 as invalid. The conflicting representation between the list output (showing 0 for all ports) and the required input value ('all') is a functional inconsistency that constitutes a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user attempts to use 'ports:0' based on the output of 'firewall list', but the API rejects 0 as invalid. The conflicting representation between the list output (showing 0 for all ports) and the required input value ('all') is a functional inconsistency that constitutes a bug.\"}"
+  },
+  "08e62656e503086a7cc1d70c7d3a8b91448cf108f765a257a4aced432e255b37": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting the addition of a '--ttl' flag for the domain record creation command, which is a new feature request, not a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting the addition of a '--ttl' flag for the domain record creation command, which is a new feature request, not a bug or question.\"}"
+  },
+  "94b679a6461b169d7d1f2830510d58508dc821331a7c875c695bc9678bddab7c": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The core issue requests adding a domain ID field to command output, which is a feature request for improved formatting/UX, while the TTL value is a secondary note.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The core issue requests adding a domain ID field to command output, which is a feature request for improved formatting/UX, while the TTL value is a secondary note.\"}"
+  },
+  "0a1256df50503d91fad203d41aeed8c6375fa8d4fc780482996ede6753907f16": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The issue asks if a specific feature (CRUD for firewalls) exists in the tool, and the resolution in the comments confirms it was a user knowledge/version query.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The issue asks if a specific feature (CRUD for firewalls) exists in the tool, and the resolution in the comments confirms it was a user knowledge/version query.\"}"
+  },
+  "c83ddf41131a7f578c775716e33da4a227aedcdd4a030b7f55a0a4c08e046b7e": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests a new feature to specify SSH keys by human-readable name instead of fingerprint, aiming to improve user experience. This aligns with the 'enhancement' definition for feature requests and UX improvements.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests a new feature to specify SSH keys by human-readable name instead of fingerprint, aiming to improve user experience. This aligns with the 'enhancement' definition for feature requests and UX improvements.\"}"
+  },
+  "d58e61b9ccacd86d5b499df22a2eff888e784537901f6e32e2d8341d65b00001": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to display droplet features in the list output, which aligns with the enhancement definition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to display droplet features in the list output, which aligns with the enhancement definition.\"}"
+  },
+  "2b195c99f1e407ebf2e6329eeb4458e2b025aeba77ec6f86e7dface215b0ef21": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests a new warning feature to prevent silent failures when using unsupported flags, which is a user experience improvement, not a code crash or bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests a new warning feature to prevent silent failures when using unsupported flags, which is a user experience improvement, not a code crash or bug.\"}"
+  },
+  "61610ac6520ae71ce3799f15c8954af185a8d3afb2895324076d4a41479e0728": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a test failure caused by regenerating mocks, leading to a method signature mismatch. This is a build/test logic error, not a feature request, typo, or configuration question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a test failure caused by regenerating mocks, leading to a method signature mismatch. This is a build/test logic error, not a feature request, typo, or configuration question.\"}"
+  },
+  "0ed686ebf2c25ef5f6f64fad778430779aceb06126b6c35b81727ae0e7774ff4": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user is following the correct command syntax but receives a 422 API error related to volume attachment, and the comment thread confirms it is a known API issue rather than a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user is following the correct command syntax but receives a 422 API error related to volume attachment, and the comment thread confirms it is a known API issue rather than a user misconfiguration.\"}"
+  },
+  "8ef58727f4533f3cfc2617a57d68cfd6a1a6fe55e9f0109f440ed9b6263686ed": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports an inconsistent CLI interface where a UUID is required for volumes while names/slugs work for other options, leading to a 500 API error, which is a logic/behavior defect rather than a feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports an inconsistent CLI interface where a UUID is required for volumes while names/slugs work for other options, leading to a 500 API error, which is a logic/behavior defect rather than a feature request.\"}"
+  },
+  "34adc9d985bd2dd3e7401eea2049e59311190241509e323ece62d81e43feb346": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue explicitly requests the addition of missing API endpoints and commands, which is a new feature request, not a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue explicitly requests the addition of missing API endpoints and commands, which is a new feature request, not a bug report.\"}"
+  },
+  "eca9ae85c932fed3e788c5cb47dc763e43f2ef90b6b1d1eb43e1adba2e566a18": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking for installation help and how to configure a non-executable file, which is a troubleshooting inquiry rather than a code defect or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking for installation help and how to configure a non-executable file, which is a troubleshooting inquiry rather than a code defect or feature request.\"}"
+  },
+  "bde3b883ab7470d07afa823fe2a0ec5c46cb7604cb44d0c8a3c51c4070d13cf2": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "A documented command returned an unexpected 404 error in a reproducible scenario, and the maintainer acknowledged a root cause fix in a linked PR, confirming it as a logic bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"A documented command returned an unexpected 404 error in a reproducible scenario, and the maintainer acknowledged a root cause fix in a linked PR, confirming it as a logic bug.\"}"
+  },
+  "c36df084eb25cc286383c128a8e6e43b42d7d01d24c0de21c24f4a445bfd102b": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user states the documentation is unclear and asks about the syntax for generating snapshots, which is a usage inquiry rather than a feature request or bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user states the documentation is unclear and asks about the syntax for generating snapshots, which is a usage inquiry rather than a feature request or bug report.\"}"
+  },
+  "2b7d8c9bea59a98dc9cf8e19debb0a5ee0424b898d3043a7c473ff0e0eb22df9": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The reporter identifies a missing required argument in the CLI help text (inconsistent command description), which is a defect in the published binary output that was later fixed in the source code.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The reporter identifies a missing required argument in the CLI help text (inconsistent command description), which is a defect in the published binary output that was later fixed in the source code.\"}"
+  },
+  "65f3c57c863f2eaae152e476be553f94503cc0107435a3c91bdb78b64a61ccc3": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The `--public` flag default is documented as false, but the command lists public images without the flag, indicating a logic bug in the CLI behavior.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The `--public` flag default is documented as false, but the command lists public images without the flag, indicating a logic bug in the CLI behavior.\"}"
+  },
+  "1bad752287332fd7f777c4cab9f2e67b5140f39a9c6d5b384dfd11ab939809fd": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding monitoring support when creating a droplet, which is a new feature request, and the comment thread confirms it was implemented as an enhancement in a subsequent PR.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding monitoring support when creating a droplet, which is a new feature request, and the comment thread confirms it was implemented as an enhancement in a subsequent PR.\"}"
+  },
+  "f19d8ca4a76780230d8454b74e0c108e2c65d4a6db46251b8b7cb3364a88802e": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking how to use the doctl CLI to assign multiple tags to a droplet, and the comment thread confirms it is a version-related usage inquiry rather than a bug report.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking how to use the doctl CLI to assign multiple tags to a droplet, and the comment thread confirms it is a version-related usage inquiry rather than a bug report.\"}"
+  },
+  "3c7ee935b4fec5ab9b3d04098574845b4f7d89b55913aa1b04eb6b4adda76069": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is confused about the correct command to use (import vs create) and the 'no key found' error stems from a usage misunderstanding, not a software crash or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is confused about the correct command to use (import vs create) and the 'no key found' error stems from a usage misunderstanding, not a software crash or feature request.\"}"
+  },
+  "5073473dbde03716c697af16786387392a87643d03b63c83d9cacd777e79f427": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The issue reports a visual formatting problem (white text on white background) that hinders readability rather than a functional crash or logic error, making it a UX improvement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The issue reports a visual formatting problem (white text on white background) that hinders readability rather than a functional crash or logic error, making it a UX improvement request.\"}"
+  },
+  "552d7d3e61baf986ba8ec847a1c70b6d6e6d1ea91ca5e64350c872f66b6e20dc": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user proposes a new feature to show a list of resources before deletion confirmation, which aligns with the enhancement category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user proposes a new feature to show a list of resources before deletion confirmation, which aligns with the enhancement category.\"}"
+  },
+  "1a2f562d8117c7f5f6ea1f6c2f74dd43437e838667c2b55b0a035a286f556593": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to pass through command-line arguments to the underlying SSH command, and a comment suggests an alternative flag, indicating it is not a bug but an improvement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to pass through command-line arguments to the underlying SSH command, and a comment suggests an alternative flag, indicating it is not a bug but an improvement request.\"}"
+  },
+  "21712661a513089ce79884ace11acec659c87db7635c2cbe0a8850673af78529": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding support for specifying ssh-user and ssh-port in the config file, which is a new functionality/feature request rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding support for specifying ssh-user and ssh-port in the config file, which is a new functionality/feature request rather than a bug or question.\"}"
+  },
+  "5148dd3b0428946f3b5ba873506de69f79aeebbdea9220febad00ecfb6029789": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking a design rationale question about the difference between two similar CLI flags, understanding the reasoning, and the issue was closed after explanation.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking a design rationale question about the difference between two similar CLI flags, understanding the reasoning, and the issue was closed after explanation.\"}"
+  },
+  "0b61e7c55c863e6c53339c017b8282d0d2569c3ba6afa3415c898f2c876884a7": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests improving the template format by passing a droplet struct, which is a feature improvement for better usability and formatting, not a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests improving the template format by passing a droplet struct, which is a feature improvement for better usability and formatting, not a bug or question.\"}"
+  },
+  "258d12deabd29763ba8c2d3689cd17b20569aefcea8665da488283a072bc5bc6": {
+    "label": "question",
+    "confidence": "medium",
+    "rationale": "The user is inquiring about a non-fatal notice message during normal operation, asking for clarification rather than reporting a blocking failure or feature gap.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"medium\", \"rationale\": \"The user is inquiring about a non-fatal notice message during normal operation, asking for clarification rather than reporting a blocking failure or feature gap.\"}"
+  },
+  "5f0f017f2609e25efc8b43798192841632ecad8a259b7bfac517848fd909a436": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The build process fails with a 'fatal: no submodule mapping found' error due to leftover submodule metadata in the repository, which is a code/build defect preventing installation.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The build process fails with a 'fatal: no submodule mapping found' error due to leftover submodule metadata in the repository, which is a code/build defect preventing installation.\"}"
+  },
+  "1824d33eb4fe8e32fd09e7ffb762ac777d3e15f5f48a08a44734f222e37d7731": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The 'go get' command fails with a git submodule error during the build process, indicating a reproducible build/installation failure rather than a user configuration question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The 'go get' command fails with a git submodule error during the build process, indicating a reproducible build/installation failure rather than a user configuration question.\"}"
+  },
+  "b7fa49697f052adfd97a2b959f39e0cf32eda75bcf4eea2af1dd494eae51b75a": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The unexpected stdout output breaks piped JSON processing, which is a logic/behavior bug in the command output handling.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The unexpected stdout output breaks piped JSON processing, which is a logic/behavior bug in the command output handling.\"}"
+  },
+  "6cd0a50d2c97fbdb5a5363d7bfe7442ac0161fb682fd0a092c0f5dbc076ef1c3": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "This is a troubleshooting inquiry about 'resource not found' errors when using doctl to tag droplets. The resolution in the comments clarifies this was a user misunderstanding about tag creation requirements, making it a usage question rather than a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"This is a troubleshooting inquiry about 'resource not found' errors when using doctl to tag droplets. The resolution in the comments clarifies this was a user misunderstanding about tag creation requirements, making it a usage question rather than a bug.\"}"
+  },
+  "17b4da6a118b2d83c8f5786229942f476dd26b602187225b2701d283c735249f": {
+    "label": "other",
+    "confidence": "medium",
+    "rationale": "This is a test issue with no substantive bug, feature, documentation, or question content; the comment mentions CI not working but provides no technical details to classify it as a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"medium\", \"rationale\": \"This is a test issue with no substantive bug, feature, documentation, or question content; the comment mentions CI not working but provides no technical details to classify it as a bug.\"}"
+  },
+  "5d3ecf5405c85819cd9ec2b55ae80e76ea2e6eb7bb373cecd620347ee0f70edf": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes a new SCP command feature for the CLI tool, outlining its potential benefits and implementation approach, which matches the enhancement definition.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue proposes a new SCP command feature for the CLI tool, outlining its potential benefits and implementation approach, which matches the enhancement definition.\"}"
+  },
+  "0e3058231bb04868e53f3c2a26e4709268740422dae2dcc430d6d3a0a933f2c6": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests packaging doctl as a snap for broader distribution and automatic updates, which is a request for a new feature or integration rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests packaging doctl as a snap for broader distribution and automatic updates, which is a request for a new feature or integration rather than a bug or question.\"}"
+  },
+  "2cf6cb405477faf7c79fa29ba48d9772a3369f6a46f51825ace8dabbf489c9de": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The provided stack trace shows a fatal runtime panic originating from the sync pool, which constitutes a crash. The maintainer confirms it's a Go/Sierra environment issue requiring a new compiled version, meaning it is a system-level crash bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The provided stack trace shows a fatal runtime panic originating from the sync pool, which constitutes a crash. The maintainer confirms it's a Go/Sierra environment issue requiring a new compiled version, meaning it is a system-level crash bug.\"}"
+  },
+  "2cc3b103746edcc6779a575c0e5e299b6f441be3c49d8c175219fc3ce445b032": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to mass delete snapshots, which aligns with an enhancement request rather than a bug (the syntax error is a result of missing functionality).",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to mass delete snapshots, which aligns with an enhancement request rather than a bug (the syntax error is a result of missing functionality).\"}"
+  },
+  "6fed70c716cb70ac0be9002617c8313cf2a1b622bd40c5a1abe13cf2744df87a": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a build failure on macOS 10.12 due to an upstream incompatibility, and the thread confirms it was a fixed bug related to Go versioning, not a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a build failure on macOS 10.12 due to an upstream incompatibility, and the thread confirms it was a fixed bug related to Go versioning, not a user misconfiguration.\"}"
+  },
+  "62204b522530a9c56534547624e0c7ace2914c56c7ee46ffdfa459536733b405": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports a CLI command failing with a 500 server error after a snapshot action errored, indicating a backend or API handling issue rather than a user configuration problem.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports a CLI command failing with a 500 server error after a snapshot action errored, indicating a backend or API handling issue rather than a user configuration problem.\"}"
+  },
+  "9553156309e39f9d4d7c34d2509d58e0607e25b78506393579ddf3dd5dcaa0c2": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The user's core issue is that the README and tutorial contain outdated download links pointing to an old version of doctl that uses 'auth login' instead of 'auth init'. The request is to fix the documentation links, which is a documentation update, not a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The user's core issue is that the README and tutorial contain outdated download links pointing to an old version of doctl that uses 'auth login' instead of 'auth init'. The request is to fix the documentation links, which is a documentation update, not a code bug.\"}"
+  },
+  "cab21d02ae721def2fa88ae0621d50275886a3e78bef0016463a1a23069c7c8c": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting that the Homebrew formula be updated to deliver a newer version of the software, which is a feature/improvement request (enhancement) rather than a broken functionality (bug) or a question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting that the Homebrew formula be updated to deliver a newer version of the software, which is a feature/improvement request (enhancement) rather than a broken functionality (bug) or a question.\"}"
+  },
+  "a024ceec2afe7a36178ebc97f2fd0a7fd144b8fff727d78fc07f12587b7f5453": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The command output produces invalid JSON (two separate arrays concatenated with `][`) instead of a single array, which is a logic bug in the JSON formatting.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The command output produces invalid JSON (two separate arrays concatenated with `][`) instead of a single array, which is a logic bug in the JSON formatting.\"}"
+  },
+  "e42f2991e8e6db84d2baeed26339a0942f9f0c1bf7bcec9e0a89d28f376b0e89": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The droplet is incorrectly created despite an error, indicating a logic flaw in the CLI's error handling and idempotency rather than a feature request or user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"bug\",\n  \"confidence\": \"high\",\n  \"rationale\": \"The droplet is incorrectly created despite an error, indicating a logic flaw in the CLI's error handling and idempotency rather than a feature request or user misconfiguration.\"\n}"
+  },
+  "b855add4b99ae87b9a55864402acf816ad28dd2ea2c0179fe98e447312984fa3": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports that color support, a feature, is not functioning correctly on Windows, indicating a platform-specific logic or rendering bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports that color support, a feature, is not functioning correctly on Windows, indicating a platform-specific logic or rendering bug.\"}"
+  },
+  "90aed816113b09ce8a9cda54fe69cf599009de124d63d16c98576dcf6e0b97f0": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting tab autocomplete functionality, which is a feature request, and the comment thread confirms it's on the roadmap.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting tab autocomplete functionality, which is a feature request, and the comment thread confirms it's on the roadmap.\"}"
+  },
+  "54dcd3dddc2af49812117df6726499c43da024a50985ee4cc08b638531c26d58": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The command returns an API 404 error, indicating the underlying resource lookup or tagging endpoint is failing, which is a logic/functional bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The command returns an API 404 error, indicating the underlying resource lookup or tagging endpoint is failing, which is a logic/functional bug.\"}"
+  },
+  "8d3e1f3ca398ce67615863dc9826782f94de890f3e336472306d9a75420450f7": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes adding a new notification/callback feature for droplet creation when --wait is omitted, which fits the definition of a feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"enhancement\",\n  \"confidence\": \"high\",\n  \"rationale\": \"The issue proposes adding a new notification/callback feature for droplet creation when --wait is omitted, which fits the definition of a feature request.\"\n}"
+  },
+  "eb73f074abf397adf862ce3ebb6d5bccfb46e8e051614ccf07be1b2aa6bdd33f": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The issue was a user-caused syntax error in their cloud-init script, not a doctl bug, and the thread resolved it as a troubleshooting inquiry.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The issue was a user-caused syntax error in their cloud-init script, not a doctl bug, and the thread resolved it as a troubleshooting inquiry.\"}"
+  },
+  "4483306590c0d4a5703422dfa7ef4965c0b7ee8271d03672e142a2760e441aba": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user requests a new CLI command (doctl compute droplet find) to search droplets by partial name, IP, or tags, which is a feature request for new functionality.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user requests a new CLI command (doctl compute droplet find) to search droplets by partial name, IP, or tags, which is a feature request for new functionality.\"}"
+  },
+  "214ee24c347b7b9d4cd45ea8f90ac21b2613d527139f7543aef05f06585f5eed": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The CLI command fails with an error instead of performing the expected interactive browser login flow, which is a logic/functional bug rather than a documentation issue or user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The CLI command fails with an error instead of performing the expected interactive browser login flow, which is a logic/functional bug rather than a documentation issue or user misconfiguration.\"}"
+  },
+  "7b9e5fafbe388455c8ac1e679c208af28f11b0f3fe60da41b10d83301c56c065": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests the ability to set a hypervisor id during droplet creation, which is a new feature not currently supported or documented.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests the ability to set a hypervisor id during droplet creation, which is a new feature not currently supported or documented.\"}"
+  },
+  "9ea5df23473b1ca507bbc7edd8f09331f58d0b70ced5d2321c62586c338e8cc4": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user agent reports an incorrect hardcoded version instead of the actual binary version, which is incorrect runtime behavior and constitutes a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user agent reports an incorrect hardcoded version instead of the actual binary version, which is incorrect runtime behavior and constitutes a bug.\"}"
+  },
+  "0a522e1adda61f84360d032b6829bee70dfde3a9202acd54e0482f866ca6cff6": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding a new feature (Go template support) to customize CLI output formatting, which is a clear feature request rather than a bug, question, or other category.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding a new feature (Go template support) to customize CLI output formatting, which is a clear feature request rather than a bug, question, or other category.\"}"
+  },
+  "32f91bbc2b2829cca41acf4252c5c028564bcd511a5617ac8f24a2a7d881db41": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue proposes replacing an existing command with a new implementation to improve cross-platform compatibility and configuration management, which constitutes a feature change request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue proposes replacing an existing command with a new implementation to improve cross-platform compatibility and configuration management, which constitutes a feature change request.\"}"
+  },
+  "b561227446225272dbd8997ce3ed5a0e904937148188cfae229a36c736dab943": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new feature (jsonpath output formatting/traversal) for the doctl CLI tool.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new feature (jsonpath output formatting/traversal) for the doctl CLI tool.\"}"
+  },
+  "6022c98f7c0efe5077ce94c4a01084a04b9aea04b939d508d2d5085c903c2b89": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue explicitly requests a new feature (bash completion) for doctl, which aligns perfectly with the enhancement label definition for new feature requests.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue explicitly requests a new feature (bash completion) for doctl, which aligns perfectly with the enhancement label definition for new feature requests.\"}"
+  },
+  "24c26959375f667ea961921964afc2ed5616e095776404f669c21e929759ad33": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding the ability to address droplets by name instead of ID, which is a new feature request to improve scripting usability.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding the ability to address droplets by name instead of ID, which is a new feature request to improve scripting usability.\"}"
+  },
+  "aa8c06f7fc8e93d7057825d2f35a60af6cac5dec01a775cc59beee5f382fb48d": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a known failure where 'doctl auth login' does not create the expected config file, which is a logic error in the tool.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a known failure where 'doctl auth login' does not create the expected config file, which is a logic error in the tool.\"}"
+  },
+  "c066647054a5d52fd55ead84098250ec00ceedf07368e888cc7099e9f72a50d1": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new feature to display private IPs in the output of droplet create/list commands, which is a request for additional functionality rather than a bug or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new feature to display private IPs in the output of droplet create/list commands, which is a request for additional functionality rather than a bug or question.\"}"
+  },
+  "34060823454fc2630df76cede4191f46ffb616378c3adb577b844310c116a4aa": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue describes a pagination problem causing incomplete droplet listings, and the maintainer confirms a fix for an off-by-one error, which is a logic bug rather than a feature request or user question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue describes a pagination problem causing incomplete droplet listings, and the maintainer confirms a fix for an off-by-one error, which is a logic bug rather than a feature request or user question.\"}"
+  },
+  "b5fe37739342702f1ae50b8eefa4687d6cc7f5158d1019cd04d306e2722a3b0f": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new interactive confirmation feature for destructive actions (droplet deletion), which is a clear feature/improvement request rather than a bug or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new interactive confirmation feature for destructive actions (droplet deletion), which is a clear feature/improvement request rather than a bug or documentation fix.\"}"
+  },
+  "e87dc6070f314159a76c606edc14f359f7b1d262b928b701830d10a4eeac8b6b": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The code incorrectly calls a distribution function instead of the user-specific function, leading to wrong results, which is a logic error classified as a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The code incorrectly calls a distribution function instead of the user-specific function, leading to wrong results, which is a logic error classified as a bug.\"}"
+  },
+  "e759ffe95fee84ac2ff48f5bc6d879eb33d96217c58c206b90742654b6a48c7a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue clearly requests adding a new feature (SSH agent forwarding) to an existing command, which is a classic enhancement request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue clearly requests adding a new feature (SSH agent forwarding) to an existing command, which is a classic enhancement request.\"}"
+  },
+  "354cd621a03f62f7c3bc5763b9b74ffda8d5799dcd8260b72c3f97e3045f1d12": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that the --ssh-user argument is ignored and the connection defaults to root, which is incorrect functional behavior and constitutes a bug, as confirmed by its subsequent fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that the --ssh-user argument is ignored and the connection defaults to root, which is incorrect functional behavior and constitutes a bug, as confirmed by its subsequent fix.\"}"
+  },
+  "5022e10391012b5104131f305454e0230a08628d111780d852a83ac1c387eae3": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The report clearly identifies incorrect file descriptor usage and a logic error causing crashes, which are specific code bugs rather than feature requests or questions.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The report clearly identifies incorrect file descriptor usage and a logic error causing crashes, which are specific code bugs rather than feature requests or questions.\"}"
+  },
+  "1a3e8a4f12629ff264e58496d3d36bd2c173f0e73b17d87e855e4afafd3a7b27": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The auth login command fails to persist the token to the configuration file, which is a functional regression in v1.1.0 causing an 'access token is required' error for subsequent commands.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The auth login command fails to persist the token to the configuration file, which is a functional regression in v1.1.0 causing an 'access token is required' error for subsequent commands.\"}"
+  },
+  "54ad427df6740422df4536ef481d34e59524ae6a59f876f9dbc15efb6e55bb59": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user expects auth login to open a browser window for authentication, but instead it throws an access token error. A project member's comment confirms a bug in auth login, indicating unexpected behavior that the next release will address.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user expects auth login to open a browser window for authentication, but instead it throws an access token error. A project member's comment confirms a bug in auth login, indicating unexpected behavior that the next release will address.\"}"
+  },
+  "9d90253d4710a2e1c71f1ecc7f585a6a7ac7f6fe1f0e79c5668bf1119af9c53f": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user encountered a 'cannot execute binary file' error, which is a troubleshooting inquiry about an OS/architecture mismatch rather than a code bug, and it was resolved via guidance in the comments.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user encountered a 'cannot execute binary file' error, which is a troubleshooting inquiry about an OS/architecture mismatch rather than a code bug, and it was resolved via guidance in the comments.\"}"
+  },
+  "95dff4e577eaad140153006e6e54c82b15026107bba28e11f1f99f711f3a3185": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting a new command or combined workflow ('creating a floating IP and assigning it in one go'), which qualifies as a feature request; the comment from bryanl suggests a workaround but does not resolve the feature gap.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting a new command or combined workflow ('creating a floating IP and assigning it in one go'), which qualifies as a feature request; the comment from bryanl suggests a workaround but does not resolve the feature gap.\"}"
+  },
+  "1fca5f0613d71f1166c8306d50d668189275d05e01d9d4429a54be576f6aa9bb": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user specifically requests a new feature\u2014an interactive shell/repl mode for the CLI\u2014which aligns with the enhancement definition for new feature requests.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user specifically requests a new feature\u2014an interactive shell/repl mode for the CLI\u2014which aligns with the enhancement definition for new feature requests.\"}"
+  },
+  "d49499813191ce018df97225f4435ab5ce5da5542bd1141ed77070165fde8198": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user encountered a shell error due to installing the wrong OS binary (Linux on macOS), which is a user-side configuration issue rather than a software bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user encountered a shell error due to installing the wrong OS binary (Linux on macOS), which is a user-side configuration issue rather than a software bug.\"}"
+  },
+  "6f71c45d2c126e07b86b33f973fc96ecdfa95ce0e13dbbc3fe1b644c7cbf2f23": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user encountered an API error (422) when using a valid image ID, and the comment thread confirms it was a code issue fixed in a related pull request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"bug\",\n  \"confidence\": \"high\",\n  \"rationale\": \"The user encountered an API error (422) when using a valid image ID, and the comment thread confirms it was a code issue fixed in a related pull request.\"\n}"
+  },
+  "e42c7bd6bfa90681bea2e016e7a21aebada1ee2e092b712bcde79bbd484602de": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new feature to support git-style aliases in doctl, which is a clear enhancement request for improving user ergonomics.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new feature to support git-style aliases in doctl, which is a clear enhancement request for improving user ergonomics.\"}"
+  },
+  "800f297e3c4d9bcc682e24e90e33da731bfa29fb2b6b630db2fd65edc9c743d3": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The issue requests a new feature (SSH agent support) for the Windows platform, which fits the enhancement definition despite subsequent comments indicating the feature may already be implemented.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The issue requests a new feature (SSH agent support) for the Windows platform, which fits the enhancement definition despite subsequent comments indicating the feature may already be implemented.\"}"
+  },
+  "c34fefe01556278922122707e67d1b46f3988fb65497cfc8fc0fef64667f40b9": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests conformance with the XDG specification for the config file location, which is a new feature/improvement to the tool's behavior, not a bug or user question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests conformance with the XDG specification for the config file location, which is a new feature/improvement to the tool's behavior, not a bug or user question.\"}"
+  },
+  "52263c7355662aea61c54d4062d264f609fbc4231b5dd56fa9399abed59c6c29": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests an improvement to output behavior by not mixing plaintext prints with JSON output, which is a feature/UX enhancement rather than a runtime error.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests an improvement to output behavior by not mixing plaintext prints with JSON output, which is a feature/UX enhancement rather than a runtime error.\"}"
+  },
+  "0ca556b4038d6c5b63fb794791ced665d73922fc739e17c58b2ba8dc3352c25e": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests adding a new platform (FreeBSD) release for doctl, which is a feature addition or distribution request, not a bug, question, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests adding a new platform (FreeBSD) release for doctl, which is a feature addition or distribution request, not a bug, question, or documentation fix.\"}"
+  },
+  "30e522eb3cde69eca25ed7ba5bac42d6ff2d95fec43570c1bb6a053cb12a652d": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is troubleshooting an 'exec format error' when running the binary, which is a usage/setup issue rather than a code bug, and it was resolved by downloading the correct OS version.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is troubleshooting an 'exec format error' when running the binary, which is a usage/setup issue rather than a code bug, and it was resolved by downloading the correct OS version.\"}"
+  },
+  "2ce5abd93183ae2238952ecb2d78a76d45c83a078fedba4011e779cb1e266a81": {
+    "label": "other",
+    "confidence": "medium",
+    "rationale": "Creating a script to regenerate test mocks is a developer-focused administrative or refactoring chore with no direct feature change or bug fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"other\", \"confidence\": \"medium\", \"rationale\": \"Creating a script to regenerate test mocks is a developer-focused administrative or refactoring chore with no direct feature change or bug fix.\"}"
+  },
+  "2b03e0d48d8609a22c9de807c0269c86203180fcd983b65730418d24972dbdc6": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The request is to update a third-party package manager formula to a newer software release, which constitutes an improvement to the distribution process rather than a code bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The request is to update a third-party package manager formula to a newer software release, which constitutes an improvement to the distribution process rather than a code bug.\"}"
+  },
+  "5504267d74eb3effa7aa14b93a0fdb04788641f37c5d0e332a88a23728945484": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The `go get` command fails with a submodule mapping error, which is a build/compilation failure rather than a user configuration issue, indicating a bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The `go get` command fails with a submodule mapping error, which is a build/compilation failure rather than a user configuration issue, indicating a bug.\"}"
+  },
+  "e12baafd503a37c6dfd631065f717b34ec532455ddd788bc4540c9fb55a19122": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The issue points out an outdated version notice that has already been resolved; a maintainer commented the version is current, making this a stale version update request rather than a persistent bug.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The issue points out an outdated version notice that has already been resolved; a maintainer commented the version is current, making this a stale version update request rather than a persistent bug.\"}"
+  },
+  "871cb999be2723b651a22cb97231510a1e0d206ae36c5964437d55f78a76deb0": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The issue requests publishing the software to additional package managers (APT) and improving installation documentation, which is a feature/distribution request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The issue requests publishing the software to additional package managers (APT) and improving installation documentation, which is a feature/distribution request.\"}"
+  },
+  "bbb9b3dff211e9d5aee31b5012cbe17e4117fd5dc599f78da0f2b25cf8498972": {
+    "label": "question",
+    "confidence": "high",
+    "rationale": "The user is asking what went wrong with the auth login command and how to configure the tool, which is a usage/troubleshooting inquiry rather than a bug report or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"question\", \"confidence\": \"high\", \"rationale\": \"The user is asking what went wrong with the auth login command and how to configure the tool, which is a usage/troubleshooting inquiry rather than a bug report or feature request.\"}"
+  },
+  "98a1b6f3107ffec9bb567bd38ca94d43a5667fe642cc960b2ff787b10f634610": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The user is requesting missing CLI flags (--format, --no-header) and improved API pagination, which are feature additions or improvements, not bug reports.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The user is requesting missing CLI flags (--format, --no-header) and improved API pagination, which are feature additions or improvements, not bug reports.\"}"
+  },
+  "dd6a60520f1863d9fcc40f3e540f40f96a464ba7502b937f24527715b2ed10ef": {
+    "label": "enhancement",
+    "confidence": "medium",
+    "rationale": "The request is for making doctl configuration more versatile, including support for default SSH key path and SSH agent, which is a new feature addition, not a bug fix or question.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"medium\", \"rationale\": \"The request is for making doctl configuration more versatile, including support for default SSH key path and SSH agent, which is a new feature addition, not a bug fix or question.\"}"
+  },
+  "cb81468312e6c61a8ecbefb98d93f78e913e1bc78837060bc50f7cfd9ae01bf4": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The user is requesting clarification of build steps directly in the README.md, and the maintainer confirms a patch is incoming, which makes this a request to improve documentation.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The user is requesting clarification of build steps directly in the README.md, and the maintainer confirms a patch is incoming, which makes this a request to improve documentation.\"}"
+  },
+  "bff290503ba988c47519e3a224d27e371f4b88983e16dae12489d997b2243727": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The reported binary includes a '-dev' suffix in its release version, indicating a build or version stamping error rather than a user configuration issue.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The reported binary includes a '-dev' suffix in its release version, indicating a build or version stamping error rather than a user configuration issue.\"}"
+  },
+  "8c469cf208695257acdc034b35fe58709d567afd1153dd881c19d48f48e57824": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue reports a login failure traced to an upstream dependency bug in the webbrowser library, making it a system error rather than a user question or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue reports a login failure traced to an upstream dependency bug in the webbrowser library, making it a system error rather than a user question or feature request.\"}"
+  },
+  "65afc2b80b04dae2f5e8fcaec1c9cb0fb02f387cb13dbb719b35dfa5a39f3433": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that the CLI ignores argument flags, fails to launch a valid auth flow, and shows 'unknown client' errors, which indicates a broken login mechanism on Windows rather than a user misconfiguration.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that the CLI ignores argument flags, fails to launch a valid auth flow, and shows 'unknown client' errors, which indicates a broken login mechanism on Windows rather than a user misconfiguration.\"}"
+  },
+  "2e1a8c18f5a9934d95175dc2427903a1db8f31a43a5f00b1c6b2b59453cd173f": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue requests clarification on the configuration file format in the documentation and is resolved by providing missing YAML example details, fitting a documentation gap.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue requests clarification on the configuration file format in the documentation and is resolved by providing missing YAML example details, fitting a documentation gap.\"}"
+  },
+  "34304fa8e6d1c8a1a56bedc6af3d5668622d13e28f0d4f3aabff09c76f1406de": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The user reports that the --ssh-port flag is being ignored, resulting in a connection attempt on the default port 22 instead of the specified port 1234. This is a clear logic bug where a command-line option is not functioning as intended.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The user reports that the --ssh-port flag is being ignored, resulting in a connection attempt on the default port 22 instead of the specified port 1234. This is a clear logic bug where a command-line option is not functioning as intended.\"}"
+  },
+  "b9f23aca821b19e503067f3da3b5beb370712808c3036b0dc06146d49ea3fc7c": {
+    "label": "documentation",
+    "confidence": "high",
+    "rationale": "The issue reports outdated or incorrect documentation referencing '.doctlconfig' instead of '.doctlcfg', and missing format details, which is a documentation fix rather than a bug or feature request.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"documentation\", \"confidence\": \"high\", \"rationale\": \"The issue reports outdated or incorrect documentation referencing '.doctlconfig' instead of '.doctlcfg', and missing format details, which is a documentation fix rather than a bug or feature request.\"}"
+  },
+  "543a86ab5ad6057259efeef0225bdd96f4c5de1bcccb93d3380ab4b86e1cf60b": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a new feature (config file support) for the doctl tool, which is a classic enhancement rather than a bug, question, or documentation fix.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"enhancement\", \"confidence\": \"high\", \"rationale\": \"The issue requests a new feature (config file support) for the doctl tool, which is a classic enhancement rather than a bug, question, or documentation fix.\"}"
+  },
+  "652ab03d14f2037b538b7ed62977e39ce7cdb91cc8a7aceebbfe286e0656afed": {
+    "label": "bug",
+    "confidence": "high",
+    "rationale": "The issue demonstrates that the slug column is completely empty in the CLI output despite showing column headers. A comment confirms the API is returning null slugs, indicating an API bug that the CLI faithfully reports.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\"label\": \"bug\", \"confidence\": \"high\", \"rationale\": \"The issue demonstrates that the slug column is completely empty in the CLI output despite showing column headers. A comment confirms the API is returning null slugs, indicating an API bug that the CLI faithfully reports.\"}"
+  },
+  "9bb67c9c16689ad907aeebfd84b156105f32709132c53445decc251e7f7c888a": {
+    "label": "enhancement",
+    "confidence": "high",
+    "rationale": "The issue requests a behavior change (fail-fast or disambiguation prompt) for duplicate droplet names rather than silently deleting the oldest, which is a request for a new feature/improvement.",
+    "tier": "B",
+    "adjudicator_model": "deepseek-v4-pro",
+    "raw_output": "{\n  \"label\": \"enhancement\",\n  \"confidence\": \"high\",\n  \"rationale\": \"The issue requests a behavior change (fail-fast or disambiguation prompt) for duplicate droplet names rather than silently deleting the oldest, which is a request for a new feature/improvement.\"\n}"
+  }
+}

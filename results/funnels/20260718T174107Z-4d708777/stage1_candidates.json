@@ -1,0 +1,77 @@
+{
+  "total_live_slugs": 74,
+  "selected": [
+    {
+      "slug": "deepseek-4-flash",
+      "family": "deepseek",
+      "parameter_b": 0,
+      "size_class": "small",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Available on DO Serverless Inference",
+      "selection_reason": "Covers the small tier"
+    },
+    {
+      "slug": "llama3.3-70b-instruct",
+      "family": "llama",
+      "parameter_b": 70,
+      "size_class": "very_large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Large instruct baseline",
+      "selection_reason": "Covers the very_large tier"
+    },
+    {
+      "slug": "arcee-trinity-large-thinking",
+      "family": "arcee",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": true,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Reasoning model",
+      "selection_reason": "Covers the large tier with reasoning"
+    },
+    {
+      "slug": "deepseek-r1-distill-llama-70b",
+      "family": "deepseek",
+      "parameter_b": 70,
+      "size_class": "very_large",
+      "reasoning": true,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Reasoning model",
+      "selection_reason": "Covers the very_large tier with reasoning"
+    },
+    {
+      "slug": "mistral-3-14B",
+      "family": "mistral",
+      "parameter_b": 14,
+      "size_class": "medium",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Balanced accuracy/cost",
+      "selection_reason": "Covers the medium tier"
+    },
+    {
+      "slug": "gemma-4-31B-it",
+      "family": "gemma",
+      "parameter_b": 31,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": false,
+      "role": "Google open-weight",
+      "selection_reason": "Covers the large tier"
+    }
+  ]
+}

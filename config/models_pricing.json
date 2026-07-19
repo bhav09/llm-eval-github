@@ -1,0 +1,122 @@
+{
+  "default": {
+    "input_per_million": 0.30,
+    "output_per_million": 0.60,
+    "cached_input_per_million": 0.15
+  },
+  "alibaba-qwen3-32b": {
+    "input_per_million": 0.25,
+    "output_per_million": 0.55,
+    "cached_input_per_million": 0.125
+  },
+  "qwen3-coder-flash": {
+    "input_per_million": 0.45,
+    "output_per_million": 1.70,
+    "cached_input_per_million": 0.09
+  },
+  "qwen3.5-397b-a17b": {
+    "input_per_million": 0.385,
+    "output_per_million": 2.45,
+    "cached_input_per_million": 0.111
+  },
+  "openai-gpt-oss-120b": {
+    "input_per_million": 0.10,
+    "output_per_million": 0.70,
+    "cached_input_per_million": 0.05
+  },
+  "openai-gpt-oss-20b": {
+    "input_per_million": 0.05,
+    "output_per_million": 0.45,
+    "cached_input_per_million": 0.025
+  },
+  "llama3.3-70b-instruct": {
+    "input_per_million": 0.65,
+    "output_per_million": 0.65,
+    "cached_input_per_million": 0.325
+  },
+  "llama-4-maverick": {
+    "input_per_million": 0.25,
+    "output_per_million": 0.87,
+    "cached_input_per_million": 0.125
+  },
+  "mistral-3-14B": {
+    "input_per_million": 0.20,
+    "output_per_million": 0.20,
+    "cached_input_per_million": 0.10
+  },
+  "deepseek-r1-distill-llama-70b": {
+    "input_per_million": 0.99,
+    "output_per_million": 0.99,
+    "cached_input_per_million": 0.495
+  },
+  "deepseek-v4-pro": {
+    "input_per_million": 1.392,
+    "output_per_million": 2.784,
+    "cached_input_per_million": 0.348
+  },
+  "deepseek-4-flash": {
+    "input_per_million": 0.112,
+    "output_per_million": 0.224,
+    "cached_input_per_million": 0.028
+  },
+  "deepseek-3.2": {
+    "input_per_million": 0.425,
+    "output_per_million": 1.36,
+    "cached_input_per_million": 0.15
+  },
+  "gemma-4-31B-it": {
+    "input_per_million": 0.18,
+    "output_per_million": 0.50,
+    "cached_input_per_million": 0.09
+  },
+  "minimax-m2.5": {
+    "input_per_million": 0.225,
+    "output_per_million": 0.90,
+    "cached_input_per_million": 0.06
+  },
+  "kimi-k2.5": {
+    "input_per_million": 0.375,
+    "output_per_million": 2.025,
+    "cached_input_per_million": 0.203
+  },
+  "kimi-k2.6": {
+    "input_per_million": 0.76,
+    "output_per_million": 3.20,
+    "cached_input_per_million": 0.19
+  },
+  "nemotron-3-ultra-550b": {
+    "input_per_million": 0.90,
+    "output_per_million": 1.70,
+    "cached_input_per_million": 0.45
+  },
+  "nvidia-nemotron-3-super-120b": {
+    "input_per_million": 0.21,
+    "output_per_million": 0.455,
+    "cached_input_per_million": 0.06
+  },
+  "mimo-v2.5": {
+    "input_per_million": 0.105,
+    "output_per_million": 0.28,
+    "cached_input_per_million": 0.028
+  },
+  "mimo-v2.5-pro": {
+    "input_per_million": 0.60,
+    "output_per_million": 3.00,
+    "cached_input_per_million": 0.16
+  },
+  "glm-5.2": {
+    "input_per_million": 1.05,
+    "output_per_million": 4.40,
+    "cached_input_per_million": 0.21
+  },
+  "glm-5.1": {
+    "input_per_million": 0.975,
+    "output_per_million": 4.30,
+    "cached_input_per_million": 0.26
+  },
+  "glm-5": {
+    "input_per_million": 0.75,
+    "output_per_million": 2.40,
+    "cached_input_per_million": 0.20
+  }
+}

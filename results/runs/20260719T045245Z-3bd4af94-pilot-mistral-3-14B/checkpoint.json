@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T045245Z-3bd4af94-pilot-mistral-3-14B",
+  "model": "mistral-3-14B",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "mistral-3-14B:digitalocean/doctl#109",
+    "mistral-3-14B:digitalocean/doctl#1243",
+    "mistral-3-14B:digitalocean/doctl#1345",
+    "mistral-3-14B:digitalocean/doctl#1527",
+    "mistral-3-14B:digitalocean/doctl#1635"
+  ],
+  "completed_issue_ids": []
+}

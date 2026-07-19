@@ -1,0 +1,25 @@
+{
+  "run_id": "20260718T174107Z-4d708777-pilot-deepseek-r1-distill-llama-70b",
+  "timestamp": "2026-07-18T17:41:18.276741+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "deepseek-r1-distill-llama-70b",
+  "model_b": "deepseek-r1-distill-llama-70b",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 1,
+  "started_at": "2026-07-18T17:41:18.276758+00:00",
+  "finished_at": "2026-07-18T17:45:18.498077+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#1882",
+    "digitalocean/doctl#1875",
+    "digitalocean/doctl#1869",
+    "digitalocean/doctl#1868",
+    "digitalocean/doctl#1855"
+  ]
+}

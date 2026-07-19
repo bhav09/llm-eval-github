@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T090319Z-48a12a9e-pilot-some-7b-instruct",
+  "timestamp": "2026-07-19T09:03:19.740233+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "some-7b-instruct",
+  "model_b": "some-7b-instruct",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T09:03:19.740240+00:00",
+  "finished_at": "2026-07-19T09:03:19.741771+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#19",
+    "digitalocean/doctl#20",
+    "digitalocean/doctl#11",
+    "digitalocean/doctl#15",
+    "digitalocean/doctl#4"
+  ]
+}

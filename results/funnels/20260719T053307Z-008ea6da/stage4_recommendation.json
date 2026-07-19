@@ -1,0 +1,53 @@
+{
+  "model_a": "deepseek-4-flash",
+  "model_b": "gemma-4-31B-it",
+  "rationale": "Evaluated 3 finalist models across 4 stages (stratified select, pilot 5 issues, full eval 10 issues). Finalist A (deepseek-4-flash): best value at 80% accuracy / $0.0001 per call. Finalist B (gemma-4-31B-it): highest accuracy at 70% (macro F1 0.494). The two represent a meaningful production trade-off: value vs quality ceiling.",
+  "podium": [
+    {
+      "rank": 1,
+      "slug": "deepseek-4-flash",
+      "accuracy": 0.8,
+      "macro_f1": 0.5126,
+      "cost_per_call": 0.000124,
+      "p95_latency_ms": 2351.36
+    },
+    {
+      "rank": 2,
+      "slug": "gemma-4-31B-it",
+      "accuracy": 0.7,
+      "macro_f1": 0.4945,
+      "cost_per_call": 0.000139,
+      "p95_latency_ms": 1847.57
+    },
+    {
+      "rank": 3,
+      "slug": "llama3.3-70b-instruct",
+      "accuracy": 0.6,
+      "macro_f1": 0.3833,
+      "cost_per_call": 0.000118,
+      "p95_latency_ms": 2023.09
+    }
+  ],
+  "field_summary": {
+    "survivors": 3,
+    "avg_accuracy": 0.7000000000000001,
+    "avg_cost_per_call": 0.000127,
+    "avg_p95_latency_ms": 2074.0066666666667
+  },
+  "finalists": [
+    {
+      "slug": "deepseek-4-flash",
+      "story": "Best value (accuracy per dollar)",
+      "accuracy": 0.8,
+      "macro_f1": 0.5126,
+      "cost_per_call": 0.000124
+    },
+    {
+      "slug": "gemma-4-31B-it",
+      "story": "Highest accuracy (quality ceiling)",
+      "accuracy": 0.7,
+      "macro_f1": 0.4945,
+      "cost_per_call": 0.000139
+    }
+  ]
+}

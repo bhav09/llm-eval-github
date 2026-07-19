@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T082436Z-33e94562-pilot-deepseek-4-flash",
+  "model": "deepseek-4-flash",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "deepseek-4-flash:digitalocean/doctl#1419",
+    "deepseek-4-flash:digitalocean/doctl#1460",
+    "deepseek-4-flash:digitalocean/doctl#291",
+    "deepseek-4-flash:digitalocean/doctl#59",
+    "deepseek-4-flash:digitalocean/doctl#73"
+  ],
+  "completed_issue_ids": []
+}

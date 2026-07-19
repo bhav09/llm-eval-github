@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T053307Z-008ea6da-full-deepseek-4-flash",
+  "model": "deepseek-4-flash",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "deepseek-4-flash:digitalocean/doctl#1023",
+    "deepseek-4-flash:digitalocean/doctl#1037",
+    "deepseek-4-flash:digitalocean/doctl#1665",
+    "deepseek-4-flash:digitalocean/doctl#417",
+    "deepseek-4-flash:digitalocean/doctl#793"
+  ],
+  "completed_issue_ids": []
+}

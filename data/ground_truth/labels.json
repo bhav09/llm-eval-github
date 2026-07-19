@@ -1,0 +1,5342 @@
+{
+  "digitalocean/doctl#1882": {
+    "issue_id": "digitalocean/doctl#1882",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a silent write failure due to incorrect config path resolution caused by persisting internal config keys, which is a clear logic bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1875": {
+    "issue_id": "digitalocean/doctl#1875",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1869": {
+    "issue_id": "digitalocean/doctl#1869",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1868": {
+    "issue_id": "digitalocean/doctl#1868",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1855": {
+    "issue_id": "digitalocean/doctl#1855",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1854": {
+    "issue_id": "digitalocean/doctl#1854",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1843": {
+    "issue_id": "digitalocean/doctl#1843",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to suppress a recurring informational message and has attempted a cache deletion without success, which is a usage troubleshooting inquiry rather than a code defect.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1842": {
+    "issue_id": "digitalocean/doctl#1842",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a startup crash/parse failure where the application cannot read its own config file after a version update, indicating a logic error in the config serialization/parsing code.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1822": {
+    "issue_id": "digitalocean/doctl#1822",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The CLI command returns empty results despite the API returning valid data, indicating a bug in how doctl processes or displays the API response.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1816": {
+    "issue_id": "digitalocean/doctl#1816",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes incorrect logic in `RunAuthSwitch` that writes a temporary validation entry to the config file, causing broken context resolution and potential API failures.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1813": {
+    "issue_id": "digitalocean/doctl#1813",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1801": {
+    "issue_id": "digitalocean/doctl#1801",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1799": {
+    "issue_id": "digitalocean/doctl#1799",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1797": {
+    "issue_id": "digitalocean/doctl#1797",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1795": {
+    "issue_id": "digitalocean/doctl#1795",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1790": {
+    "issue_id": "digitalocean/doctl#1790",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1785": {
+    "issue_id": "digitalocean/doctl#1785",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1782": {
+    "issue_id": "digitalocean/doctl#1782",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1776": {
+    "issue_id": "digitalocean/doctl#1776",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1775": {
+    "issue_id": "digitalocean/doctl#1775",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1763": {
+    "issue_id": "digitalocean/doctl#1763",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1760": {
+    "issue_id": "digitalocean/doctl#1760",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1759": {
+    "issue_id": "digitalocean/doctl#1759",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1758": {
+    "issue_id": "digitalocean/doctl#1758",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1753": {
+    "issue_id": "digitalocean/doctl#1753",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1750": {
+    "issue_id": "digitalocean/doctl#1750",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1749": {
+    "issue_id": "digitalocean/doctl#1749",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1737": {
+    "issue_id": "digitalocean/doctl#1737",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1733": {
+    "issue_id": "digitalocean/doctl#1733",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1723": {
+    "issue_id": "digitalocean/doctl#1723",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1722": {
+    "issue_id": "digitalocean/doctl#1722",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes adding a new tool (golangci-lint) and CI integration to improve code quality, which is a feature/process improvement request, not a bug, documentation fix, or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1719": {
+    "issue_id": "digitalocean/doctl#1719",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1710": {
+    "issue_id": "digitalocean/doctl#1710",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1689": {
+    "issue_id": "digitalocean/doctl#1689",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1683": {
+    "issue_id": "digitalocean/doctl#1683",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1681": {
+    "issue_id": "digitalocean/doctl#1681",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1666": {
+    "issue_id": "digitalocean/doctl#1666",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding new functionality to allow doctl to interact with Spaces, which fits the definition of a feature request or enhancement.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1665": {
+    "issue_id": "digitalocean/doctl#1665",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1656": {
+    "issue_id": "digitalocean/doctl#1656",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1647": {
+    "issue_id": "digitalocean/doctl#1647",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1644": {
+    "issue_id": "digitalocean/doctl#1644",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1637": {
+    "issue_id": "digitalocean/doctl#1637",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1635": {
+    "issue_id": "digitalocean/doctl#1635",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1632": {
+    "issue_id": "digitalocean/doctl#1632",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1624": {
+    "issue_id": "digitalocean/doctl#1624",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1619": {
+    "issue_id": "digitalocean/doctl#1619",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1618": {
+    "issue_id": "digitalocean/doctl#1618",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1615": {
+    "issue_id": "digitalocean/doctl#1615",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1614": {
+    "issue_id": "digitalocean/doctl#1614",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1610": {
+    "issue_id": "digitalocean/doctl#1610",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue explicitly requests improvements to markdown documentation files (README.md, CONTRIBUTING.md) by adding setup instructions, guidelines, and overviews, which fits the 'documentation' category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1605": {
+    "issue_id": "digitalocean/doctl#1605",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1602": {
+    "issue_id": "digitalocean/doctl#1602",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1597": {
+    "issue_id": "digitalocean/doctl#1597",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1594": {
+    "issue_id": "digitalocean/doctl#1594",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1585": {
+    "issue_id": "digitalocean/doctl#1585",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding a new --wait flag to an existing command to improve scripting usability, which is a clear feature addition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1584": {
+    "issue_id": "digitalocean/doctl#1584",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue explicitly requests adding a new --wait flag to the databases migrate command for scripting convenience, which is a feature enhancement rather than a bug fix or documentation change.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1574": {
+    "issue_id": "digitalocean/doctl#1574",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1572": {
+    "issue_id": "digitalocean/doctl#1572",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting that the hardcoded Docker socket path be made configurable, which is a feature request to support non-standard Docker daemon socket locations.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1561": {
+    "issue_id": "digitalocean/doctl#1561",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1559": {
+    "issue_id": "digitalocean/doctl#1559",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1553": {
+    "issue_id": "digitalocean/doctl#1553",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user explicitly requests new functionality (--size flag) to modify an existing resource, as the current CLI command resets other settings, creating UX friction.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1545": {
+    "issue_id": "digitalocean/doctl#1545",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1543": {
+    "issue_id": "digitalocean/doctl#1543",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1537": {
+    "issue_id": "digitalocean/doctl#1537",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1536": {
+    "issue_id": "digitalocean/doctl#1536",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1534": {
+    "issue_id": "digitalocean/doctl#1534",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1533": {
+    "issue_id": "digitalocean/doctl#1533",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1530": {
+    "issue_id": "digitalocean/doctl#1530",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1527": {
+    "issue_id": "digitalocean/doctl#1527",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1525": {
+    "issue_id": "digitalocean/doctl#1525",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1516": {
+    "issue_id": "digitalocean/doctl#1516",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1513": {
+    "issue_id": "digitalocean/doctl#1513",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1512": {
+    "issue_id": "digitalocean/doctl#1512",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1507": {
+    "issue_id": "digitalocean/doctl#1507",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1505": {
+    "issue_id": "digitalocean/doctl#1505",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking why manual agent installation is required and requesting a default installation, but the support thread indicates it is a usage confusion/version issue rather than a code defect.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1474": {
+    "issue_id": "digitalocean/doctl#1474",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1465": {
+    "issue_id": "digitalocean/doctl#1465",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking where to find proprietary source code and how to integrate a terminal interface, which is a troubleshooting/usage inquiry rather than a bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1464": {
+    "issue_id": "digitalocean/doctl#1464",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1461": {
+    "issue_id": "digitalocean/doctl#1461",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1460": {
+    "issue_id": "digitalocean/doctl#1460",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1449": {
+    "issue_id": "digitalocean/doctl#1449",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1447": {
+    "issue_id": "digitalocean/doctl#1447",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1444": {
+    "issue_id": "digitalocean/doctl#1444",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1436": {
+    "issue_id": "digitalocean/doctl#1436",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1426": {
+    "issue_id": "digitalocean/doctl#1426",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1420": {
+    "issue_id": "digitalocean/doctl#1420",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue asks to replace a deprecated CI command in a workflow file, which is a minor build/config maintenance task rather than a feature, bug, or documentation change.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1419": {
+    "issue_id": "digitalocean/doctl#1419",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1418": {
+    "issue_id": "digitalocean/doctl#1418",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1417": {
+    "issue_id": "digitalocean/doctl#1417",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1415": {
+    "issue_id": "digitalocean/doctl#1415",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1407": {
+    "issue_id": "digitalocean/doctl#1407",
+    "label": "security",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports that a sensitive authentication token is exposed in stdout, which can lead to credential leaks in CI/CD logs. This is a security concern regarding information disclosure.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1396": {
+    "issue_id": "digitalocean/doctl#1396",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1394": {
+    "issue_id": "digitalocean/doctl#1394",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1390": {
+    "issue_id": "digitalocean/doctl#1390",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1382": {
+    "issue_id": "digitalocean/doctl#1382",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1380": {
+    "issue_id": "digitalocean/doctl#1380",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1375": {
+    "issue_id": "digitalocean/doctl#1375",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1367": {
+    "issue_id": "digitalocean/doctl#1367",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1366": {
+    "issue_id": "digitalocean/doctl#1366",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1365": {
+    "issue_id": "digitalocean/doctl#1365",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1364": {
+    "issue_id": "digitalocean/doctl#1364",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting proper ARM64 Snap packaging for macOS/Apple Silicon, which is a feature/packaging enhancement request rather than a code bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1363": {
+    "issue_id": "digitalocean/doctl#1363",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue is spam with no actionable content related to bugs, features, questions, documentation, or security.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1361": {
+    "issue_id": "digitalocean/doctl#1361",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests better error details/metadata (a feature improvement) rather than reporting a specific code defect or fix for the error itself.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1359": {
+    "issue_id": "digitalocean/doctl#1359",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1358": {
+    "issue_id": "digitalocean/doctl#1358",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1354": {
+    "issue_id": "digitalocean/doctl#1354",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new doctl subcommand to retrieve and update database cluster configuration, which is a clear feature request for new CLI functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1349": {
+    "issue_id": "digitalocean/doctl#1349",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1345": {
+    "issue_id": "digitalocean/doctl#1345",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1344": {
+    "issue_id": "digitalocean/doctl#1344",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1341": {
+    "issue_id": "digitalocean/doctl#1341",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1340": {
+    "issue_id": "digitalocean/doctl#1340",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1335": {
+    "issue_id": "digitalocean/doctl#1335",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new capability (viewing droplet health status via CLI) that doesn't currently exist, and the maintainer confirmed it's being added to the backlog as a feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1334": {
+    "issue_id": "digitalocean/doctl#1334",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user expects the --wait flag to block until cloud-init scripts complete, but it currently only waits for the Droplet to become active. This is a feature request to extend the flag's behavior, not a bug in existing functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1331": {
+    "issue_id": "digitalocean/doctl#1331",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1330": {
+    "issue_id": "digitalocean/doctl#1330",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1329": {
+    "issue_id": "digitalocean/doctl#1329",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to debug and fix autocompletion not working via an oh-my-zsh plugin, which is a usage troubleshooting inquiry rather than a code bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1326": {
+    "issue_id": "digitalocean/doctl#1326",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1322": {
+    "issue_id": "digitalocean/doctl#1322",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1312": {
+    "issue_id": "digitalocean/doctl#1312",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1306": {
+    "issue_id": "digitalocean/doctl#1306",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1300": {
+    "issue_id": "digitalocean/doctl#1300",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1291": {
+    "issue_id": "digitalocean/doctl#1291",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1284": {
+    "issue_id": "digitalocean/doctl#1284",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1281": {
+    "issue_id": "digitalocean/doctl#1281",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1280": {
+    "issue_id": "digitalocean/doctl#1280",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1274": {
+    "issue_id": "digitalocean/doctl#1274",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Adding a Dependabot configuration to .github is a developer CI/CD workflow setup chore with no user-facing feature change, fitting the 'other' administrative category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1271": {
+    "issue_id": "digitalocean/doctl#1271",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1268": {
+    "issue_id": "digitalocean/doctl#1268",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1267": {
+    "issue_id": "digitalocean/doctl#1267",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1264": {
+    "issue_id": "digitalocean/doctl#1264",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1263": {
+    "issue_id": "digitalocean/doctl#1263",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1262": {
+    "issue_id": "digitalocean/doctl#1262",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1243": {
+    "issue_id": "digitalocean/doctl#1243",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1221": {
+    "issue_id": "digitalocean/doctl#1221",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1217": {
+    "issue_id": "digitalocean/doctl#1217",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1196": {
+    "issue_id": "digitalocean/doctl#1196",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1192": {
+    "issue_id": "digitalocean/doctl#1192",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1190": {
+    "issue_id": "digitalocean/doctl#1190",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting that the DigitalOcean team publish an official JSON Schema for AppSpec in their documentation. This is a feature request for a new resource to be made available, not a bug, question, or documentation fix per se.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1180": {
+    "issue_id": "digitalocean/doctl#1180",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1176": {
+    "issue_id": "digitalocean/doctl#1176",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1175": {
+    "issue_id": "digitalocean/doctl#1175",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1171": {
+    "issue_id": "digitalocean/doctl#1171",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1167": {
+    "issue_id": "digitalocean/doctl#1167",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1165": {
+    "issue_id": "digitalocean/doctl#1165",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1164": {
+    "issue_id": "digitalocean/doctl#1164",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1156": {
+    "issue_id": "digitalocean/doctl#1156",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting both documentation examples and a new feature (output listing flushed files), which makes this a feature request rather than a pure documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1147": {
+    "issue_id": "digitalocean/doctl#1147",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a CSS rendering problem on a documentation website, which is a documentation display fix, not a CLI code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1144": {
+    "issue_id": "digitalocean/doctl#1144",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1142": {
+    "issue_id": "digitalocean/doctl#1142",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a specific code path where `apps update --wait` hangs indefinitely due to an empty deployment ID when no deployment is in progress, which is a logic error.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1139": {
+    "issue_id": "digitalocean/doctl#1139",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1131": {
+    "issue_id": "digitalocean/doctl#1131",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1130": {
+    "issue_id": "digitalocean/doctl#1130",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1129": {
+    "issue_id": "digitalocean/doctl#1129",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#1110": {
+    "issue_id": "digitalocean/doctl#1110",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1106": {
+    "issue_id": "digitalocean/doctl#1106",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "priority resolved (bug over others)",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1105": {
+    "issue_id": "digitalocean/doctl#1105",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1096": {
+    "issue_id": "digitalocean/doctl#1096",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1095": {
+    "issue_id": "digitalocean/doctl#1095",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1094": {
+    "issue_id": "digitalocean/doctl#1094",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1092": {
+    "issue_id": "digitalocean/doctl#1092",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1091": {
+    "issue_id": "digitalocean/doctl#1091",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1090": {
+    "issue_id": "digitalocean/doctl#1090",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1088": {
+    "issue_id": "digitalocean/doctl#1088",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The kubeconfig generated by doctl produces non-unique context/cluster/auth names across different accounts, causing merged authentication configurations. This is a logic bug causing incorrect runtime behavior.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1087": {
+    "issue_id": "digitalocean/doctl#1087",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1086": {
+    "issue_id": "digitalocean/doctl#1086",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1085": {
+    "issue_id": "digitalocean/doctl#1085",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1083": {
+    "issue_id": "digitalocean/doctl#1083",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1074": {
+    "issue_id": "digitalocean/doctl#1074",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1071": {
+    "issue_id": "digitalocean/doctl#1071",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1066": {
+    "issue_id": "digitalocean/doctl#1066",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1064": {
+    "issue_id": "digitalocean/doctl#1064",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1063": {
+    "issue_id": "digitalocean/doctl#1063",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1061": {
+    "issue_id": "digitalocean/doctl#1061",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1059": {
+    "issue_id": "digitalocean/doctl#1059",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1042": {
+    "issue_id": "digitalocean/doctl#1042",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1037": {
+    "issue_id": "digitalocean/doctl#1037",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1032": {
+    "issue_id": "digitalocean/doctl#1032",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1029": {
+    "issue_id": "digitalocean/doctl#1029",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1028": {
+    "issue_id": "digitalocean/doctl#1028",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding official prebuilt Android ARM64 binaries to the release assets, which is a new feature/platform support request rather than a bug in existing binaries.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1024": {
+    "issue_id": "digitalocean/doctl#1024",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1023": {
+    "issue_id": "digitalocean/doctl#1023",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1022": {
+    "issue_id": "digitalocean/doctl#1022",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1020": {
+    "issue_id": "digitalocean/doctl#1020",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a logic error where an update command inadvertently resets a record's TTL to a hardcoded default instead of preserving its existing value, which is confirmed by the developer's subsequent PR fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1018": {
+    "issue_id": "digitalocean/doctl#1018",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1017": {
+    "issue_id": "digitalocean/doctl#1017",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1007": {
+    "issue_id": "digitalocean/doctl#1007",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1003": {
+    "issue_id": "digitalocean/doctl#1003",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#1001": {
+    "issue_id": "digitalocean/doctl#1001",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#999": {
+    "issue_id": "digitalocean/doctl#999",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#997": {
+    "issue_id": "digitalocean/doctl#997",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#996": {
+    "issue_id": "digitalocean/doctl#996",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#995": {
+    "issue_id": "digitalocean/doctl#995",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#993": {
+    "issue_id": "digitalocean/doctl#993",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#992": {
+    "issue_id": "digitalocean/doctl#992",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#989": {
+    "issue_id": "digitalocean/doctl#989",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#985": {
+    "issue_id": "digitalocean/doctl#985",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#980": {
+    "issue_id": "digitalocean/doctl#980",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to use the `image create` sub-command and what `--image-url` does, which is a usage/troubleshooting inquiry rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#979": {
+    "issue_id": "digitalocean/doctl#979",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#978": {
+    "issue_id": "digitalocean/doctl#978",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests that the validation error include the specific line number in the spec file, which is a feature improvement to the existing tools, not a bug in logic.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#975": {
+    "issue_id": "digitalocean/doctl#975",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#974": {
+    "issue_id": "digitalocean/doctl#974",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#973": {
+    "issue_id": "digitalocean/doctl#973",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#972": {
+    "issue_id": "digitalocean/doctl#972",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#970": {
+    "issue_id": "digitalocean/doctl#970",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#968": {
+    "issue_id": "digitalocean/doctl#968",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#965": {
+    "issue_id": "digitalocean/doctl#965",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#964": {
+    "issue_id": "digitalocean/doctl#964",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#958": {
+    "issue_id": "digitalocean/doctl#958",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#954": {
+    "issue_id": "digitalocean/doctl#954",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#953": {
+    "issue_id": "digitalocean/doctl#953",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#951": {
+    "issue_id": "digitalocean/doctl#951",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#947": {
+    "issue_id": "digitalocean/doctl#947",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#937": {
+    "issue_id": "digitalocean/doctl#937",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#936": {
+    "issue_id": "digitalocean/doctl#936",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "multiple native labels same category: enhancement, suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#934": {
+    "issue_id": "digitalocean/doctl#934",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#933": {
+    "issue_id": "digitalocean/doctl#933",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new feature to integrate with Vault for token retrieval, which aligns with an enhancement rather than a bug, question, or other category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#932": {
+    "issue_id": "digitalocean/doctl#932",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#930": {
+    "issue_id": "digitalocean/doctl#930",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#928": {
+    "issue_id": "digitalocean/doctl#928",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#927": {
+    "issue_id": "digitalocean/doctl#927",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#923": {
+    "issue_id": "digitalocean/doctl#923",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#919": {
+    "issue_id": "digitalocean/doctl#919",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#916": {
+    "issue_id": "digitalocean/doctl#916",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#915": {
+    "issue_id": "digitalocean/doctl#915",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#908": {
+    "issue_id": "digitalocean/doctl#908",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#895": {
+    "issue_id": "digitalocean/doctl#895",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to support droplet name lookup in the `get` command, which is a clear feature request for improving the CLI tool's functionality and UX.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#894": {
+    "issue_id": "digitalocean/doctl#894",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#891": {
+    "issue_id": "digitalocean/doctl#891",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#889": {
+    "issue_id": "digitalocean/doctl#889",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue identifies missing information about size units in both the CLI help text and external docs, which is a documentation gap, not a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#883": {
+    "issue_id": "digitalocean/doctl#883",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#881": {
+    "issue_id": "digitalocean/doctl#881",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#880": {
+    "issue_id": "digitalocean/doctl#880",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#878": {
+    "issue_id": "digitalocean/doctl#878",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#877": {
+    "issue_id": "digitalocean/doctl#877",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#876": {
+    "issue_id": "digitalocean/doctl#876",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "priority resolved (bug over others)",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#870": {
+    "issue_id": "digitalocean/doctl#870",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests fixing misspelled words in command output strings and test code comments, which are documentation/string corrections rather than functional bugs or new features.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#869": {
+    "issue_id": "digitalocean/doctl#869",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests fixing golint code style violations, which is a developer chore/refactoring task with no functional change or feature addition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#867": {
+    "issue_id": "digitalocean/doctl#867",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue identifies a code logic error where an error returned from json.Marshal is not being checked in an integration test, which constitutes a bug in test validation.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#866": {
+    "issue_id": "digitalocean/doctl#866",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "This issue requests a code style formatting run (gofmt) with no functional change, making it a refactoring chore classified as other.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#859": {
+    "issue_id": "digitalocean/doctl#859",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#857": {
+    "issue_id": "digitalocean/doctl#857",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to perform a specific operation (creating a droplet from an image), which is a usage/troubleshooting inquiry rather than a bug report or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#856": {
+    "issue_id": "digitalocean/doctl#856",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#853": {
+    "issue_id": "digitalocean/doctl#853",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "priority resolved (bug over others)",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#849": {
+    "issue_id": "digitalocean/doctl#849",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#847": {
+    "issue_id": "digitalocean/doctl#847",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#846": {
+    "issue_id": "digitalocean/doctl#846",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#845": {
+    "issue_id": "digitalocean/doctl#845",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#843": {
+    "issue_id": "digitalocean/doctl#843",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#840": {
+    "issue_id": "digitalocean/doctl#840",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#834": {
+    "issue_id": "digitalocean/doctl#834",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting new 'Get' and 'List' commands for volume-actions to achieve API parity, which is a clear feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#833": {
+    "issue_id": "digitalocean/doctl#833",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#830": {
+    "issue_id": "digitalocean/doctl#830",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#825": {
+    "issue_id": "digitalocean/doctl#825",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#824": {
+    "issue_id": "digitalocean/doctl#824",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#821": {
+    "issue_id": "digitalocean/doctl#821",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#818": {
+    "issue_id": "digitalocean/doctl#818",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#817": {
+    "issue_id": "digitalocean/doctl#817",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#814": {
+    "issue_id": "digitalocean/doctl#814",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests a new feature or improvement to list droplet sizes and image names in documentation/help output, which aligns with an enhancement request rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#812": {
+    "issue_id": "digitalocean/doctl#812",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#811": {
+    "issue_id": "digitalocean/doctl#811",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#809": {
+    "issue_id": "digitalocean/doctl#809",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#804": {
+    "issue_id": "digitalocean/doctl#804",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests adding a new feature (--vpc-uuid flag) to databases create/replica commands, which aligns with the enhancement definition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#803": {
+    "issue_id": "digitalocean/doctl#803",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#802": {
+    "issue_id": "digitalocean/doctl#802",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user explicitly requests a new flag/feature to specify a VPC during Droplet creation, aligning with the enhancement definition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#799": {
+    "issue_id": "digitalocean/doctl#799",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#795": {
+    "issue_id": "digitalocean/doctl#795",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#794": {
+    "issue_id": "digitalocean/doctl#794",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#793": {
+    "issue_id": "digitalocean/doctl#793",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#791": {
+    "issue_id": "digitalocean/doctl#791",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature (configurable token expiry) in the doctl CLI, which is supported by the backend API and SDK but not yet exposed in the CLI command.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#790": {
+    "issue_id": "digitalocean/doctl#790",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#784": {
+    "issue_id": "digitalocean/doctl#784",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#773": {
+    "issue_id": "digitalocean/doctl#773",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to wait for cloud-init completion, which aligns with an enhancement request rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#771": {
+    "issue_id": "digitalocean/doctl#771",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#763": {
+    "issue_id": "digitalocean/doctl#763",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is explicitly requesting a new feature\u2014the ability to upload files/tar to Spaces via doctl\u2014which falls under feature requests and improvements.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#752": {
+    "issue_id": "digitalocean/doctl#752",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#751": {
+    "issue_id": "digitalocean/doctl#751",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting new packaging/distribution support via a .deb package and PPA, which is a feature addition to the existing release artifacts.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#735": {
+    "issue_id": "digitalocean/doctl#735",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#734": {
+    "issue_id": "digitalocean/doctl#734",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user encountered an environment-related error when running the tool and is asking for setup guidance, not reporting a code bug or requesting a feature.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#733": {
+    "issue_id": "digitalocean/doctl#733",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#730": {
+    "issue_id": "digitalocean/doctl#730",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#729": {
+    "issue_id": "digitalocean/doctl#729",
+    "label": "security",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: security vulnerability",
+    "adjudicator_model": null,
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#726": {
+    "issue_id": "digitalocean/doctl#726",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#725": {
+    "issue_id": "digitalocean/doctl#725",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#722": {
+    "issue_id": "digitalocean/doctl#722",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is providing feedback on unexpected and unintuitive CLI behavior when parsing arguments, which constitutes a request for improved UX and input validation, fitting the 'enhancement' label.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#720": {
+    "issue_id": "digitalocean/doctl#720",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports a functional failure ('Failed to add the host to the list of known hosts') when using 'doctl compute ssh' via Snap, which a maintainer has reproduced and suspects is a bug in the command's execution logic.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#719": {
+    "issue_id": "digitalocean/doctl#719",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests clarifying a specific command example in the README, which is a documentation improvement, not a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#716": {
+    "issue_id": "digitalocean/doctl#716",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is explicitly noting missing documentation for uninstalling the tool, which falls squarely under the documentation category rather than a bug, question, or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#711": {
+    "issue_id": "digitalocean/doctl#711",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue asks for a timeline/plan to include a new API feature in doctl, which is a clear request for new functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#710": {
+    "issue_id": "digitalocean/doctl#710",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#709": {
+    "issue_id": "digitalocean/doctl#709",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The title and body describe a permissions error preventing 'doctl' from accessing Docker when installed via snap, which is a runtime integration failure rather than a feature request or user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#708": {
+    "issue_id": "digitalocean/doctl#708",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#703": {
+    "issue_id": "digitalocean/doctl#703",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue clearly describes an unexpected behavior where a documented combination of flags (--context and -t) fails to work as expected, which constitutes a logic bug in the CLI tool rather than a new feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#699": {
+    "issue_id": "digitalocean/doctl#699",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#692": {
+    "issue_id": "digitalocean/doctl#692",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user encountered a build failure due to a missing build argument, which is a configuration/usage issue rather than a code defect. The resolution confirms it is a user setup question, not a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#672": {
+    "issue_id": "digitalocean/doctl#672",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting an improvement to the help menu to show required positional arguments, which is a feature enhancement for better UX rather than a bug in functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#671": {
+    "issue_id": "digitalocean/doctl#671",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a poor user experience where import failures aren't surfaced immediately, and the maintainer acknowledges it can be improved, making it a feature/enhancement request rather than a documentation fix or bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#670": {
+    "issue_id": "digitalocean/doctl#670",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to switch between team and personal account contexts to manage Kubernetes clusters, which is a usage/troubleshooting inquiry about CLI functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#668": {
+    "issue_id": "digitalocean/doctl#668",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#667": {
+    "issue_id": "digitalocean/doctl#667",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "Although the issue was closed due to an existing workaround, the original request explicitly asks for support for multiple API tokens, which is a feature/enhancement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#663": {
+    "issue_id": "digitalocean/doctl#663",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to use resource names instead of IDs for certain commands to simplify automation, which matches the definition of 'enhancement'.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#659": {
+    "issue_id": "digitalocean/doctl#659",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports a broken flag behavior which hints at a bug, but the core request is to improve command syntax and UX (allow positional args, fail on missing context, etc.), confirmed by maintainer acknowledging confusion and considering UX improvements.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#656": {
+    "issue_id": "digitalocean/doctl#656",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that after upgrading doctl, the 'auth switch' command fails to persist the context, causing subsequent commands to fail. This is a functional regression, not a user error, and was confirmed later as a bug by the maintainer.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#655": {
+    "issue_id": "digitalocean/doctl#655",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "multiple native labels same category: enhancement, suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#654": {
+    "issue_id": "digitalocean/doctl#654",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The error refers to 'geth' binary execution on Mac OSX, and the discussion clarifies it is not related to doctl, making it an unrelated administrative/off-topic issue.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#640": {
+    "issue_id": "digitalocean/doctl#640",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#630": {
+    "issue_id": "digitalocean/doctl#630",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting the ability to specify a project when creating a droplet, which constitutes a new feature request for the CLI tool's functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#604": {
+    "issue_id": "digitalocean/doctl#604",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports a 'no such file or directory' error when running 'doctl auth init', indicating the CLI attempts to write to a missing directory or path instead of creating it, which is a code bug rather than a user configuration mistake.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#595": {
+    "issue_id": "digitalocean/doctl#595",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The stack trace shows a nil pointer dereference crash (panic) in execCredentialFromConfig when kubectl tries to use doctl as an exec credential plugin, which is a clear logic error and not a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#591": {
+    "issue_id": "digitalocean/doctl#591",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The CLI fails with a permission error because it attempts to create a '.config' directory in the user's home without checking permissions first, which is a logic bug causing a broken user experience on first run.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#578": {
+    "issue_id": "digitalocean/doctl#578",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The error 'unable to read DigitalOcean access token: The handle is invalid' is a system error traced to a code defect that was subsequently fixed, not a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#573": {
+    "issue_id": "digitalocean/doctl#573",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#569": {
+    "issue_id": "digitalocean/doctl#569",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a behavior where --format is ignored with JSON output, and the discussion treats this as a design improvement request rather than a code bug, noting it could be clarified or future support added.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#568": {
+    "issue_id": "digitalocean/doctl#568",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue describes a transient/duplicate release artifact formatting problem that resolved itself, aligning with a minor administrative glitch rather than a code bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#567": {
+    "issue_id": "digitalocean/doctl#567",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#561": {
+    "issue_id": "digitalocean/doctl#561",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes migrating to a more maintained repository to receive new features and bug fixes, which fits the definition of an enhancement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#556": {
+    "issue_id": "digitalocean/doctl#556",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to list authentication contexts and manage multiple configurations, which is a troubleshooting/usage inquiry rather than a code bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#547": {
+    "issue_id": "digitalocean/doctl#547",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests implementing --wait on all delete commands to improve consistency and avoid race conditions, which is a feature/improvement request rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#546": {
+    "issue_id": "digitalocean/doctl#546",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is explicitly asking 'Is there a way to order the results' and confirms the issue is a question, making it a clear usage inquiry rather than a bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#543": {
+    "issue_id": "digitalocean/doctl#543",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding a new `--wait` flag to the `volume-action detach` command to improve workflow, which is clearly a feature addition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#535": {
+    "issue_id": "digitalocean/doctl#535",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#509": {
+    "issue_id": "digitalocean/doctl#509",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Missing .exe extension on Windows binaries prevents execution, which constitutes a packaging/release logic bug, not a user configuration issue.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#507": {
+    "issue_id": "digitalocean/doctl#507",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Incorrect binary naming in release artifacts indicates a build/release process error, which the maintainer explicitly calls a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#504": {
+    "issue_id": "digitalocean/doctl#504",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting that backups use a separate ID system or be filtered differently from snapshots to improve scripting and deletion workflows, which is a feature improvement rather than a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#500": {
+    "issue_id": "digitalocean/doctl#500",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Changelog script incorrectly omits merged PRs due to sorting logic rather than a feature request or user misconfiguration. This is a logic error that impacts the tool's accurate output.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#496": {
+    "issue_id": "digitalocean/doctl#496",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#495": {
+    "issue_id": "digitalocean/doctl#495",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user initially reported a deletion issue that turned out to be a usage/command syntax confusion, and the thread resolved with a clarification on how to properly create snapshots rather than an actual code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#493": {
+    "issue_id": "digitalocean/doctl#493",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to handle a pending API event safely, seeking usage guidance rather than reporting a bug or requesting a feature.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#485": {
+    "issue_id": "digitalocean/doctl#485",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The Windows binary for v1.21.0 is corrupt/invalid, which is a build artifact error from the release process, not a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#481": {
+    "issue_id": "digitalocean/doctl#481",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a targeted improvement to the error message for snap users, which is a feature/enhancement request rather than a bug fix or documentation update.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#480": {
+    "issue_id": "digitalocean/doctl#480",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking about how to pipe command output correctly, and the maintainer clarifies the shell syntax behavior, indicating a usage question rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#479": {
+    "issue_id": "digitalocean/doctl#479",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Returning 'null' instead of an empty JSON array '[]' for a list command is incorrect behavior and an inconsistency in the CLI output, which is a logic bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#476": {
+    "issue_id": "digitalocean/doctl#476",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The snap installation fails with an error indicating missing plugs, which points to a packaging defect rather than a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#475": {
+    "issue_id": "digitalocean/doctl#475",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests an improved, actionable error message for a known snap permission scenario to guide users, which is a UX/feature enhancement rather than a bug fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#464": {
+    "issue_id": "digitalocean/doctl#464",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#462": {
+    "issue_id": "digitalocean/doctl#462",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user provides clear evidence that doctl compute ssh fails to use available SSH keys on Windows despite ssh connectivity working natively, indicating a code logic issue in how the tool handles authentication on that platform.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#461": {
+    "issue_id": "digitalocean/doctl#461",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#459": {
+    "issue_id": "digitalocean/doctl#459",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#458": {
+    "issue_id": "digitalocean/doctl#458",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a persistent authentication failure with kubectl after doctl auth init, which a maintainer links to a known snap packaging bug (#457) requiring a code fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#457": {
+    "issue_id": "digitalocean/doctl#457",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#452": {
+    "issue_id": "digitalocean/doctl#452",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding valid options to help text for commands like 'droplet create', which is a feature improvement to the CLI's usability and formatting.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#451": {
+    "issue_id": "digitalocean/doctl#451",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a feature improvement to dynamically determine the config file's default path at runtime based on environment variables, rather than using a hardcoded string.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#449": {
+    "issue_id": "digitalocean/doctl#449",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#448": {
+    "issue_id": "digitalocean/doctl#448",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is troubleshooting an authentication error caused by a local kubectl version mismatch, not reporting a bug in doctl's code logic. The comment confirms it's an environment issue, making this a support question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#446": {
+    "issue_id": "digitalocean/doctl#446",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue suggests improving help text visibility for the completion command, which is a feature/UX improvement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#445": {
+    "issue_id": "digitalocean/doctl#445",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a code refactoring/cleanup task with no feature change or user-facing impact, which falls under 'other'.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#441": {
+    "issue_id": "digitalocean/doctl#441",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting official support for an ARM version, which constitutes a new feature/platform request, even though workarounds are suggested in the comments.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#437": {
+    "issue_id": "digitalocean/doctl#437",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests a new feature for automatic garbage collection of load balancers upon cluster deletion, which aligns with enhancement rather than a current bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#432": {
+    "issue_id": "digitalocean/doctl#432",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a change in default behavior (waiting for droplet creation) to have IP addresses available on return, which is a feature proposal rather than a bug or configuration question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#425": {
+    "issue_id": "digitalocean/doctl#425",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#424": {
+    "issue_id": "digitalocean/doctl#424",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting the ability to upgrade a Kubernetes cluster version, which is a new feature addition rather than a bug, documentation fix, or usage question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#420": {
+    "issue_id": "digitalocean/doctl#420",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting the implementation of an existing API feature (creating a volume from a snapshot) into the doctl CLI, which is a clear feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#419": {
+    "issue_id": "digitalocean/doctl#419",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a fatal runtime error (MSpanList_Insert panic) when executing the doctl binary, indicating a low-level crash or memory corruption that is a software defect, not a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#417": {
+    "issue_id": "digitalocean/doctl#417",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#411": {
+    "issue_id": "digitalocean/doctl#411",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The auth context name is incorrectly lowercased when switching or adding new contexts, causing authorization failures. This is a logic bug in state handling.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#409": {
+    "issue_id": "digitalocean/doctl#409",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#407": {
+    "issue_id": "digitalocean/doctl#407",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting support for a new product offering (managed databases), which is a classic feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#406": {
+    "issue_id": "digitalocean/doctl#406",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new command to add an SSH key to a droplet, which constitutes a feature request. The maintainer acknowledged it as such but expressed reservations.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#405": {
+    "issue_id": "digitalocean/doctl#405",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The saved kubeconfig uses an exec credential plugin that causes external tools like kompose to fail, while the GUI-generated config works; this indicates incorrect logic in how doctl generates the config file.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#400": {
+    "issue_id": "digitalocean/doctl#400",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#399": {
+    "issue_id": "digitalocean/doctl#399",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The doctl client fails to fetch credentials intermittently due to an upstream HTTP 500 error, which indicates a backend bug. Even after the status code change, the client needs a fix to handle this gracefully, confirming it's a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#395": {
+    "issue_id": "digitalocean/doctl#395",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports an incorrect command string in the warning message (missing 'cluster' subcommand), which is a logic error in the CLI output, not a request for new functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#394": {
+    "issue_id": "digitalocean/doctl#394",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#390": {
+    "issue_id": "digitalocean/doctl#390",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting the snap package be updated to the latest version, which is a request for a feature/update rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#389": {
+    "issue_id": "digitalocean/doctl#389",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#386": {
+    "issue_id": "digitalocean/doctl#386",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports a shell completion error (bad math expression) triggered by tab-completion, which is a logic bug in the generated Zsh completion script.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#385": {
+    "issue_id": "digitalocean/doctl#385",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The snap-packaged `doctl ssh` command fails due to an incompatible SSH version bundled in the snap, which is a runtime error in the packaged tool rather than a user misconfiguration or a feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#381": {
+    "issue_id": "digitalocean/doctl#381",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is confused about a discrepancy between CLI output and the web UI, which is resolved as a misunderstanding of legacy plan slugs rather than a bug in the software.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#378": {
+    "issue_id": "digitalocean/doctl#378",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to conditionally exclude the token from the config file when an environment variable exists, not reporting a bug or asking a question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#368": {
+    "issue_id": "digitalocean/doctl#368",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new feature\u2014packaging doctl for MacPorts as an alternative to Homebrew. The comment thread discusses collaboration but the root request is a new distribution support, which aligns with enhancement.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#367": {
+    "issue_id": "digitalocean/doctl#367",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests support for managing custom images via doctl, a new feature desired to integrate with CI/CD pipelines.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#366": {
+    "issue_id": "digitalocean/doctl#366",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a functional change to make a CLI flag optional based on API spec, which is a feature improvement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#360": {
+    "issue_id": "digitalocean/doctl#360",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue asks if a managed Kubernetes offering will be supported in doctl, which is a request for new functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#359": {
+    "issue_id": "digitalocean/doctl#359",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests new attach/detach functionality for volumes, which is a feature addition, even though the thread reveals it already exists under a different command.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#358": {
+    "issue_id": "digitalocean/doctl#358",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is encountering a DELETE 409 error and seeking troubleshooting assistance, which qualifies as a usage/configuration question rather than a reproducible code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#347": {
+    "issue_id": "digitalocean/doctl#347",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The --user-data-file flag throws a 'permission denied' error when doctl is installed via snap, indicating a packaging/functionality issue that prevents a core feature from working as expected.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#346": {
+    "issue_id": "digitalocean/doctl#346",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user proposes a UI/UX improvement to suppress the usage help screen for non-usage errors, which is a feature request for better error formatting behavior.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#345": {
+    "issue_id": "digitalocean/doctl#345",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#344": {
+    "issue_id": "digitalocean/doctl#344",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports missing release binaries, which is an administrative/release management oversight rather than a code bug or a new feature. This falls under correcting missing deliverables in the release process.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#341": {
+    "issue_id": "digitalocean/doctl#341",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is reporting a usage error and asking for help diagnosing a potential compilation or library issue in a specific environment, which is a troubleshooting inquiry rather than a confirmed code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#340": {
+    "issue_id": "digitalocean/doctl#340",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature (--format support for load balancer commands) to improve output filtering, which aligns with the enhancement definition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#337": {
+    "issue_id": "digitalocean/doctl#337",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "This is a packaging/distribution request to update a snap and correct publisher metadata, which is an administrative operational task rather than a bug, feature, or documentation change.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#336": {
+    "issue_id": "digitalocean/doctl#336",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#335": {
+    "issue_id": "digitalocean/doctl#335",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#334": {
+    "issue_id": "digitalocean/doctl#334",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The CLI incorrectly triggers a configuration warning when running from the correct config directory, which is a logic error.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#333": {
+    "issue_id": "digitalocean/doctl#333",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a behavior that was later confirmed as expected by the maintainer (case-insensitive tags), making this a user configuration/usage inquiry rather than a true logic bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#332": {
+    "issue_id": "digitalocean/doctl#332",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The user is experiencing terminal emulation issues during SSH, likely due to shell or terminal settings rather than a code bug, and a follow-up error suggests a configuration or environment-specific problem.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#329": {
+    "issue_id": "digitalocean/doctl#329",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "Hardcoded version reporting misrepresents the actual build, causing incorrect CLI output\u2014this is a logic/behavior bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#328": {
+    "issue_id": "digitalocean/doctl#328",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that the --snapshot-name flag is ignored and the snapshot is named incorrectly, which is confirmed as a reproducible logic bug in version 1.8.2 that was later fixed.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#325": {
+    "issue_id": "digitalocean/doctl#325",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes an unexpected error/regression in volume creation due to a size parsing failure, indicating a code logic bug introduced in a recent update.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#321": {
+    "issue_id": "digitalocean/doctl#321",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking for help with command usage and formatting for volume attachments, and the comment thread resolves it as a documentation clarification rather than a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#320": {
+    "issue_id": "digitalocean/doctl#320",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports incorrect handling of column names with spaces (including nil output and errors), which is a logic bug in the formatting code, as confirmed by the maintainer's submitted fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#318": {
+    "issue_id": "digitalocean/doctl#318",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking about the meaning or expansion of the 'doctl' acronym, which is a general informational inquiry rather than a bug, feature request, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#317": {
+    "issue_id": "digitalocean/doctl#317",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue explicitly proposes adding a new '--tag' flag to droplet actions, which is a request for new functionality rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#314": {
+    "issue_id": "digitalocean/doctl#314",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#312": {
+    "issue_id": "digitalocean/doctl#312",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The user requests ability to obtain the snapshot resource ID upon creation, which is upstream API limitation; the thread identifies this as a missing feature rather than a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#311": {
+    "issue_id": "digitalocean/doctl#311",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#310": {
+    "issue_id": "digitalocean/doctl#310",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding OpenSSH support to the Dockerfile to enable SSH functionality, which is a request for a new feature or capability in the Docker image, not a bug in the core application code.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#309": {
+    "issue_id": "digitalocean/doctl#309",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#308": {
+    "issue_id": "digitalocean/doctl#308",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking for help connecting/authenticating their terminal, revealing a user-side tool confusion (using 'doclt' instead of 'doctl') rather than a code bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#306": {
+    "issue_id": "digitalocean/doctl#306",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is inquiring about the availability of a new Snap package version and asking for an update timeline, which is a usage/logistics question rather than a bug, feature request, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#300": {
+    "issue_id": "digitalocean/doctl#300",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user initially asks if the wildcard behavior is a bug, but the core request is a workaround or new feature to support bulk record ID operations, which is an enhancement.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#298": {
+    "issue_id": "digitalocean/doctl#298",
+    "label": "question",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: question",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#297": {
+    "issue_id": "digitalocean/doctl#297",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests an improvement to the auto-completion behavior by removing 'completion' as a suggestion, which is a user experience enhancement rather than a bug, question, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#294": {
+    "issue_id": "digitalocean/doctl#294",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that the --access-token / -t flag is being ignored and doctl auth init still prompts interactively, which is a runtime logic bug in the CLI.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#293": {
+    "issue_id": "digitalocean/doctl#293",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking whether a specific feature exists (viewing load balancer logs via doctl) and the comment thread confirms this is a how-to/feature-inquiry rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#291": {
+    "issue_id": "digitalocean/doctl#291",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests adding a 'SizeSlug' display in the droplet list output, which is a new feature request rather than a bug fix or documentation clarification.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#290": {
+    "issue_id": "digitalocean/doctl#290",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to correctly use the --volumes flag to attach multiple volumes when creating a droplet, which is a usage inquiry, not a bug report or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#289": {
+    "issue_id": "digitalocean/doctl#289",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The --domain-name flag exists but fails to filter results, indicating either broken functionality or a non-functional flag that should be removed or fixed.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#288": {
+    "issue_id": "digitalocean/doctl#288",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to export Droplet list details to a file using doctl, which is a troubleshooting/how-to usage inquiry rather than a bug, feature request, or documentation issue.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#285": {
+    "issue_id": "digitalocean/doctl#285",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a user misunderstanding of size units (GB vs GiB), which is a configuration/usage question rather than a code bug, as confirmed by the maintainer's response explaining the intended behavior.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#283": {
+    "issue_id": "digitalocean/doctl#283",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to auto-prompt and update the CLI, which is a functional enhancement beyond just showing the version.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#281": {
+    "issue_id": "digitalocean/doctl#281",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue title asks a 'how to' question about non-interactive authentication, but the body and thread show confusion around a temporarily broken environment variable feature and disorganized documentation feature requests, making the core problem an administrative maintenance conversation rather than a clear-cut user question or strict documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#279": {
+    "issue_id": "digitalocean/doctl#279",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to list public distribution images and whether a specific flag is required, making this a usage inquiry rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#276": {
+    "issue_id": "digitalocean/doctl#276",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user initially reported a hash mismatch but later realized they were hashing the wrong file (tar.gz vs. extracted binary), resolving their own misunderstanding. This is a troubleshooting inquiry, not a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#275": {
+    "issue_id": "digitalocean/doctl#275",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting an automated Docker Hub publication feature, which constitutes a request for new functionality rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#274": {
+    "issue_id": "digitalocean/doctl#274",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding a Slug field to snapshots to align with Image functionality, which is a new feature enhancement rather than a bug, question, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#272": {
+    "issue_id": "digitalocean/doctl#272",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting support for a new feature (multi-tag filtering) in the droplet list command, which aligns with the enhancement category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#271": {
+    "issue_id": "digitalocean/doctl#271",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting documentation or an example for re-imaging a droplet, which fits the 'documentation' category for adding missing guides or references.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#269": {
+    "issue_id": "digitalocean/doctl#269",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is inquiring why the snap package is not found, which is a troubleshooting/usage question rather than a confirmed bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#266": {
+    "issue_id": "digitalocean/doctl#266",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes a new multiple-account switching feature, aligning with the enhancement definition for adding new functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#265": {
+    "issue_id": "digitalocean/doctl#265",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new shorthand command to act on droplets by hostname rather than ID, which constitutes a feature improvement to user workflow.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#263": {
+    "issue_id": "digitalocean/doctl#263",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#261": {
+    "issue_id": "digitalocean/doctl#261",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to list base distribution images and is unaware of the --public flag; this is a usage inquiry, not a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#258": {
+    "issue_id": "digitalocean/doctl#258",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to interact with DigitalOcean Spaces directly from doctl, rather than reporting a bug, security issue, or asking a usage question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#257": {
+    "issue_id": "digitalocean/doctl#257",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The API returns a misleading 'invalid hostname' error when the actual issue is invalid SSH key fingerprints; the CLI/API error handling does not surface the correct failure reason.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#255": {
+    "issue_id": "digitalocean/doctl#255",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding new information (available features like Volumes) to the region list command output, which is a feature addition/improvement.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#253": {
+    "issue_id": "digitalocean/doctl#253",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue pertains to transferring snap package ownership and account management, which is an administrative task rather than a software bug, feature request, or documentation change.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#252": {
+    "issue_id": "digitalocean/doctl#252",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is receiving a 401 authentication error, and the maintainer suggests contacting cloud support, indicating this is likely a user account/token troubleshooting issue rather than a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#251": {
+    "issue_id": "digitalocean/doctl#251",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is confused about why no images appear, and the issue is resolved by a usage hint (--public) rather than a code defect or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#250": {
+    "issue_id": "digitalocean/doctl#250",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user explicitly requests a new feature (Zsh completion script generation) in the title and body, and the comment thread confirms it overlaps with an existing implementation request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#248": {
+    "issue_id": "digitalocean/doctl#248",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a random failure with a JSON parsing error ('invalid character L'), suggesting either an API response issue or a client-side deserialization bug that needs investigation, which falls under the 'bug' category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#247": {
+    "issue_id": "digitalocean/doctl#247",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user attempts to use 'ports:0' based on the output of 'firewall list', but the API rejects 0 as invalid. The conflicting representation between the list output (showing 0 for all ports) and the required input value ('all') is a functional inconsistency that constitutes a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#246": {
+    "issue_id": "digitalocean/doctl#246",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes an incorrect logic behavior where the configuration path handling breaks when XDG_CONFIG_HOME is explicitly set, resulting in the config file being written to an unexpected location without the doctl subdirectory.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#244": {
+    "issue_id": "digitalocean/doctl#244",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to enable monitoring on an existing droplet using doctl, which is a usage/configuration inquiry rather than a bug report or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#242": {
+    "issue_id": "digitalocean/doctl#242",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue asks if a specific feature (CRUD for firewalls) exists in the tool, and the resolution in the comments confirms it was a user knowledge/version query.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#240": {
+    "issue_id": "digitalocean/doctl#240",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports incorrect behavior where the CLI uses a hardcoded path for the config file instead of the environment-appropriate APPDATA directory, which is a logic error that should be fixed.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#238": {
+    "issue_id": "digitalocean/doctl#238",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#230": {
+    "issue_id": "digitalocean/doctl#230",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature for the web console UI to suggest equivalent doctl commands, which is a clear product improvement request rather than a bug or question about existing doctl functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#227": {
+    "issue_id": "digitalocean/doctl#227",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The core issue requests adding a domain ID field to command output, which is a feature request for improved formatting/UX, while the TTL value is a secondary note.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#226": {
+    "issue_id": "digitalocean/doctl#226",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: suggestion",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#219": {
+    "issue_id": "digitalocean/doctl#219",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting the addition of a '--ttl' flag for the domain record creation command, which is a new feature request, not a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#218": {
+    "issue_id": "digitalocean/doctl#218",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a test failure caused by regenerating mocks, leading to a method signature mismatch. This is a build/test logic error, not a feature request, typo, or configuration question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#216": {
+    "issue_id": "digitalocean/doctl#216",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests a new feature to specify SSH keys by human-readable name instead of fingerprint, aiming to improve user experience. This aligns with the 'enhancement' definition for feature requests and UX improvements.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#213": {
+    "issue_id": "digitalocean/doctl#213",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to display droplet features in the list output, which aligns with the enhancement definition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#212": {
+    "issue_id": "digitalocean/doctl#212",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests a new warning feature to prevent silent failures when using unsupported flags, which is a user experience improvement, not a code crash or bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#211": {
+    "issue_id": "digitalocean/doctl#211",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking for installation help and how to configure a non-executable file, which is a troubleshooting inquiry rather than a code defect or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#207": {
+    "issue_id": "digitalocean/doctl#207",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is following the correct command syntax but receives a 422 API error related to volume attachment, and the comment thread confirms it is a known API issue rather than a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#205": {
+    "issue_id": "digitalocean/doctl#205",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports an inconsistent CLI interface where a UUID is required for volumes while names/slugs work for other options, leading to a 500 API error, which is a logic/behavior defect rather than a feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#200": {
+    "issue_id": "digitalocean/doctl#200",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue explicitly requests the addition of missing API endpoints and commands, which is a new feature request, not a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#198": {
+    "issue_id": "digitalocean/doctl#198",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The `--public` flag default is documented as false, but the command lists public images without the flag, indicating a logic bug in the CLI behavior.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#192": {
+    "issue_id": "digitalocean/doctl#192",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "A documented command returned an unexpected 404 error in a reproducible scenario, and the maintainer acknowledged a root cause fix in a linked PR, confirming it as a logic bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#189": {
+    "issue_id": "digitalocean/doctl#189",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The reporter identifies a missing required argument in the CLI help text (inconsistent command description), which is a defect in the published binary output that was later fixed in the source code.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#184": {
+    "issue_id": "digitalocean/doctl#184",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user states the documentation is unclear and asks about the syntax for generating snapshots, which is a usage inquiry rather than a feature request or bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#183": {
+    "issue_id": "digitalocean/doctl#183",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking how to use the doctl CLI to assign multiple tags to a droplet, and the comment thread confirms it is a version-related usage inquiry rather than a bug report.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#182": {
+    "issue_id": "digitalocean/doctl#182",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding monitoring support when creating a droplet, which is a new feature request, and the comment thread confirms it was implemented as an enhancement in a subsequent PR.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#181": {
+    "issue_id": "digitalocean/doctl#181",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is confused about the correct command to use (import vs create) and the 'no key found' error stems from a usage misunderstanding, not a software crash or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#176": {
+    "issue_id": "digitalocean/doctl#176",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue reports a visual formatting problem (white text on white background) that hinders readability rather than a functional crash or logic error, making it a UX improvement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#172": {
+    "issue_id": "digitalocean/doctl#172",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user proposes a new feature to show a list of resources before deletion confirmation, which aligns with the enhancement category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#168": {
+    "issue_id": "digitalocean/doctl#168",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to pass through command-line arguments to the underlying SSH command, and a comment suggests an alternative flag, indicating it is not a bug but an improvement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#167": {
+    "issue_id": "digitalocean/doctl#167",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding support for specifying ssh-user and ssh-port in the config file, which is a new functionality/feature request rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#166": {
+    "issue_id": "digitalocean/doctl#166",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking a design rationale question about the difference between two similar CLI flags, understanding the reasoning, and the issue was closed after explanation.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#163": {
+    "issue_id": "digitalocean/doctl#163",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "This is a test issue with no substantive bug, feature, documentation, or question content; the comment mentions CI not working but provides no technical details to classify it as a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#162": {
+    "issue_id": "digitalocean/doctl#162",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The user is inquiring about a non-fatal notice message during normal operation, asking for clarification rather than reporting a blocking failure or feature gap.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#156": {
+    "issue_id": "digitalocean/doctl#156",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests improving the template format by passing a droplet struct, which is a feature improvement for better usability and formatting, not a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#150": {
+    "issue_id": "digitalocean/doctl#150",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The build process fails with a 'fatal: no submodule mapping found' error due to leftover submodule metadata in the repository, which is a code/build defect preventing installation.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#149": {
+    "issue_id": "digitalocean/doctl#149",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The provided stack trace shows a fatal runtime panic originating from the sync pool, which constitutes a crash. The maintainer confirms it's a Go/Sierra environment issue requiring a new compiled version, meaning it is a system-level crash bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#147": {
+    "issue_id": "digitalocean/doctl#147",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The 'go get' command fails with a git submodule error during the build process, indicating a reproducible build/installation failure rather than a user configuration question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#145": {
+    "issue_id": "digitalocean/doctl#145",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "This is a troubleshooting inquiry about 'resource not found' errors when using doctl to tag droplets. The resolution in the comments clarifies this was a user misunderstanding about tag creation requirements, making it a usage question rather than a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#142": {
+    "issue_id": "digitalocean/doctl#142",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The unexpected stdout output breaks piped JSON processing, which is a logic/behavior bug in the command output handling.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#141": {
+    "issue_id": "digitalocean/doctl#141",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes a new SCP command feature for the CLI tool, outlining its potential benefits and implementation approach, which matches the enhancement definition.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#137": {
+    "issue_id": "digitalocean/doctl#137",
+    "label": "enhancement",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: enhancement",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#136": {
+    "issue_id": "digitalocean/doctl#136",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests packaging doctl as a snap for broader distribution and automatic updates, which is a request for a new feature or integration rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#133": {
+    "issue_id": "digitalocean/doctl#133",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to mass delete snapshots, which aligns with an enhancement request rather than a bug (the syntax error is a result of missing functionality).",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#131": {
+    "issue_id": "digitalocean/doctl#131",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user's core issue is that the README and tutorial contain outdated download links pointing to an old version of doctl that uses 'auth login' instead of 'auth init'. The request is to fix the documentation links, which is a documentation update, not a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#130": {
+    "issue_id": "digitalocean/doctl#130",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting that the Homebrew formula be updated to deliver a newer version of the software, which is a feature/improvement request (enhancement) rather than a broken functionality (bug) or a question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#129": {
+    "issue_id": "digitalocean/doctl#129",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports a CLI command failing with a 500 server error after a snapshot action errored, indicating a backend or API handling issue rather than a user configuration problem.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#128": {
+    "issue_id": "digitalocean/doctl#128",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a build failure on macOS 10.12 due to an upstream incompatibility, and the thread confirms it was a fixed bug related to Go versioning, not a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#127": {
+    "issue_id": "digitalocean/doctl#127",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The droplet is incorrectly created despite an error, indicating a logic flaw in the CLI's error handling and idempotency rather than a feature request or user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#124": {
+    "issue_id": "digitalocean/doctl#124",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The command output produces invalid JSON (two separate arrays concatenated with `][`) instead of a single array, which is a logic bug in the JSON formatting.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#120": {
+    "issue_id": "digitalocean/doctl#120",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting tab autocomplete functionality, which is a feature request, and the comment thread confirms it's on the roadmap.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#119": {
+    "issue_id": "digitalocean/doctl#119",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#116": {
+    "issue_id": "digitalocean/doctl#116",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests the ability to set a hypervisor id during droplet creation, which is a new feature not currently supported or documented.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#115": {
+    "issue_id": "digitalocean/doctl#115",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user agent reports an incorrect hardcoded version instead of the actual binary version, which is incorrect runtime behavior and constitutes a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#114": {
+    "issue_id": "digitalocean/doctl#114",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports that color support, a feature, is not functioning correctly on Windows, indicating a platform-specific logic or rendering bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#112": {
+    "issue_id": "digitalocean/doctl#112",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The report clearly identifies incorrect file descriptor usage and a logic error causing crashes, which are specific code bugs rather than feature requests or questions.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#109": {
+    "issue_id": "digitalocean/doctl#109",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new interactive confirmation feature for destructive actions (droplet deletion), which is a clear feature/improvement request rather than a bug or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#108": {
+    "issue_id": "digitalocean/doctl#108",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes adding a new notification/callback feature for droplet creation when --wait is omitted, which fits the definition of a feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#107": {
+    "issue_id": "digitalocean/doctl#107",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The command returns an API 404 error, indicating the underlying resource lookup or tagging endpoint is failing, which is a logic/functional bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#106": {
+    "issue_id": "digitalocean/doctl#106",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue was a user-caused syntax error in their cloud-init script, not a doctl bug, and the thread resolved it as a troubleshooting inquiry.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#102": {
+    "issue_id": "digitalocean/doctl#102",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user requests a new CLI command (doctl compute droplet find) to search droplets by partial name, IP, or tags, which is a feature request for new functionality.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#101": {
+    "issue_id": "digitalocean/doctl#101",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The CLI command fails with an error instead of performing the expected interactive browser login flow, which is a logic/functional bug rather than a documentation issue or user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#96": {
+    "issue_id": "digitalocean/doctl#96",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new feature (jsonpath output formatting/traversal) for the doctl CLI tool.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#95": {
+    "issue_id": "digitalocean/doctl#95",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding a new feature (Go template support) to customize CLI output formatting, which is a clear feature request rather than a bug, question, or other category.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#94": {
+    "issue_id": "digitalocean/doctl#94",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue proposes replacing an existing command with a new implementation to improve cross-platform compatibility and configuration management, which constitutes a feature change request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#90": {
+    "issue_id": "digitalocean/doctl#90",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue explicitly requests a new feature (bash completion) for doctl, which aligns perfectly with the enhancement label definition for new feature requests.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#89": {
+    "issue_id": "digitalocean/doctl#89",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new feature to display private IPs in the output of droplet create/list commands, which is a request for additional functionality rather than a bug or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#86": {
+    "issue_id": "digitalocean/doctl#86",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding the ability to address droplets by name instead of ID, which is a new feature request to improve scripting usability.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#84": {
+    "issue_id": "digitalocean/doctl#84",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue describes a pagination problem causing incomplete droplet listings, and the maintainer confirms a fix for an off-by-one error, which is a logic bug rather than a feature request or user question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#83": {
+    "issue_id": "digitalocean/doctl#83",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a known failure where 'doctl auth login' does not create the expected config file, which is a logic error in the tool.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#82": {
+    "issue_id": "digitalocean/doctl#82",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The code incorrectly calls a distribution function instead of the user-specific function, leading to wrong results, which is a logic error classified as a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#81": {
+    "issue_id": "digitalocean/doctl#81",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that the --ssh-user argument is ignored and the connection defaults to root, which is incorrect functional behavior and constitutes a bug, as confirmed by its subsequent fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#78": {
+    "issue_id": "digitalocean/doctl#78",
+    "label": "bug",
+    "tier": "A",
+    "source": "rule",
+    "confidence": "HIGH",
+    "mapping_reason": "single native label: bug",
+    "adjudicator_model": null,
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#77": {
+    "issue_id": "digitalocean/doctl#77",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue clearly requests adding a new feature (SSH agent forwarding) to an existing command, which is a classic enhancement request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#76": {
+    "issue_id": "digitalocean/doctl#76",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user expects auth login to open a browser window for authentication, but instead it throws an access token error. A project member's comment confirms a bug in auth login, indicating unexpected behavior that the next release will address.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#75": {
+    "issue_id": "digitalocean/doctl#75",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The auth login command fails to persist the token to the configuration file, which is a functional regression in v1.1.0 causing an 'access token is required' error for subsequent commands.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#73": {
+    "issue_id": "digitalocean/doctl#73",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user encountered a 'cannot execute binary file' error, which is a troubleshooting inquiry about an OS/architecture mismatch rather than a code bug, and it was resolved via guidance in the comments.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#71": {
+    "issue_id": "digitalocean/doctl#71",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user encountered a shell error due to installing the wrong OS binary (Linux on macOS), which is a user-side configuration issue rather than a software bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#67": {
+    "issue_id": "digitalocean/doctl#67",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new feature to support git-style aliases in doctl, which is a clear enhancement request for improving user ergonomics.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#66": {
+    "issue_id": "digitalocean/doctl#66",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user specifically requests a new feature\u2014an interactive shell/repl mode for the CLI\u2014which aligns with the enhancement definition for new feature requests.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#65": {
+    "issue_id": "digitalocean/doctl#65",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue requests a new feature (SSH agent support) for the Windows platform, which fits the enhancement definition despite subsequent comments indicating the feature may already be implemented.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#59": {
+    "issue_id": "digitalocean/doctl#59",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests conformance with the XDG specification for the config file location, which is a new feature/improvement to the tool's behavior, not a bug or user question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#55": {
+    "issue_id": "digitalocean/doctl#55",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests an improvement to output behavior by not mixing plaintext prints with JSON output, which is a feature/UX enhancement rather than a runtime error.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#50": {
+    "issue_id": "digitalocean/doctl#50",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting a new command or combined workflow ('creating a floating IP and assigning it in one go'), which qualifies as a feature request; the comment from bryanl suggests a workaround but does not resolve the feature gap.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#48": {
+    "issue_id": "digitalocean/doctl#48",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user encountered an API error (422) when using a valid image ID, and the comment thread confirms it was a code issue fixed in a related pull request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#47": {
+    "issue_id": "digitalocean/doctl#47",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests adding a new platform (FreeBSD) release for doctl, which is a feature addition or distribution request, not a bug, question, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#46": {
+    "issue_id": "digitalocean/doctl#46",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is troubleshooting an 'exec format error' when running the binary, which is a usage/setup issue rather than a code bug, and it was resolved by downloading the correct OS version.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#45": {
+    "issue_id": "digitalocean/doctl#45",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The request is for making doctl configuration more versatile, including support for default SSH key path and SSH agent, which is a new feature addition, not a bug fix or question.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#43": {
+    "issue_id": "digitalocean/doctl#43",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The request is to update a third-party package manager formula to a newer software release, which constitutes an improvement to the distribution process rather than a code bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#42": {
+    "issue_id": "digitalocean/doctl#42",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The `go get` command fails with a submodule mapping error, which is a build/compilation failure rather than a user configuration issue, indicating a bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#37": {
+    "issue_id": "digitalocean/doctl#37",
+    "label": "other",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "Creating a script to regenerate test mocks is a developer-focused administrative or refactoring chore with no direct feature change or bug fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#33": {
+    "issue_id": "digitalocean/doctl#33",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting missing CLI flags (--format, --no-header) and improved API pagination, which are feature additions or improvements, not bug reports.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#32": {
+    "issue_id": "digitalocean/doctl#32",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue points out an outdated version notice that has already been resolved; a maintainer commented the version is current, making this a stale version update request rather than a persistent bug.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#30": {
+    "issue_id": "digitalocean/doctl#30",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that the --ssh-port flag is being ignored, resulting in a connection attempt on the default port 22 instead of the specified port 1234. This is a clear logic bug where a command-line option is not functioning as intended.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#29": {
+    "issue_id": "digitalocean/doctl#29",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "MEDIUM",
+    "mapping_reason": "The issue requests publishing the software to additional package managers (APT) and improving installation documentation, which is a feature/distribution request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#28": {
+    "issue_id": "digitalocean/doctl#28",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests clarification on the configuration file format in the documentation and is resolved by providing missing YAML example details, fitting a documentation gap.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#26": {
+    "issue_id": "digitalocean/doctl#26",
+    "label": "question",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is asking what went wrong with the auth login command and how to configure the tool, which is a usage/troubleshooting inquiry rather than a bug report or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#25": {
+    "issue_id": "digitalocean/doctl#25",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports outdated or incorrect documentation referencing '.doctlconfig' instead of '.doctlcfg', and missing format details, which is a documentation fix rather than a bug or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#24": {
+    "issue_id": "digitalocean/doctl#24",
+    "label": "documentation",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user is requesting clarification of build steps directly in the README.md, and the maintainer confirms a patch is incoming, which makes this a request to improve documentation.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": true
+  },
+  "digitalocean/doctl#22": {
+    "issue_id": "digitalocean/doctl#22",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The reported binary includes a '-dev' suffix in its release version, indicating a build or version stamping error rather than a user configuration issue.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#21": {
+    "issue_id": "digitalocean/doctl#21",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue reports a login failure traced to an upstream dependency bug in the webbrowser library, making it a system error rather than a user question or feature request.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#20": {
+    "issue_id": "digitalocean/doctl#20",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue demonstrates that the slug column is completely empty in the CLI output despite showing column headers. A comment confirms the API is returning null slugs, indicating an API bug that the CLI faithfully reports.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#19": {
+    "issue_id": "digitalocean/doctl#19",
+    "label": "bug",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The user reports that the CLI ignores argument flags, fails to launch a valid auth flow, and shows 'unknown client' errors, which indicates a broken login mechanism on Windows rather than a user misconfiguration.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#18": {
+    "issue_id": "digitalocean/doctl#18",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a behavior change (fail-fast or disambiguation prompt) for duplicate droplet names rather than silently deleting the oldest, which is a request for a new feature/improvement.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  },
+  "digitalocean/doctl#2": {
+    "issue_id": "digitalocean/doctl#2",
+    "label": "enhancement",
+    "tier": "B",
+    "source": "llm",
+    "confidence": "HIGH",
+    "mapping_reason": "The issue requests a new feature (config file support) for the doctl tool, which is a classic enhancement rather than a bug, question, or documentation fix.",
+    "adjudicator_model": "deepseek-v4-pro",
+    "in_scored_set": false
+  }
+}

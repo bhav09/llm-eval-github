@@ -1,0 +1,28 @@
+{
+  "run_id": "20260719T053437Z-ecb124a3",
+  "model": "deepseek-4-flash",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "deepseek-4-flash:digitalocean/doctl#1064",
+    "deepseek-4-flash:digitalocean/doctl#1281",
+    "deepseek-4-flash:digitalocean/doctl#1795",
+    "deepseek-4-flash:digitalocean/doctl#26",
+    "deepseek-4-flash:digitalocean/doctl#390",
+    "deepseek-4-flash:digitalocean/doctl#543",
+    "deepseek-4-flash:digitalocean/doctl#67",
+    "deepseek-4-flash:digitalocean/doctl#847",
+    "deepseek-4-flash:digitalocean/doctl#908",
+    "deepseek-4-flash:digitalocean/doctl#989",
+    "gemma-4-31B-it:digitalocean/doctl#1064",
+    "gemma-4-31B-it:digitalocean/doctl#1281",
+    "gemma-4-31B-it:digitalocean/doctl#1795",
+    "gemma-4-31B-it:digitalocean/doctl#26",
+    "gemma-4-31B-it:digitalocean/doctl#390",
+    "gemma-4-31B-it:digitalocean/doctl#543",
+    "gemma-4-31B-it:digitalocean/doctl#67",
+    "gemma-4-31B-it:digitalocean/doctl#847",
+    "gemma-4-31B-it:digitalocean/doctl#908",
+    "gemma-4-31B-it:digitalocean/doctl#989"
+  ],
+  "completed_issue_ids": []
+}

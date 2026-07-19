@@ -1,0 +1,248 @@
+{
+  "model_a": {
+    "model": "deepseek-4-flash",
+    "total_calls": 10,
+    "ok_count": 10,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 2592.33,
+      "p95": 2892.89,
+      "p99": 2892.89
+    },
+    "cost_usd": {
+      "total": 0.000918,
+      "per_call": 9.2e-05,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 2919,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 7,
+      "documentation": 1,
+      "question": 2
+    },
+    "scored": {
+      "count": 10,
+      "accuracy": 0.5,
+      "macro_f1": 0.2687,
+      "per_class": {
+        "bug": {
+          "precision": 0.4286,
+          "recall": 0.75,
+          "f1": 0.5455,
+          "support": 4.0
+        },
+        "documentation": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "support": 4.0
+        },
+        "enhancement": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 3,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 1,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "model_b": {
+    "model": "deepseek-4-flash",
+    "total_calls": 10,
+    "ok_count": 10,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 2592.33,
+      "p95": 2892.89,
+      "p99": 2892.89
+    },
+    "cost_usd": {
+      "total": 0.000918,
+      "per_call": 9.2e-05,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 2919,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 7,
+      "documentation": 1,
+      "question": 2
+    },
+    "scored": {
+      "count": 10,
+      "accuracy": 0.5,
+      "macro_f1": 0.2687,
+      "per_class": {
+        "bug": {
+          "precision": 0.4286,
+          "recall": 0.75,
+          "f1": 0.5455,
+          "support": 4.0
+        },
+        "documentation": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "support": 4.0
+        },
+        "enhancement": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6667,
+          "support": 1.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 3,
+          "documentation": 1,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 1,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "agreement_rate": 1.0,
+    "agreement_total": 10,
+    "disagreement_count": 0,
+    "disagreements": []
+  }
+}

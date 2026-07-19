@@ -1,0 +1,145 @@
+{
+  "candidates": [
+    {
+      "slug": "alibaba-qwen3-32b",
+      "family": "qwen",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Cost/latency baseline"
+    },
+    {
+      "slug": "openai-gpt-oss-120b",
+      "family": "gpt-oss",
+      "parameter_b": 120,
+      "size_class": "very_large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Quality ceiling"
+    },
+    {
+      "slug": "openai-gpt-oss-20b",
+      "family": "gpt-oss",
+      "parameter_b": 20,
+      "size_class": "medium",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Balanced open-weight"
+    },
+    {
+      "slug": "llama3.3-70b-instruct",
+      "family": "llama",
+      "parameter_b": 70,
+      "size_class": "very_large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Large instruct baseline"
+    },
+    {
+      "slug": "mistral-3-14B",
+      "family": "mistral",
+      "parameter_b": 14,
+      "size_class": "medium",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Balanced accuracy/cost"
+    },
+    {
+      "slug": "deepseek-r1-distill-llama-70b",
+      "family": "deepseek",
+      "parameter_b": 70,
+      "size_class": "very_large",
+      "reasoning": true,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Reasoning model"
+    },
+    {
+      "slug": "deepseek-3.2",
+      "family": "deepseek",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Strong general-purpose"
+    },
+    {
+      "slug": "glm-5.1",
+      "family": "glm",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Strong reasoning"
+    },
+    {
+      "slug": "kimi-k2.5",
+      "family": "kimi",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Long-context"
+    },
+    {
+      "slug": "gemma-4-31B-it",
+      "family": "gemma",
+      "parameter_b": 31,
+      "size_class": "large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Google open-weight"
+    },
+    {
+      "slug": "qwen3.5-397b-a17b",
+      "family": "qwen",
+      "parameter_b": 397,
+      "size_class": "very_large",
+      "reasoning": false,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "MoE large"
+    },
+    {
+      "slug": "arcee-trinity-large-thinking",
+      "family": "arcee",
+      "parameter_b": 32,
+      "size_class": "large",
+      "reasoning": true,
+      "instruct": true,
+      "open_weight": true,
+      "cache_supported": true,
+      "role": "Reasoning model"
+    }
+  ],
+  "cache_supported_slugs": [
+    "alibaba-qwen3-32b",
+    "openai-gpt-oss-120b",
+    "openai-gpt-oss-20b",
+    "qwen3.5-397b-a17b",
+    "glm-5.1",
+    "deepseek-3.2",
+    "kimi-k2.5"
+  ]
+}

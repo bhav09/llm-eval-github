@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T053307Z-008ea6da-full-gemma-4-31B-it",
+  "model": "gemma-4-31B-it",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "gemma-4-31B-it:digitalocean/doctl#1023",
+    "gemma-4-31B-it:digitalocean/doctl#1037",
+    "gemma-4-31B-it:digitalocean/doctl#1665",
+    "gemma-4-31B-it:digitalocean/doctl#417",
+    "gemma-4-31B-it:digitalocean/doctl#793"
+  ],
+  "completed_issue_ids": []
+}

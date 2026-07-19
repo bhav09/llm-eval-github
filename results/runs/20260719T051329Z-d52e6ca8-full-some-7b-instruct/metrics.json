@@ -1,0 +1,246 @@
+{
+  "model_a": {
+    "model": "some-7b-instruct",
+    "total_calls": 10,
+    "ok_count": 10,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 5.0,
+      "p95": 5.0,
+      "p99": 5.0
+    },
+    "cost_usd": {
+      "total": 0.00024,
+      "per_call": 2.4e-05,
+      "cache_savings_total": 0.00012
+    },
+    "cache": {
+      "prompt_tokens": 1000,
+      "cached_tokens": 800,
+      "hit_rate": 0.8
+    },
+    "label_distribution": {
+      "bug": 3,
+      "enhancement": 7
+    },
+    "scored": {
+      "count": 10,
+      "accuracy": 1.0,
+      "macro_f1": 0.3333,
+      "per_class": {
+        "bug": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "enhancement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 7.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 7,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "model_b": {
+    "model": "some-7b-instruct",
+    "total_calls": 10,
+    "ok_count": 10,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 5.0,
+      "p95": 5.0,
+      "p99": 5.0
+    },
+    "cost_usd": {
+      "total": 0.00024,
+      "per_call": 2.4e-05,
+      "cache_savings_total": 0.00012
+    },
+    "cache": {
+      "prompt_tokens": 1000,
+      "cached_tokens": 800,
+      "hit_rate": 0.8
+    },
+    "label_distribution": {
+      "bug": 3,
+      "enhancement": 7
+    },
+    "scored": {
+      "count": 10,
+      "accuracy": 1.0,
+      "macro_f1": 0.3333,
+      "per_class": {
+        "bug": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "enhancement": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 7.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 7,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "agreement_rate": 1.0,
+    "agreement_total": 10,
+    "disagreement_count": 0,
+    "disagreements": []
+  }
+}

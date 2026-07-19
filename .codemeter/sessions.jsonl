@@ -1,0 +1,742 @@
+{"type":"update","sessionId":"0589cdeb-2270-4977-890e-1978f7047aed","patch":{"endMs":1784381257349}}
+{"type":"create","session":{"id":"4b4d0df7-1356-49a8-b4b2-6f80d0f0fbcb","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381257350,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4b4d0df7-1356-49a8-b4b2-6f80d0f0fbcb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"4b4d0df7-1356-49a8-b4b2-6f80d0f0fbcb","patch":{"endMs":1784381274554}}
+{"type":"create","session":{"id":"4efa7d2e-1b42-4455-91d8-32ad3de40c6c","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381274556,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4efa7d2e-1b42-4455-91d8-32ad3de40c6c","patch":{"endMs":1784381297494}}
+{"type":"create","session":{"id":"f70119bb-7f8c-466f-86eb-faa205afa710","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381297495,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"f70119bb-7f8c-466f-86eb-faa205afa710","patch":{"endMs":1784381300618}}
+{"type":"create","session":{"id":"17f993e9-13ef-49a4-9c31-6f4055e94fd6","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381300619,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"17f993e9-13ef-49a4-9c31-6f4055e94fd6","patch":{"endMs":1784381300719}}
+{"type":"create","session":{"id":"dc082964-b650-4a45-a574-58d485bcf82d","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381300719,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dc082964-b650-4a45-a574-58d485bcf82d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dc082964-b650-4a45-a574-58d485bcf82d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dc082964-b650-4a45-a574-58d485bcf82d","patch":{"endMs":1784381467068}}
+{"type":"create","session":{"id":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381467069,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b3abf815-e5b0-4a73-82b2-12d1efeaf11a","patch":{"endMs":1784381523241}}
+{"type":"create","session":{"id":"f7be7cde-ac98-4292-9c16-4796c9277224","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381523242,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"f7be7cde-ac98-4292-9c16-4796c9277224","patch":{"endMs":1784381562285}}
+{"type":"create","session":{"id":"fbec0711-24c7-43e1-9a2d-e51faebd3df9","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381562301,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"fbec0711-24c7-43e1-9a2d-e51faebd3df9","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fbec0711-24c7-43e1-9a2d-e51faebd3df9","patch":{"endMs":1784381564025}}
+{"type":"create","session":{"id":"0bf449a6-0602-434e-9029-a0298bf92667","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381564026,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"0bf449a6-0602-434e-9029-a0298bf92667","patch":{"endMs":1784381653001}}
+{"type":"create","session":{"id":"cd35882a-08d1-481b-950a-e2bad4dc1e16","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381653002,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"cd35882a-08d1-481b-950a-e2bad4dc1e16","patch":{"endMs":1784381681122}}
+{"type":"create","session":{"id":"c67f9ad5-bd35-4df4-9ca9-7c1e59c87bb3","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381681123,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c67f9ad5-bd35-4df4-9ca9-7c1e59c87bb3","patch":{"endMs":1784381691917}}
+{"type":"create","session":{"id":"c98bdbc4-39a5-47b2-90e4-03af58159c78","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784381691917,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"c98bdbc4-39a5-47b2-90e4-03af58159c78","patch":{"endMs":1784382057278}}
+{"type":"create","session":{"id":"b35a08f2-7ff5-4bbe-b535-eb2b2771de45","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784382057280,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b35a08f2-7ff5-4bbe-b535-eb2b2771de45","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b35a08f2-7ff5-4bbe-b535-eb2b2771de45","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b35a08f2-7ff5-4bbe-b535-eb2b2771de45","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b35a08f2-7ff5-4bbe-b535-eb2b2771de45","patch":{"endMs":1784382334016}}
+{"type":"create","session":{"id":"3dcf2243-7916-4b09-abe1-d7b0f22e4546","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784382334016,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"3dcf2243-7916-4b09-abe1-d7b0f22e4546","patch":{"endMs":1784382382143}}
+{"type":"create","session":{"id":"4b1d169b-85db-4219-84a3-83f3a02986f9","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784382382144,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4b1d169b-85db-4219-84a3-83f3a02986f9","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"4b1d169b-85db-4219-84a3-83f3a02986f9","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"4b1d169b-85db-4219-84a3-83f3a02986f9","patch":{"endMs":1784382537463}}
+{"type":"create","session":{"id":"910ef46c-56f1-42b2-9935-3b89e2301f40","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784382537465,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"910ef46c-56f1-42b2-9935-3b89e2301f40","patch":{"endMs":1784382827556}}
+{"type":"create","session":{"id":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784382827558,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"d1aee51c-7eae-49fc-9188-3fa98fc83b98","patch":{"endMs":1784383167675}}
+{"type":"create","session":{"id":"45e9b79e-2b09-445b-9e41-386f0a93c191","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784383167676,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"45e9b79e-2b09-445b-9e41-386f0a93c191","patch":{"endMs":1784383186509}}
+{"type":"create","session":{"id":"8284c369-1696-4c4c-a474-830d4bc43baf","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784383186510,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"8284c369-1696-4c4c-a474-830d4bc43baf","patch":{"endMs":1784383189348}}
+{"type":"create","session":{"id":"9ae9d7db-09ab-42d2-a241-fefba029f195","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784383189348,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"9ae9d7db-09ab-42d2-a241-fefba029f195","patch":{"endMs":1784383492786}}
+{"type":"create","session":{"id":"0cc920ee-ab60-4b0d-ab57-1009aabf634e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784383492788,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"0cc920ee-ab60-4b0d-ab57-1009aabf634e","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"0cc920ee-ab60-4b0d-ab57-1009aabf634e","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"0cc920ee-ab60-4b0d-ab57-1009aabf634e","patch":{"endMs":1784383657878}}
+{"type":"create","session":{"id":"7e4fbe92-1313-49b9-9051-7ed67cf473a0","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784383657878,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"7e4fbe92-1313-49b9-9051-7ed67cf473a0","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"7e4fbe92-1313-49b9-9051-7ed67cf473a0","patch":{"endMs":1784384027947}}
+{"type":"create","session":{"id":"c88287a3-eab5-4fb2-96b7-73870be1fbbc","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384027948,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c88287a3-eab5-4fb2-96b7-73870be1fbbc","patch":{"endMs":1784384031984}}
+{"type":"create","session":{"id":"258153b5-a623-4c84-baba-84f1c6bd636c","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384031984,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"258153b5-a623-4c84-baba-84f1c6bd636c","patch":{"endMs":1784384293113}}
+{"type":"create","session":{"id":"fc3e49d8-a249-4301-921b-da022f4fb5f5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384293114,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"fc3e49d8-a249-4301-921b-da022f4fb5f5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fc3e49d8-a249-4301-921b-da022f4fb5f5","patch":{"endMs":1784384385623}}
+{"type":"create","session":{"id":"62a5db5e-ebe4-43ff-81c9-9fd652027112","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384385623,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"62a5db5e-ebe4-43ff-81c9-9fd652027112","patch":{"endMs":1784384427128}}
+{"type":"create","session":{"id":"dd0fbab9-a3d7-42f5-a5ff-e96e363ef522","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384427129,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dd0fbab9-a3d7-42f5-a5ff-e96e363ef522","patch":{"endMs":1784384431200}}
+{"type":"create","session":{"id":"3ce50227-de46-415a-a80a-9cf1905c5c17","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384431200,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3ce50227-de46-415a-a80a-9cf1905c5c17","patch":{"endMs":1784384484669}}
+{"type":"create","session":{"id":"e10adb97-db60-4a4e-951b-e0d56197d6da","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384484670,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e10adb97-db60-4a4e-951b-e0d56197d6da","patch":{"endMs":1784384633218}}
+{"type":"create","session":{"id":"b6413780-b302-4af7-8dd2-1143c1cb241f","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384633219,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6413780-b302-4af7-8dd2-1143c1cb241f","patch":{"endMs":1784384824200}}
+{"type":"create","session":{"id":"71a593c8-d818-4ca5-b129-9c108f001a1a","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384824200,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"71a593c8-d818-4ca5-b129-9c108f001a1a","patch":{"endMs":1784384845035}}
+{"type":"create","session":{"id":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784384845036,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"708a6ec1-afbf-45d5-8892-5cb6bb544ceb","patch":{"endMs":1784385014038}}
+{"type":"create","session":{"id":"79a2a843-8320-4b99-98d9-3121fe0ebe66","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784385014039,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"79a2a843-8320-4b99-98d9-3121fe0ebe66","patch":{"endMs":1784385018481}}
+{"type":"create","session":{"id":"4449d9e4-f432-4b60-aca9-5d865ee786c5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784385018482,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4449d9e4-f432-4b60-aca9-5d865ee786c5","patch":{"endMs":1784385143395}}
+{"type":"create","session":{"id":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784385143397,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fd89d839-9eee-4776-84b7-fb29bfdd51c6","patch":{"endMs":1784385533525}}
+{"type":"create","session":{"id":"f307ee44-573e-4daf-afe0-57563c874518","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784385533526,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"f307ee44-573e-4daf-afe0-57563c874518","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"f307ee44-573e-4daf-afe0-57563c874518","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"f307ee44-573e-4daf-afe0-57563c874518","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"f307ee44-573e-4daf-afe0-57563c874518","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"f307ee44-573e-4daf-afe0-57563c874518","patch":{"endMs":1784386508924}}
+{"type":"create","session":{"id":"7ba03a4e-dc1d-42ad-9af8-35e83633b6d1","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784386508925,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"7ba03a4e-dc1d-42ad-9af8-35e83633b6d1","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"7ba03a4e-dc1d-42ad-9af8-35e83633b6d1","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"7ba03a4e-dc1d-42ad-9af8-35e83633b6d1","patch":{"endMs":1784386638972}}
+{"type":"create","session":{"id":"eb4805da-86ea-42b1-97f6-30c41770dfd5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784386638974,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"eb4805da-86ea-42b1-97f6-30c41770dfd5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"eb4805da-86ea-42b1-97f6-30c41770dfd5","patch":{"endMs":1784387080881}}
+{"type":"create","session":{"id":"2a80acd0-e4a5-4d8a-a080-ad70e652b7bf","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387080881,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"2a80acd0-e4a5-4d8a-a080-ad70e652b7bf","patch":{"endMs":1784387091376}}
+{"type":"create","session":{"id":"770d78a9-3eea-4d84-878c-115d59fd8b94","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387091378,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"770d78a9-3eea-4d84-878c-115d59fd8b94","patch":{"endMs":1784387214166}}
+{"type":"create","session":{"id":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387214167,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"fb651cde-0533-4834-8ebb-08ed8a3b7cfc","patch":{"endMs":1784387414240}}
+{"type":"create","session":{"id":"d83120d4-cb9b-4e85-bf51-6f8e09d45c5f","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387414242,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"d83120d4-cb9b-4e85-bf51-6f8e09d45c5f","patch":{"endMs":1784387435555}}
+{"type":"create","session":{"id":"7c79e581-f53f-4fe7-b93c-0316872f155e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387435556,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"7c79e581-f53f-4fe7-b93c-0316872f155e","patch":{"endMs":1784387448286}}
+{"type":"create","session":{"id":"b6175b24-3763-48bf-8eb5-3087f98dfc40","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387448286,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b6175b24-3763-48bf-8eb5-3087f98dfc40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6175b24-3763-48bf-8eb5-3087f98dfc40","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b6175b24-3763-48bf-8eb5-3087f98dfc40","patch":{"endMs":1784387466973}}
+{"type":"create","session":{"id":"4f1c5c8f-7fb9-4067-9166-6e9b7e5a5837","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387466974,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4f1c5c8f-7fb9-4067-9166-6e9b7e5a5837","patch":{"endMs":1784387473935}}
+{"type":"create","session":{"id":"58868295-efec-4f0e-82d2-b095d7dff03e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387473935,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"58868295-efec-4f0e-82d2-b095d7dff03e","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"58868295-efec-4f0e-82d2-b095d7dff03e","patch":{"endMs":1784387604302}}
+{"type":"create","session":{"id":"23700c68-0e1b-4c25-8f52-f4219635c8b8","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387604304,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"23700c68-0e1b-4c25-8f52-f4219635c8b8","patch":{"endMs":1784387627988}}
+{"type":"create","session":{"id":"2e931269-0b0e-49b3-b7b9-a8ad39946b83","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387627989,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"2e931269-0b0e-49b3-b7b9-a8ad39946b83","patch":{"endMs":1784387629851}}
+{"type":"create","session":{"id":"3af18800-eb3b-4b7c-b76a-fcb22090684d","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387629851,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"3af18800-eb3b-4b7c-b76a-fcb22090684d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"3af18800-eb3b-4b7c-b76a-fcb22090684d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"3af18800-eb3b-4b7c-b76a-fcb22090684d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"3af18800-eb3b-4b7c-b76a-fcb22090684d","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"3af18800-eb3b-4b7c-b76a-fcb22090684d","patch":{"endMs":1784387799419}}
+{"type":"create","session":{"id":"12c490ba-a510-47b8-b301-a86768322c69","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387799420,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"12c490ba-a510-47b8-b301-a86768322c69","patch":{"endMs":1784387954459}}
+{"type":"create","session":{"id":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784387954461,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"dfa79708-cf00-4979-b8e3-5a1bb8e0662b","patch":{"endMs":1784388569694}}
+{"type":"create","session":{"id":"ce1c5b66-842f-4f43-a65b-f275f77eba43","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784388569696,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"ce1c5b66-842f-4f43-a65b-f275f77eba43","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"ce1c5b66-842f-4f43-a65b-f275f77eba43","patch":{"endMs":1784388694748}}
+{"type":"create","session":{"id":"2bba55e5-f398-432b-9064-2b49906f7a10","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784388694750,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bba55e5-f398-432b-9064-2b49906f7a10","patch":{"endMs":1784389354954}}
+{"type":"create","session":{"id":"585ef4f1-d2da-4e5f-aced-c854531cb782","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784389354955,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"585ef4f1-d2da-4e5f-aced-c854531cb782","patch":{"endMs":1784389607873}}
+{"type":"create","session":{"id":"430a1e6c-98eb-4428-9a0c-5c5c8e773471","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784389607874,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"430a1e6c-98eb-4428-9a0c-5c5c8e773471","patch":{"endMs":1784389623982}}
+{"type":"create","session":{"id":"e82492ea-eb4d-4c66-881d-6a559289e076","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784389623983,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"e82492ea-eb4d-4c66-881d-6a559289e076","patch":{"endMs":1784389760097}}
+{"type":"create","session":{"id":"aa334d60-f9fe-4635-91af-9d1322cbcd9e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784389760099,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"aa334d60-f9fe-4635-91af-9d1322cbcd9e","patch":{"endMs":1784390525106}}
+{"type":"create","session":{"id":"d04ced4b-a62b-4c72-b3e6-f564e2b367a3","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784390525108,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"d04ced4b-a62b-4c72-b3e6-f564e2b367a3","patch":{"endMs":1784390645622}}
+{"type":"create","session":{"id":"b2df8afb-0f5a-44f0-9a90-b7c3f6b1c3ab","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784390645622,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b2df8afb-0f5a-44f0-9a90-b7c3f6b1c3ab","patch":{"endMs":1784392311446}}
+{"type":"create","session":{"id":"0225c608-ceb8-4c71-ab44-7e2b91998a50","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392311449,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"0225c608-ceb8-4c71-ab44-7e2b91998a50","patch":{"endMs":1784392313368}}
+{"type":"create","session":{"id":"f122534a-b5c0-4f65-9616-dc55600e3b25","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392313370,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"f122534a-b5c0-4f65-9616-dc55600e3b25","patch":{"endMs":1784392313507}}
+{"type":"create","session":{"id":"57ef0082-a4ff-46d9-ad01-8940a417130b","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392313509,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"57ef0082-a4ff-46d9-ad01-8940a417130b","patch":{"endMs":1784392436599}}
+{"type":"create","session":{"id":"72e906c3-d907-460f-8ee0-e40dc5ef3f5d","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392436600,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"72e906c3-d907-460f-8ee0-e40dc5ef3f5d","patch":{"endMs":1784392557311}}
+{"type":"create","session":{"id":"8a3bb6a5-fb94-4d79-9849-38e7e7187bef","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392557312,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"8a3bb6a5-fb94-4d79-9849-38e7e7187bef","patch":{"endMs":1784392681678}}
+{"type":"create","session":{"id":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784392681679,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"3c96a7d7-9c92-42c3-967c-a0dc1b1c8c5a","patch":{"endMs":1784393439370}}
+{"type":"create","session":{"id":"804d69ad-dff9-4789-a59d-810274796044","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393439372,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"804d69ad-dff9-4789-a59d-810274796044","patch":{"endMs":1784393441576}}
+{"type":"create","session":{"id":"0b9c827c-9240-43f9-91ec-0aaa8c398ac4","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393441576,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"0b9c827c-9240-43f9-91ec-0aaa8c398ac4","patch":{"endMs":1784393452332}}
+{"type":"create","session":{"id":"4d975120-7cda-47ec-b6d7-59f5e0bd4444","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393452333,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4d975120-7cda-47ec-b6d7-59f5e0bd4444","patch":{"endMs":1784393576997}}
+{"type":"create","session":{"id":"e346bfd0-f8be-4365-b5b2-0f0b1bdce724","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393576998,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"e346bfd0-f8be-4365-b5b2-0f0b1bdce724","patch":{"endMs":1784393578940}}
+{"type":"create","session":{"id":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393578940,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"d5d1072e-58d0-4aea-b22b-97232b35a1a6","patch":{"endMs":1784393762088}}
+{"type":"create","session":{"id":"98bd903c-0503-4006-a6fc-5bec6a465e9d","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784393762090,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"98bd903c-0503-4006-a6fc-5bec6a465e9d","patch":{"endMs":1784394134832}}
+{"type":"create","session":{"id":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784394134834,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"75d7aa3b-6392-4d83-82cd-0db89b474ef5","patch":{"endMs":1784394782596}}
+{"type":"create","session":{"id":"6d27c662-3dbd-4be3-a4c3-304dc995223e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784394782598,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"6d27c662-3dbd-4be3-a4c3-304dc995223e","patch":{"endMs":1784394830101}}
+{"type":"create","session":{"id":"143090f2-a0ce-460d-8cfc-c69c02e232ce","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784394830116,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"143090f2-a0ce-460d-8cfc-c69c02e232ce","patch":{"endMs":1784394883954}}
+{"type":"create","session":{"id":"bb7c66dc-a88f-4f76-8d30-b1fc609fef5b","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784394883954,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"bb7c66dc-a88f-4f76-8d30-b1fc609fef5b","patch":{"endMs":1784395007675}}
+{"type":"create","session":{"id":"4dc97b03-f682-498d-8be6-f13303afe45c","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784395007677,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4dc97b03-f682-498d-8be6-f13303afe45c","patch":{"endMs":1784395255983}}
+{"type":"create","session":{"id":"c394ceae-6d0d-4d80-8982-32b9ca8e942e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784395255984,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c394ceae-6d0d-4d80-8982-32b9ca8e942e","patch":{"endMs":1784395377809}}
+{"type":"create","session":{"id":"b756a066-9ddc-4cb3-ab50-4b8716dab8d7","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784395377810,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b756a066-9ddc-4cb3-ab50-4b8716dab8d7","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"b756a066-9ddc-4cb3-ab50-4b8716dab8d7","patch":{"endMs":1784395772959}}
+{"type":"create","session":{"id":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784395772961,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"7c1a715b-5c46-4b50-b970-9e9672f35dc0","patch":{"endMs":1784396063079}}
+{"type":"create","session":{"id":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784396063080,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c276beda-2e04-4e6f-b7e6-5f9c9b93c3e5","patch":{"endMs":1784396236814}}
+{"type":"create","session":{"id":"b7a1526b-3b74-40f0-8d7a-022689da0439","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784396236815,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"b7a1526b-3b74-40f0-8d7a-022689da0439","patch":{"endMs":1784396553222}}
+{"type":"create","session":{"id":"dfa28caf-e5bc-4c6a-9904-a08e38bb1315","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784396553224,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dfa28caf-e5bc-4c6a-9904-a08e38bb1315","patch":{"endMs":1784396993648}}
+{"type":"create","session":{"id":"7c031310-5743-4dcb-83fb-176a7b37e64c","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784396993649,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"7c031310-5743-4dcb-83fb-176a7b37e64c","patch":{"endMs":1784397118410}}
+{"type":"create","session":{"id":"697c727a-3290-4249-a3db-62085eecc0cd","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397118411,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"697c727a-3290-4249-a3db-62085eecc0cd","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"697c727a-3290-4249-a3db-62085eecc0cd","patch":{"endMs":1784397343488}}
+{"type":"create","session":{"id":"b26bbdcf-50e5-40f2-8ea2-e579397595bd","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397343490,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"b26bbdcf-50e5-40f2-8ea2-e579397595bd","patch":{"endMs":1784397656501}}
+{"type":"create","session":{"id":"dbcca973-9fcb-48f5-abad-6d855f26258e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397656504,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dbcca973-9fcb-48f5-abad-6d855f26258e","patch":{"endMs":1784397663568}}
+{"type":"create","session":{"id":"4f097faa-97ab-47a3-beef-d809faa6abc2","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397663568,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"4f097faa-97ab-47a3-beef-d809faa6abc2","patch":{"endMs":1784397713787}}
+{"type":"create","session":{"id":"1bf27f6e-56e1-403f-86c0-d353c10544a1","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397713789,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"1bf27f6e-56e1-403f-86c0-d353c10544a1","patch":{"endMs":1784397714770}}
+{"type":"create","session":{"id":"e922b165-d263-45bc-9ee2-a0ab9c5fd5f0","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397714770,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"e922b165-d263-45bc-9ee2-a0ab9c5fd5f0","patch":{"endMs":1784397716241}}
+{"type":"create","session":{"id":"308f028a-e273-47b1-8a93-8f81526bd966","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397716241,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"308f028a-e273-47b1-8a93-8f81526bd966","patch":{"endMs":1784397811943}}
+{"type":"create","session":{"id":"f048ae68-8560-4754-ad57-6333184bcfd5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397811944,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"f048ae68-8560-4754-ad57-6333184bcfd5","patch":{"endMs":1784397824085}}
+{"type":"create","session":{"id":"239844c0-4b3d-489a-9f20-350b5eeb3784","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784397824086,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"239844c0-4b3d-489a-9f20-350b5eeb3784","patch":{"endMs":1784398036153}}
+{"type":"create","session":{"id":"54b3b28c-8554-4c6b-b067-3c3e164deb60","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398036153,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"54b3b28c-8554-4c6b-b067-3c3e164deb60","patch":{"endMs":1784398158761}}
+{"type":"create","session":{"id":"a5266cba-e8d2-4ec1-b697-bf41e536ce7a","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398158763,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"a5266cba-e8d2-4ec1-b697-bf41e536ce7a","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"a5266cba-e8d2-4ec1-b697-bf41e536ce7a","patch":{"endMs":1784398443876}}
+{"type":"create","session":{"id":"83f6e8a4-3060-4fa6-bd00-65a29c3cf817","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398443878,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"83f6e8a4-3060-4fa6-bd00-65a29c3cf817","patch":{"endMs":1784398667245}}
+{"type":"create","session":{"id":"5868d026-5e65-4ee0-9cb1-5cd4aa3403ea","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398667247,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"5868d026-5e65-4ee0-9cb1-5cd4aa3403ea","patch":{"endMs":1784398669840}}
+{"type":"create","session":{"id":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398669841,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"400d7fd4-fb3d-450e-a76c-c1f162fb1f0e","patch":{"endMs":1784398716547}}
+{"type":"create","session":{"id":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398716547,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"2bf9f0d2-762a-4656-9fb1-a453a8e7fd4a","patch":{"endMs":1784398874044}}
+{"type":"create","session":{"id":"ad3b224a-f7ab-463d-80b0-1a9e92003ab6","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398874046,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"ad3b224a-f7ab-463d-80b0-1a9e92003ab6","patch":{"endMs":1784398995550}}
+{"type":"create","session":{"id":"5f279e9e-a15a-481b-8970-941a7042ffb2","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784398995552,"focused":false,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"5f279e9e-a15a-481b-8970-941a7042ffb2","patch":{"endMs":1784399119170}}
+{"type":"create","session":{"id":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784399119172,"focused":false,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","patch":{"focused":false,"idle":false}}
+{"type":"update","sessionId":"c5e36a6c-daef-46eb-8465-e87d4fce14b5","patch":{"endMs":1784431514794}}
+{"type":"create","session":{"id":"dbca002d-1b00-4ab5-8bc2-a617be587c37","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784431514796,"focused":true,"idle":false,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"dbca002d-1b00-4ab5-8bc2-a617be587c37","patch":{"endMs":1784431636840}}
+{"type":"create","session":{"id":"176ed3ca-63c0-443f-9983-17a70a806376","projectKey":"caa8b2df6f10e72e2b4fe2d3da9f759a","workspaceFolders":["/Users/bhavishya/VSC Projects/llm-eval-github"],"startMs":1784431636842,"focused":true,"idle":true,"ideInstanceId":"92f6fc7d-23af-44cb-8e19-69f93f819426","ideType":"cursor"}}
+{"type":"update","sessionId":"176ed3ca-63c0-443f-9983-17a70a806376","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"176ed3ca-63c0-443f-9983-17a70a806376","patch":{"focused":true,"idle":false}}
+{"type":"update","sessionId":"176ed3ca-63c0-443f-9983-17a70a806376","patch":{"endMs":1784431671648}}

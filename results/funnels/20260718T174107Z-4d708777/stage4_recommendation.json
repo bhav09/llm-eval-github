@@ -1,0 +1,21 @@
+{
+  "model_a": "deepseek-r1-distill-llama-70b",
+  "model_b": "deepseek-4-flash",
+  "rationale": "Evaluated 5 finalist models across 4 stages (stratified select, pilot 10 issues, full eval 20 issues). Finalist A (deepseek-r1-distill-llama-70b): best value at 50% accuracy / $0.0001 per call. Finalist B (deepseek-4-flash): highest accuracy at 70% (macro F1 0.281). The two represent a meaningful production trade-off: value vs quality ceiling.",
+  "finalists": [
+    {
+      "slug": "deepseek-r1-distill-llama-70b",
+      "story": "Best value (accuracy per dollar)",
+      "accuracy": 0.5,
+      "macro_f1": 0.1111,
+      "cost_per_call": 7.2e-05
+    },
+    {
+      "slug": "deepseek-4-flash",
+      "story": "Highest accuracy (quality ceiling)",
+      "accuracy": 0.7,
+      "macro_f1": 0.2815,
+      "cost_per_call": 0.000152
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T050927Z-8e8de0ee-pilot-alibaba-qwen3-32b",
+  "timestamp": "2026-07-19T05:09:27.129624+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "alibaba-qwen3-32b",
+  "model_b": "alibaba-qwen3-32b",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T05:09:27.129631+00:00",
+  "finished_at": "2026-07-19T05:09:27.131347+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#6",
+    "digitalocean/doctl#1",
+    "digitalocean/doctl#18",
+    "digitalocean/doctl#3",
+    "digitalocean/doctl#15"
+  ]
+}

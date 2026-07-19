@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T045245Z-3bd4af94-pilot-arcee-trinity-large-thinking",
+  "model": "arcee-trinity-large-thinking",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "arcee-trinity-large-thinking:digitalocean/doctl#109",
+    "arcee-trinity-large-thinking:digitalocean/doctl#1243",
+    "arcee-trinity-large-thinking:digitalocean/doctl#1345",
+    "arcee-trinity-large-thinking:digitalocean/doctl#1527",
+    "arcee-trinity-large-thinking:digitalocean/doctl#1635"
+  ],
+  "completed_issue_ids": []
+}

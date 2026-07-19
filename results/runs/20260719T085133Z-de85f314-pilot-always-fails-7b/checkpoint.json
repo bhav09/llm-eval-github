@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T085133Z-de85f314-pilot-always-fails-7b",
+  "model": "always-fails-7b",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "always-fails-7b:digitalocean/doctl#1",
+    "always-fails-7b:digitalocean/doctl#14",
+    "always-fails-7b:digitalocean/doctl#3",
+    "always-fails-7b:digitalocean/doctl#6",
+    "always-fails-7b:digitalocean/doctl#9"
+  ],
+  "completed_issue_ids": []
+}

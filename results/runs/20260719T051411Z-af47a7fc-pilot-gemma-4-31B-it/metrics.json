@@ -1,0 +1,246 @@
+{
+  "model_a": {
+    "model": "gemma-4-31B-it",
+    "total_calls": 5,
+    "ok_count": 5,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 1050.95,
+      "p95": 1277.09,
+      "p99": 1277.09
+    },
+    "cost_usd": {
+      "total": 0.000515,
+      "per_call": 0.000103,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 1595,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 4,
+      "enhancement": 1
+    },
+    "scored": {
+      "count": 5,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "per_class": {
+        "bug": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3.0
+        },
+        "enhancement": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 1,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 1,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "model_b": {
+    "model": "gemma-4-31B-it",
+    "total_calls": 5,
+    "ok_count": 5,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 1050.95,
+      "p95": 1277.09,
+      "p99": 1277.09
+    },
+    "cost_usd": {
+      "total": 0.000515,
+      "per_call": 0.000103,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 1595,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 4,
+      "enhancement": 1
+    },
+    "scored": {
+      "count": 5,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "per_class": {
+        "bug": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3.0
+        },
+        "enhancement": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 1,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 3,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 1,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "agreement_rate": 1.0,
+    "agreement_total": 5,
+    "disagreement_count": 0,
+    "disagreements": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T090309Z-9f6c5d54-pilot-mistral-3-14B",
+  "timestamp": "2026-07-19T09:03:09.232356+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "mistral-3-14B",
+  "model_b": "mistral-3-14B",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T09:03:09.232363+00:00",
+  "finished_at": "2026-07-19T09:03:09.234762+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#6",
+    "digitalocean/doctl#8",
+    "digitalocean/doctl#7",
+    "digitalocean/doctl#16",
+    "digitalocean/doctl#1"
+  ]
+}

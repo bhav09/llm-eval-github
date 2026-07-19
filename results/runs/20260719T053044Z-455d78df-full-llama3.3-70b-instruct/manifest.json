@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T053044Z-455d78df-full-llama3.3-70b-instruct",
+  "timestamp": "2026-07-19T05:30:44.792506+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "llama3.3-70b-instruct",
+  "model_b": "llama3.3-70b-instruct",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T05:30:44.792511+00:00",
+  "finished_at": "2026-07-19T05:30:44.794062+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#2",
+    "digitalocean/doctl#20",
+    "digitalocean/doctl#11",
+    "digitalocean/doctl#16",
+    "digitalocean/doctl#7"
+  ]
+}

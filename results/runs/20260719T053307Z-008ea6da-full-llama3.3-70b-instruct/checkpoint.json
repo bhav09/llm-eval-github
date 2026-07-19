@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T053307Z-008ea6da-full-llama3.3-70b-instruct",
+  "model": "llama3.3-70b-instruct",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "llama3.3-70b-instruct:digitalocean/doctl#1023",
+    "llama3.3-70b-instruct:digitalocean/doctl#1037",
+    "llama3.3-70b-instruct:digitalocean/doctl#1665",
+    "llama3.3-70b-instruct:digitalocean/doctl#417",
+    "llama3.3-70b-instruct:digitalocean/doctl#793"
+  ],
+  "completed_issue_ids": []
+}

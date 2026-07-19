@@ -1,0 +1,11 @@
+Classify the GitHub issue into exactly one label.
+
+Labels (pick exactly one):
+- bug: software defect or broken behavior
+- enhancement: feature request or improvement
+- question: user asking for help or clarification
+- documentation: documentation-related work
+- security: security vulnerability or security concern
+- other: spam, duplicate, off-topic, or genuinely ambiguous
+
+Respond with JSON only: {"label": "<one of the six labels above>"}

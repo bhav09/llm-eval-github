@@ -1,0 +1,25 @@
+{
+  "run_id": "20260719T082436Z-33e94562-pilot-gemma-4-31B-it",
+  "timestamp": "2026-07-19T08:28:46.918508+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "gemma-4-31B-it",
+  "model_b": "gemma-4-31B-it",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 5,
+  "total": 5,
+  "failed": 0,
+  "started_at": "2026-07-19T08:28:46.918525+00:00",
+  "finished_at": "2026-07-19T08:28:49.313289+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#73",
+    "digitalocean/doctl#59",
+    "digitalocean/doctl#1419",
+    "digitalocean/doctl#291",
+    "digitalocean/doctl#1460"
+  ]
+}

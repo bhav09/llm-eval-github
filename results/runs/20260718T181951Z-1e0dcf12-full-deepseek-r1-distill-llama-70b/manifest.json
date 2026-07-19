@@ -1,0 +1,30 @@
+{
+  "run_id": "20260718T181951Z-1e0dcf12-full-deepseek-r1-distill-llama-70b",
+  "timestamp": "2026-07-18T18:20:37.532834+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "deepseek-r1-distill-llama-70b",
+  "model_b": "deepseek-r1-distill-llama-70b",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 10,
+  "total": 10,
+  "failed": 0,
+  "started_at": "2026-07-18T18:20:37.532858+00:00",
+  "finished_at": "2026-07-18T18:21:24.827774+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#1854",
+    "digitalocean/doctl#1843",
+    "digitalocean/doctl#1842",
+    "digitalocean/doctl#1822",
+    "digitalocean/doctl#1816",
+    "digitalocean/doctl#1813",
+    "digitalocean/doctl#1801",
+    "digitalocean/doctl#1799",
+    "digitalocean/doctl#1797",
+    "digitalocean/doctl#1795"
+  ]
+}

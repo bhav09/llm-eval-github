@@ -1,0 +1,248 @@
+{
+  "model_a": {
+    "model": "llama3.3-70b-instruct",
+    "total_calls": 15,
+    "ok_count": 15,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 1345.67,
+      "p95": 2143.62,
+      "p99": 2516.88
+    },
+    "cost_usd": {
+      "total": 0.00243,
+      "per_call": 0.000162,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 7880,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 9,
+      "enhancement": 5,
+      "question": 1
+    },
+    "scored": {
+      "count": 15,
+      "accuracy": 0.6,
+      "macro_f1": 0.2593,
+      "per_class": {
+        "bug": {
+          "precision": 0.5556,
+          "recall": 0.8333,
+          "f1": 0.6667,
+          "support": 6.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5.0
+        },
+        "enhancement": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "support": 4.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 5,
+          "documentation": 0,
+          "enhancement": 1,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 4,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 4,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "model_b": {
+    "model": "llama3.3-70b-instruct",
+    "total_calls": 15,
+    "ok_count": 15,
+    "failed_count": 0,
+    "error_breakdown": {},
+    "latency_ms": {
+      "p50": 1345.67,
+      "p95": 2143.62,
+      "p99": 2516.88
+    },
+    "cost_usd": {
+      "total": 0.00243,
+      "per_call": 0.000162,
+      "cache_savings_total": 0.0
+    },
+    "cache": {
+      "prompt_tokens": 7880,
+      "cached_tokens": 0,
+      "hit_rate": 0.0
+    },
+    "label_distribution": {
+      "bug": 9,
+      "enhancement": 5,
+      "question": 1
+    },
+    "scored": {
+      "count": 15,
+      "accuracy": 0.6,
+      "macro_f1": 0.2593,
+      "per_class": {
+        "bug": {
+          "precision": 0.5556,
+          "recall": 0.8333,
+          "f1": 0.6667,
+          "support": 6.0
+        },
+        "documentation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5.0
+        },
+        "enhancement": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.8889,
+          "support": 4.0
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "question": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        },
+        "security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0.0
+        }
+      },
+      "confusion_matrix": {
+        "bug": {
+          "bug": 5,
+          "documentation": 0,
+          "enhancement": 1,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "documentation": {
+          "bug": 4,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 1,
+          "security": 0
+        },
+        "enhancement": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 4,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "other": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "question": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        },
+        "security": {
+          "bug": 0,
+          "documentation": 0,
+          "enhancement": 0,
+          "other": 0,
+          "question": 0,
+          "security": 0
+        }
+      }
+    }
+  },
+  "comparison": {
+    "agreement_rate": 1.0,
+    "agreement_total": 15,
+    "disagreement_count": 0,
+    "disagreements": []
+  }
+}

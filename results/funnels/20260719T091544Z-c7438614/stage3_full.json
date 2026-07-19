@@ -1,0 +1,308 @@
+[
+  {
+    "slug": "mistral-3-14B",
+    "accuracy": 0.7,
+    "macro_f1": 0.4111,
+    "per_class": {
+      "bug": {
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "f1": 0.6667,
+        "support": 3.0
+      },
+      "documentation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "enhancement": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2.0
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2.0
+      },
+      "question": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "security": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3.0
+      }
+    },
+    "confusion_matrix": {
+      "bug": {
+        "bug": 2,
+        "documentation": 1,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "documentation": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "enhancement": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 2,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "other": {
+        "bug": 1,
+        "documentation": 0,
+        "enhancement": 1,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "question": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "security": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 3
+      }
+    },
+    "cost_per_call": 8.8e-05,
+    "cost_total": 0.000882,
+    "p95_latency_ms": 1742.48,
+    "throughput_rps": 1.102596615028392,
+    "error_rate": 0.0,
+    "invalid_rate": 0.0,
+    "ok_count": 10,
+    "failed_count": 0,
+    "scored_count": 10
+  },
+  {
+    "slug": "gemma-4-31B-it",
+    "accuracy": 0.7,
+    "macro_f1": 0.4333,
+    "per_class": {
+      "bug": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 3.0
+      },
+      "documentation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "enhancement": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2.0
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2.0
+      },
+      "question": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "security": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3.0
+      }
+    },
+    "confusion_matrix": {
+      "bug": {
+        "bug": 2,
+        "documentation": 1,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "documentation": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "enhancement": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 2,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "other": {
+        "bug": 0,
+        "documentation": 1,
+        "enhancement": 1,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "question": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "security": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 3
+      }
+    },
+    "cost_per_call": 8.9e-05,
+    "cost_total": 0.00089,
+    "p95_latency_ms": 2395.59,
+    "throughput_rps": 0.8006405124099278,
+    "error_rate": 0.0,
+    "invalid_rate": 0.0,
+    "ok_count": 10,
+    "failed_count": 0,
+    "scored_count": 10
+  },
+  {
+    "slug": "deepseek-4-flash",
+    "accuracy": 0.7,
+    "macro_f1": 0.3917,
+    "per_class": {
+      "bug": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.75,
+        "support": 3.0
+      },
+      "documentation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "enhancement": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "support": 2.0
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2.0
+      },
+      "question": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0.0
+      },
+      "security": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 3.0
+      }
+    },
+    "confusion_matrix": {
+      "bug": {
+        "bug": 3,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "documentation": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "enhancement": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 2,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "other": {
+        "bug": 1,
+        "documentation": 0,
+        "enhancement": 1,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "question": {
+        "bug": 0,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 0
+      },
+      "security": {
+        "bug": 1,
+        "documentation": 0,
+        "enhancement": 0,
+        "other": 0,
+        "question": 0,
+        "security": 2
+      }
+    },
+    "cost_per_call": 4.7e-05,
+    "cost_total": 0.000468,
+    "p95_latency_ms": 3445.06,
+    "throughput_rps": 0.568812036062683,
+    "error_rate": 0.0,
+    "invalid_rate": 0.0,
+    "ok_count": 10,
+    "failed_count": 0,
+    "scored_count": 10
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T090309Z-9f6c5d54-pilot-deepseek-r1-distill-llama-70b",
+  "model": "deepseek-r1-distill-llama-70b",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#16",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#6",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#7",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#8"
+  ],
+  "completed_issue_ids": []
+}

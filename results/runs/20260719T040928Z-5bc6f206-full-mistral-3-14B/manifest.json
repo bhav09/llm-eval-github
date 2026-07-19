@@ -1,0 +1,30 @@
+{
+  "run_id": "20260719T040928Z-5bc6f206-full-mistral-3-14B",
+  "timestamp": "2026-07-19T04:09:28.852044+00:00",
+  "corpus_version": 1,
+  "ground_truth_version": "labels.json",
+  "repo": "digitalocean/doctl",
+  "model_a": "mistral-3-14B",
+  "model_b": "mistral-3-14B",
+  "concurrency": 8,
+  "prompt_version": "ecd8ce32b3c5de49",
+  "status": "complete",
+  "completed": 10,
+  "total": 10,
+  "failed": 0,
+  "started_at": "2026-07-19T04:09:28.852091+00:00",
+  "finished_at": "2026-07-19T04:09:28.855046+00:00",
+  "metrics_path": "metrics.json",
+  "sampled_issue_ids": [
+    "digitalocean/doctl#6",
+    "digitalocean/doctl#7",
+    "digitalocean/doctl#8",
+    "digitalocean/doctl#9",
+    "digitalocean/doctl#10",
+    "digitalocean/doctl#11",
+    "digitalocean/doctl#12",
+    "digitalocean/doctl#13",
+    "digitalocean/doctl#14",
+    "digitalocean/doctl#15"
+  ]
+}

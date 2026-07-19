@@ -1,0 +1,18 @@
+{
+  "run_id": "20260719T042519Z-a1507053",
+  "model": "deepseek-r1-distill-llama-70b",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "deepseek-4-flash:digitalocean/doctl#1855",
+    "deepseek-4-flash:digitalocean/doctl#1868",
+    "deepseek-4-flash:digitalocean/doctl#1869",
+    "deepseek-4-flash:digitalocean/doctl#1875",
+    "deepseek-4-flash:digitalocean/doctl#1882",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1855",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1868",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1869",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1875",
+    "deepseek-r1-distill-llama-70b:digitalocean/doctl#1882"
+  ],
+  "completed_issue_ids": []
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "20260719T090319Z-132b3997-full-alibaba-qwen3-32b",
+  "model": "alibaba-qwen3-32b",
+  "prompt_version": "ecd8ce32b3c5de49",
+  "completed_keys": [
+    "alibaba-qwen3-32b:digitalocean/doctl#10",
+    "alibaba-qwen3-32b:digitalocean/doctl#2",
+    "alibaba-qwen3-32b:digitalocean/doctl#20",
+    "alibaba-qwen3-32b:digitalocean/doctl#3",
+    "alibaba-qwen3-32b:digitalocean/doctl#8"
+  ],
+  "completed_issue_ids": []
+}
