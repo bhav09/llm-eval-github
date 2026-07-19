@@ -65,17 +65,31 @@ The podium (1st/2nd/3rd) and field summary are stored in `results/funnels/<funne
 
 ## Quick start (local)
 
+### 1. Environment Setup
+
+This project requires API keys to interact with GitHub and execute live model inference:
+
+* **DigitalOcean API Key (`DO_API`):** Required to run live Serverless Inference models. Generate a token in the [DigitalOcean API Token Console](https://cloud.digitalocean.com/account/api/tokens).
+* **GitHub Personal Access Token (`GITHUB_TOKEN`):** Optional but highly recommended to avoid API rate limits when pulling doctl issue comments. Generate a classic token with `public_repo` scope in [GitHub Developer Settings](https://github.com/settings/tokens).
+
+Create a `.env` file in the root directory:
+
+```env
+DO_API="your_do_token_here"
+GITHUB_TOKEN="your_github_token_here"
+```
+
+### 2. Install & Run
+
 ```bash
+# Set up a python virtual environment
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
-# env: DO_API, optional GITHUB_TOKEN
-cp .env.example .env  # if present, else create .env
-
-# Terminal 1 — backend (port 8080 to match the Vite proxy)
+# Terminal 1 — Start the FastAPI backend
 uvicorn src.api.main:app --host 127.0.0.1 --port 8080
 
-# Terminal 2 — frontend (Vite dev server, proxies /api → :8080)
+# Terminal 2 — Start the React frontend dev server (Vite)
 cd frontend && npm install && npm run dev
 # → http://localhost:5173
 ```
@@ -94,7 +108,9 @@ docker run -p 8080:8080 --env-file .env colosseum
 
 1. Push repo to GitHub.
 2. Update `.do/app.yaml` with your repo slug (or create app via Control Panel).
-3. Set **secrets** in App Platform: `DO_API` (required for live runs).
+3. Set **secrets** in App Platform: 
+   * `DO_API` (Required; generate a token in the [DigitalOcean Control Panel](https://cloud.digitalocean.com/account/api/tokens)).
+   * `GITHUB_TOKEN` (Recommended; generate a classic token in [GitHub Settings](https://github.com/settings/tokens)).
 4. Deploy — App Platform builds the Dockerfile (multi-stage: React + Python).
 5. Paste the public URL into this README.
 
