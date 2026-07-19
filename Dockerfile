@@ -23,6 +23,7 @@ COPY config/ ./config/
 COPY data/ ./data/
 COPY src/ ./src/
 COPY results/ ./results/
+COPY results/ ./preloaded_results/
 
 RUN pip install --no-cache-dir -e .
 

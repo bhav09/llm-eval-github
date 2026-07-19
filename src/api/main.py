@@ -23,9 +23,21 @@ from eval.run_manager import run_manager
 from ingestion.corpus_store import latest_version, load_issues_from_snapshot
 
 import sys
+import shutil
 
 STATIC_DIR = ROOT_DIR / "static"
 IS_TESTING = "pytest" in sys.modules or "unittest" in sys.modules
+
+# Seed persistent volume if mounted empty
+PRELOADED_DIR = ROOT_DIR / "preloaded_results"
+RESULTS_DIR = ROOT_DIR / "results"
+if PRELOADED_DIR.exists() and not (RESULTS_DIR / "eval.db").exists():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        shutil.copytree(PRELOADED_DIR, RESULTS_DIR, dirs_exist_ok=True)
+    except Exception:
+        pass
+
 app = FastAPI(title="FDE Issue Classification Eval", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
